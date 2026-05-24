@@ -1,0 +1,48 @@
+{
+  "name": "motion-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/motion-icons.umd.js",
+  "module": "dist/motion-icons.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/motion-icons.es.js",
+      "require": "./dist/motion-icons.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^7.2.0",
+    "@heroicons/vue": "^2.2.0",
+    "@hugeicons/core-free-icons": "^4.1.4",
+    "@hugeicons/vue": "^1.0.5",
+    "@iconoir/vue": "^7.11.0",
+    "@phosphor-icons/vue": "^2.2.1",
+    "@tabler/icons-vue": "^3.44.0",
+    "gsap": "^3.15.0",
+    "hugeicons-vue": "^0.0.1",
+    "lucide-vue-next": "^1.0.0",
+    "simple-icons": "^16.21.0",
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^24.12.3",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/test-utils": "^2.4.10",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.4.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.8.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.7",
+    "vue-tsc": "^3.2.8"
+  }
+}

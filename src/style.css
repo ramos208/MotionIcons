@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #0f172a;
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --border-color: #e2e8f0;
+  --btn-bg: #f8fafc;
+  --btn-hover-bg: #f1f5f9;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #030712;
+  --text-color: #f8fafc;
+  --card-bg: rgba(17, 24, 39, 0.4);
+  --border-color: #1f2937;
+  --btn-bg: #111827;
+  --btn-hover-bg: #1f2937;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base resets */
+* {
+  box-sizing: border-box;
+}
