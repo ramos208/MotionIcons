@@ -9,4 +9,4 @@ declare global {
   const b: typeof import('simple-icons');
 }
 
-export {};
+export { };

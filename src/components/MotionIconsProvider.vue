@@ -176,7 +176,6 @@ watch(() => props.icon, updateSvg);
 .anim-bounce-wave.is-hovering .provider-svg, .anim-bounce-wave:hover .provider-svg, .group:hover .anim-bounce-wave .provider-svg { animation: provider-bounce-wave 1s ease-in-out infinite; }
 .anim-cartoon-shake.is-hovering .provider-svg, .anim-cartoon-shake:hover .provider-svg, .group:hover .anim-cartoon-shake .provider-svg { animation: provider-cartoon-shake 0.3s ease-in-out infinite; }
 .anim-aurora.is-hovering .provider-svg, .anim-aurora:hover .provider-svg, .group:hover .anim-aurora .provider-svg { animation: provider-aurora 2.5s linear infinite; }
-.anim-silk-float.is-hovering .provider-svg, .anim-silk-float:hover .provider-svg, .group:hover .anim-silk-float .provider-svg { animation: provider-silk-float 3s ease-in-out infinite alternate; }
 .anim-glass-shine.is-hovering .provider-svg, .anim-glass-shine:hover .provider-svg, .group:hover .anim-glass-shine .provider-svg { animation: provider-glass-shine 1.5s ease-in-out infinite; }
 .anim-light-sweep.is-hovering .provider-svg, .anim-light-sweep:hover .provider-svg, .group:hover .anim-light-sweep .provider-svg { animation: provider-light-sweep 1.8s ease-in-out infinite; }
 .anim-smooth-orbit.is-hovering .provider-svg, .anim-smooth-orbit:hover .provider-svg, .group:hover .anim-smooth-orbit .provider-svg { animation: provider-smooth-orbit 3s linear infinite; }
@@ -263,7 +262,6 @@ watch(() => props.icon, updateSvg);
 @keyframes provider-bounce-wave { 0%, 100% { transform: translateY(0); } 25% { transform: translateY(-4px); } 75% { transform: translateY(4px); } }
 @keyframes provider-cartoon-shake { 0%, 100% { transform: translate(0, 0) rotate(0deg); } 20% { transform: translate(-2px, 2px) rotate(-4deg); } 40% { transform: translate(2px, -2px) rotate(4deg); } 60% { transform: translate(-2px, -2px) rotate(-2deg); } 80% { transform: translate(2px, 2px) rotate(2deg); } }
 @keyframes provider-aurora { 0% { filter: drop-shadow(0 0 3px #3B82F6); } 33% { filter: drop-shadow(0 0 6px #EC4899); } 66% { filter: drop-shadow(0 0 6px #10B981); } 100% { filter: drop-shadow(0 0 3px #3B82F6); } }
-@keyframes provider-silk-float { 0% { transform: translateY(0) rotate(0deg) scale(1); } 50% { transform: translateY(-4px) rotate(2deg) scale(1.02); } 100% { transform: translateY(-6px) rotate(4deg) scale(1); } }
 @keyframes provider-glass-shine { 0% { opacity: 0.85; filter: brightness(1) drop-shadow(0 0 0 currentColor); } 50% { opacity: 1; filter: brightness(1.5) drop-shadow(0 0 8px currentColor); transform: scale(1.05); } 100% { opacity: 0.85; filter: brightness(1) drop-shadow(0 0 0 currentColor); } }
 @keyframes provider-light-sweep { 0% { filter: brightness(1); transform: skewX(0deg); } 50% { filter: brightness(1.6) drop-shadow(0 0 6px currentColor); transform: skewX(-6deg); } 100% { filter: brightness(1); transform: skewX(0deg); } }
 @keyframes provider-smooth-orbit { 0% { transform: rotate(0deg) translate(4px) rotate(0deg); } 100% { transform: rotate(360deg) translate(4px) rotate(-360deg); } }

@@ -14,17 +14,34 @@
         </div>
 
         <ul class="category-list">
-          <li 
-            v-for="cat in categories" 
-            :key="cat"
-            :class="{ active: selectedCategory === cat }"
-            @click="selectedCategory = cat"
-          >
-            <div class="cat-content">
-              <span>{{ cat }}</span>
-              <span class="cat-count">{{ getCategoryCount(cat) }}</span>
-            </div>
-          </li>
+          <template v-for="cat in categories" :key="cat">
+            <li 
+              :class="{ active: selectedCategory === cat && !selectedSubCategory }"
+              @click="toggleCategory(cat)"
+            >
+              <div class="cat-content">
+                <span>{{ cat }}</span>
+                <span class="cat-count">{{ getCategoryCount(cat) }}</span>
+              </div>
+            </li>
+            
+            <ul 
+              v-if="expandedCategory === cat && getSubCategoriesFor(cat).length > 0" 
+              class="sub-category-list"
+            >
+              <li 
+                v-for="sub in getSubCategoriesFor(cat)" 
+                :key="sub"
+                :class="{ active: selectedSubCategory === sub }"
+                @click="selectSubCategory(cat, sub)"
+              >
+                <div class="cat-content">
+                  <span>{{ sub }}</span>
+                  <span class="cat-count">{{ getSubCategoryCount(cat, sub) }}</span>
+                </div>
+              </li>
+            </ul>
+          </template>
         </ul>
       </div>
 
@@ -471,7 +488,7 @@ const getCategory = (name: string) => {
   if (/(align|bold|italic|underline|list|text|font|heading|paragraph|format|letter|type|case|indent)/.test(lower)) return 'Text';
   if (/(clock|time|watch|timer|calendar|date|hour|minute|history)/.test(lower)) return 'Time';
   if (/(car|bus|train|plane|ship|boat|bike|motorcycle|truck|vehicle|ticket)/.test(lower)) return 'Transport';
-  if (/(menu|grid|list|layout|window|maximize|minimize|settings|gear|sliders|panel|sidebar|tab|toggle|filter|sort|search|zoom|home|expand|shrink|more)/.test(lower)) return 'UI';
+  if (/(menu|grid|list|layout|window|maximize|minimize|settings|gear|sliders|panel|sidebar|tab|toggle|filter|sort|search|zoom|home|expand|shrink|more)/.test(lower)) return 'Interface';
   if (/(sun|moon|cloud|rain|snow|lightning|weather|wind|storm|thermometer|umbrella|zap)/.test(lower)) return 'Weather';
   
   if (/(battery|power|charge|socket)/.test(lower)) return 'Power';
@@ -484,36 +501,330 @@ const getCategory = (name: string) => {
 
   const match = name.match(/^[A-Z][a-z]+/);
   if (match) {
+    if (match[0] === 'Brand') return 'Brand Logos';
     return match[0]; 
   }
   
-  return 'Miscellaneous';
+  return 'Objects';
+};
+
+const getSubCategory = (name: string, category: string) => {
+  const lower = name.toLowerCase();
+  
+  if (category === 'Arrows') {
+    if (/(big|bold|thick)/.test(lower)) return 'Thick / Emphasis Arrows';
+    if (/(dot|point|target)/.test(lower)) return 'Dotted / Point Arrows';
+    if (/(line)/.test(lower)) return 'Line Anchored Arrows';
+    if (/(dash)/.test(lower)) return 'Dash / Transition Arrows';
+    if (/(wide)/.test(lower)) return 'Wide / Menu Flow Arrows';
+    if (/(a-z|z-a|0-1|1-0|az|za|01|10|sort|order)/.test(lower)) return 'Alphabet / Sorting Arrows';
+    if (/(left-right|right-left|up-down|down-up|turn|redirect|reply|forward)/.test(lower)) return 'Turn / Redirect Arrows';
+    if (/(trail|flow|momentum|elastic)/.test(lower)) return 'Animated Motion Arrows';
+    if (/(up|down|left|right)/.test(lower)) return 'Directional Arrows';
+    return 'Other Arrows';
+  }
+
+  if (category === 'Communication') {
+    if (/(mail|email|inbox|send|letter)/.test(lower)) return 'Mail & Messages';
+    if (/(chat|message|comment|speech)/.test(lower)) return 'Chat & Forums';
+    if (/(phone|call|contact)/.test(lower)) return 'Phone & Contacts';
+    if (/(mic|volume|speak|sound|audio)/.test(lower)) return 'Voice & Audio';
+    return 'Other Communication';
+  }
+
+  if (category === 'Commerce') {
+    if (/(coin|dollar|euro|bitcoin|money|bank|cash|currency)/.test(lower)) return 'Money & Currency';
+    if (/(shop|cart|bag|store|basket)/.test(lower)) return 'Shopping';
+    if (/(credit|card|receipt|tag|price|wallet|pay)/.test(lower)) return 'Transactions & Cards';
+    return 'Other Commerce';
+  }
+
+  if (category === 'Devices') {
+    if (/(computer|laptop|desktop|mac)/.test(lower)) return 'Computers';
+    if (/(phone|mobile|tablet|pad)/.test(lower)) return 'Mobile & Tablets';
+    if (/(keyboard|mouse|printer|router|speaker|tv|monitor|watch|cast)/.test(lower)) return 'Peripherals & Displays';
+    return 'Other Devices';
+  }
+
+  if (category === 'Interface') {
+    if (/(menu|sidebar|tab|grid|list|layout)/.test(lower)) return 'Menus & Layouts';
+    if (/(settings|gear|slider|panel|toggle|filter|sort|control)/.test(lower)) return 'Settings & Controls';
+    if (/(window|maximize|minimize|expand|shrink)/.test(lower)) return 'Window & States';
+    if (/(search|zoom|magnify)/.test(lower)) return 'Search & Zoom';
+    return 'Other Interface';
+  }
+
+  if (category === 'Files') {
+    if (/(folder|directory|archive|zip)/.test(lower)) return 'Folders & Archives';
+    if (/(document|page|paper)/.test(lower)) return 'Documents';
+    if (/(note|clipboard|diary|book)/.test(lower)) return 'Notes & Boards';
+    return 'Other Files';
+  }
+
+  if (category === 'Weather') {
+    if (/(sun|clear|day)/.test(lower)) return 'Sun & Clear';
+    if (/(cloud|overcast)/.test(lower)) return 'Clouds';
+    if (/(rain|storm|lightning|zap|thunder)/.test(lower)) return 'Rain & Storms';
+    if (/(snow|cold|thermometer|ice)/.test(lower)) return 'Snow & Cold';
+    if (/(moon|night)/.test(lower)) return 'Moon & Night';
+    return 'Other Weather';
+  }
+
+  if (category === 'People') {
+    if (/(group|people|team|users)/.test(lower)) return 'Groups & Teams';
+    if (/(face|smile|frown|laugh|sad)/.test(lower)) return 'Faces & Emotion';
+    if (/(user|person|profile|avatar)/.test(lower)) return 'Single Person';
+    return 'Other People';
+  }
+
+  if (category === 'Media') {
+    if (/(video|camera|film|movie)/.test(lower)) return 'Video & Camera';
+    if (/(music|audio|speaker)/.test(lower)) return 'Music & Audio';
+    if (/(image|picture|photo|gallery)/.test(lower)) return 'Images & Photos';
+    if (/(play|pause|stop|record|next|prev)/.test(lower)) return 'Playback Controls';
+    return 'Other Media';
+  }
+
+  if (category === 'Editing') {
+    if (/(pen|pencil|draw|brush|paint)/.test(lower)) return 'Drawing & Painting';
+    if (/(cut|copy|paste|scissors|crop)/.test(lower)) return 'Clipboard & Crop';
+    if (/(eraser|wand|magic)/.test(lower)) return 'Tools & FX';
+    return 'Other Editing';
+  }
+
+  if (category === 'Data') {
+    if (/(chart|graph|analytics|stat)/.test(lower)) return 'Charts & Graphs';
+    if (/(database|server|network)/.test(lower)) return 'Servers & Databases';
+    if (/(table)/.test(lower)) return 'Tables & Grids';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Development') {
+    if (/(code|terminal|command|regex|brac)/.test(lower)) return 'Code & Terminal';
+    if (/(git|commit|branch|merge|pull|push)/.test(lower)) return 'Git & Version Control';
+    if (/(bug|webhook|bot)/.test(lower)) return 'Debugging & Automation';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Nature') {
+    if (/(tree|leaf|plant|flower)/.test(lower)) return 'Plants & Trees';
+    if (/(animal|pet|dog|cat|bird|fish|bug|paw|feather)/.test(lower)) return 'Animals';
+    if (/(mountain|water|fire|drop|flame)/.test(lower)) return 'Elements & Landscapes';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Navigation') {
+    if (/(map|globe|radar)/.test(lower)) return 'Maps & Globe';
+    if (/(pin|location|gps|waypoint)/.test(lower)) return 'Pins & Locations';
+    if (/(compass|route)/.test(lower)) return 'Routes & Compass';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Objects') {
+    if (/(math|number|digit|plus|minus|divide|multiply|calc|fraction|sum|equal)/.test(lower)) return 'Math & Numbers';
+    if (/(letter|alpha|character|abc|text|font|type)/.test(lower)) return 'Letters & Typography';
+    if (/(art|paint|color|palette|brush|draw)/.test(lower)) return 'Art & Design';
+    if (/(building|house|home|castle|city|town|village|store|shop|arch)/.test(lower)) return 'Buildings & Architecture';
+    if (/(music|sound|note|audio|mic|piano|guitar|drum)/.test(lower)) return 'Music & Instruments';
+    if (/(science|chem|bio|atom|flask|lab|microscope)/.test(lower)) return 'Science & Laboratory';
+    if (/(space|star|planet|moon|sun|galaxy|rocket|meteor|astronaut)/.test(lower)) return 'Space & Astronomy';
+    if (/(tool|gear|wrench|hammer|drill|fix|build|spanner)/.test(lower)) return 'Tools & Hardware';
+    if (/(sign|symbol|mark|logo)/.test(lower)) return 'Signs & Symbols';
+    if (/(box|cube|package|container|bottle|jar|can)/.test(lower)) return 'Containers & Packages';
+    if (/(bed|chair|desk|table|sofa|furniture)/.test(lower)) return 'Furniture & Home';
+    if (/(shirt|hat|shoe|pants|glasses|tie|coat|dress|sock|crown|ring|gem|diamond)/.test(lower)) return 'Clothes & Accessories';
+    if (/(food|apple|fork|plate|knife|cup|drink|coffee|meal|burger|pizza|beer|wine|chef|bowl)/.test(lower)) return 'Food & Kitchen';
+    if (/(smile|laugh|sad|face|emotion|ghost|wink|angry|alien|monster)/.test(lower)) return 'Emotions & Faces';
+    if (/(health|hospital|pill|doctor|brain|cross|syringe|pulse|dna|ambulance|activity)/.test(lower)) return 'Medical & Health';
+    if (/(dog|cat|bird|pet|bug|fish|animal|paw|feather)/.test(lower)) return 'Animals & Pets';
+    if (/(tree|leaf|plant|mountain|water|fire|cloud|weather|sun|moon|rain|snow|storm|lightning|zap|flame|drop)/.test(lower)) return 'Nature & Environment';
+    if (/(car|bus|plane|ship|boat|train|ticket|vehicle|bike|motorcycle)/.test(lower)) return 'Vehicles & Transport';
+    if (/(tv|phone|battery|computer|device|cable|laptop|mobile|tablet|keyboard|mouse|printer|router|speaker|desktop|socket)/.test(lower)) return 'Electronics & Devices';
+    if (/(play|pause|media|video|camera|photo|record|film|gallery)/.test(lower)) return 'Media & Playback';
+    if (/(lock|key|shield|safe|auth|privacy|secure|password|finger)/.test(lower)) return 'Security & Locks';
+    if (/(user|person|man|woman|crowd|baby|group|people|profile|avatar|account|team)/.test(lower)) return 'People & Users';
+    if (/(bell|gift|ticket|trophy|sword|flag|anchor|lightbulb|plug|magnet|glass|umbrella)/.test(lower)) return 'Misc Objects';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Security') {
+    if (/(shield|safe)/.test(lower)) return 'Shields & Safes';
+    if (/(lock|unlock|key)/.test(lower)) return 'Locks & Keys';
+    if (/(auth|privacy|secure|password|fingerprint)/.test(lower)) return 'Authentication';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Shapes') {
+    if (/(circle|oval)/.test(lower)) return 'Circles';
+    if (/(square|rectangle)/.test(lower)) return 'Squares & Rectangles';
+    if (/(triangle|hexagon|octagon|polygon|star|dash)/.test(lower)) return 'Polygons & Lines';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Sports') {
+    if (/(ball)/.test(lower)) return 'Balls';
+    if (/(medal|trophy|goal|target)/.test(lower)) return 'Awards & Goals';
+    if (/(game|dumbbell|run|swim|bike|tennis)/.test(lower)) return 'Activities';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Status') {
+    if (/(check|success)/.test(lower)) return 'Success & Checks';
+    if (/(x|fail|error|warning|alert|ban|slash)/.test(lower)) return 'Errors & Warnings';
+    if (/(info|bell|badge)/.test(lower)) return 'Info & Badges';
+    if (/(minus|plus)/.test(lower)) return 'Add & Remove';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Text') {
+    if (/(align|indent|format)/.test(lower)) return 'Alignment & Formatting';
+    if (/(bold|italic|underline)/.test(lower)) return 'Styles';
+    if (/(list|paragraph|font|heading|letter|type|case)/.test(lower)) return 'Structure & Typography';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Time') {
+    if (/(clock|watch|timer|hour|minute)/.test(lower)) return 'Clocks & Timers';
+    if (/(calendar|date|history)/.test(lower)) return 'Calendars & Dates';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Transport') {
+    if (/(car|truck|vehicle)/.test(lower)) return 'Cars & Trucks';
+    if (/(bus|train)/.test(lower)) return 'Public Transit';
+    if (/(plane)/.test(lower)) return 'Aviation';
+    if (/(ship|boat)/.test(lower)) return 'Maritime';
+    if (/(bike|motorcycle)/.test(lower)) return 'Bikes';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Power') {
+    if (/(battery)/.test(lower)) return 'Batteries';
+    if (/(power|charge|socket)/.test(lower)) return 'Plugs & Outlets';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Household') {
+    if (/(bed|chair|sofa|table|desk)/.test(lower)) return 'Furniture';
+    if (/(door|window)/.test(lower)) return 'Doors & Windows';
+    if (/(bath|shower)/.test(lower)) return 'Bathroom';
+    if (/(home|house|building)/.test(lower)) return 'Buildings';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Education') {
+    if (/(book|read|library)/.test(lower)) return 'Books & Reading';
+    if (/(study|school|student|test|exam)/.test(lower)) return 'School & Exams';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Tools') {
+    if (/(hammer|wrench|drill|axe|anvil)/.test(lower)) return 'Hardware Tools';
+    if (/(gear)/.test(lower)) return 'Gears';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Emotions') {
+    if (/(smile|laugh)/.test(lower)) return 'Happy';
+    if (/(frown|sad|angry)/.test(lower)) return 'Sad & Angry';
+    if (/(wink|face|ghost|baby|alien|monster)/.test(lower)) return 'Other Faces';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Clothing') {
+    if (/(shirt|hat|shoe|pants|glasses|tie)/.test(lower)) return 'Apparel';
+    if (/(crown|ring|gem|diamond)/.test(lower)) return 'Jewelry & Accessories';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Connectivity') {
+    if (/(wifi|signal|radio|broadcast)/.test(lower)) return 'Signals';
+    if (/(bluetooth)/.test(lower)) return 'Bluetooth';
+    return `Other ${category}`;
+  }
+  
+  if (category === 'Food & Drink') {
+    if (/(drink|cup|coffee|beer|wine)/.test(lower)) return 'Drinks';
+    if (/(food|burger|pizza|apple)/.test(lower)) return 'Food';
+    if (/(fork|knife|spoon|plate|bowl)/.test(lower)) return 'Cutlery & Dishes';
+    if (/(chef)/.test(lower)) return 'Cooking';
+    return `Other ${category}`;
+  }
+  
+  if (category === 'Medical') {
+    if (/(health|cross|hospital|ambulance)/.test(lower)) return 'Hospitals & Health';
+    if (/(pill|syringe|stethoscope)/.test(lower)) return 'Medical Tools';
+    if (/(heart|pulse|activity|brain|dna)/.test(lower)) return 'Biology & Vitals';
+    return `Other ${category}`;
+  }
+
+  if (category === 'Brand Logos' || category === 'Brand') {
+    if (/(react|vue|angular|svelte|next|nuxt|tailwind|bootstrap|jquery|ember|vite|webpack|babel|eslint|nodejs|deno)/.test(lower)) return 'Web Frameworks & Tools';
+    if (/(javascript|typescript|python|golang|rust|java|php|ruby|swift|kotlin|cplusplus|csharp|html5|css3|sass|less)/.test(lower)) return 'Programming Languages';
+    if (/(aws|azure|google cloud|vercel|netlify|digitalocean|heroku|cloudflare|docker|kubernetes|linux|ubuntu|debian|centos|nginx|apache)/.test(lower)) return 'Cloud & Infrastructure';
+    if (/(github|gitlab|bitbucket|jira|trello|asana|notion|slack|discord|zoom|microsoft|teams)/.test(lower)) return 'Productivity & Collab';
+    if (/(figma|adobe|photoshop|illustrator|sketch|framer|invision|canva|blender|maya)/.test(lower)) return 'Design & Creativity';
+    if (/(facebook|twitter|instagram|youtube|tiktok|linkedin|snapchat|pinterest|whatsapp|telegram|wechat|reddit|tumblr)/.test(lower)) return 'Social Media & Chat';
+    if (/(stripe|paypal|visa|mastercard|apple|amazon|shopify|woocommerce|magento|alipay)/.test(lower)) return 'Commerce & Payments';
+    if (/(bitcoin|ethereum|coinbase|binance|dogecoin|tether|solana|cardano)/.test(lower)) return 'Crypto & Web3';
+    if (/(steam|playstation|xbox|nintendo|twitch|epic|ea|ubisoft|blizzard|riot)/.test(lower)) return 'Gaming & Esports';
+    if (/(netflix|spotify|hulu|disney|soundcloud|vimeo|hbo)/.test(lower)) return 'Entertainment & Media';
+    if (/(apple|google|microsoft|samsung|sony|intel|amd|nvidia|hp|dell|lenovo|asus)/.test(lower)) return 'Tech & Hardware';
+    if (/(tesla|ford|toyota|bmw|mercedes|audi|honda|nissan|porsche)/.test(lower)) return 'Automotive';
+    if (/(mcdonalds|starbucks|coca-cola|pepsi|burger king|kfc)/.test(lower)) return 'Food & Beverage';
+    if (/(nike|adidas|puma|under armour|gucci|louis vuitton|zara)/.test(lower)) return 'Fashion & Apparel';
+    return `Other Brands`;
+  }
+
+  return `Other ${category}`;
 };
 
 // Map libraries correctly
 const lucideEntries = Object.entries(LucideIconsMap || {})
   .filter(([key, val]) => /^[A-Z]/.test(key) && val)
-  .map(([key, val]) => ({ name: key, exportKey: key, icon: markRaw(val as object), library: 'Lucide', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const cat = getCategory(key);
+    return { name: key, exportKey: key, icon: markRaw(val as object), library: 'Lucide', category: cat, subCategory: getSubCategory(key, cat) };
+  });
 
 const heroEntries = Object.entries(HeroIcons)
   .filter(([key, val]) => key.endsWith('Icon') && val)
-  .map(([key, val]) => ({ name: key.replace('Icon', ''), exportKey: key, icon: markRaw(val as object), library: 'Heroicons', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const name = key.replace('Icon', '');
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: markRaw(val as object), library: 'Heroicons', category: cat, subCategory: getSubCategory(name, cat) };
+  });
 
 const iconoirEntries = Object.entries(IconoirIcons)
   .filter(([key, val]) => /^[A-Z]/.test(key) && key !== 'IconoirProvider' && val)
-  .map(([key, val]) => ({ name: key, exportKey: key, icon: markRaw(val as object), library: 'Iconoir', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const cat = getCategory(key);
+    return { name: key, exportKey: key, icon: markRaw(val as object), library: 'Iconoir', category: cat, subCategory: getSubCategory(key, cat) };
+  });
 
 const tablerEntries = Object.entries(TablerIcons)
   .filter(([key, val]) => key.startsWith('Icon') && val)
-  .map(([key, val]) => ({ name: key.replace('Icon', ''), exportKey: key, icon: markRaw(val as object), library: 'Tabler', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const name = key.replace('Icon', '');
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: markRaw(val as object), library: 'Tabler', category: cat, subCategory: getSubCategory(name, cat) };
+  });
 
 const phosphorEntries = Object.entries(PhosphorIcons)
   .filter(([key, val]) => /^[A-Z]/.test(key) && val && typeof val === 'object')
-  .map(([key, val]) => ({ name: key, exportKey: key, icon: markRaw(val as object), library: 'Phosphor', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const name = key.replace(/^Ph/, '');
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: markRaw(val as object), library: 'Phosphor', category: cat, subCategory: getSubCategory(name, cat) };
+  });
 
 const hugeEntries = Object.entries(HugeIcons)
   .filter(([key, val]) => key.endsWith('Icon') && val)
-  .map(([key, val]) => ({ name: key.replace('Icon', ''), exportKey: key, icon: markRaw(val as object), library: 'HugeIcons', category: getCategory(key) }));
+  .map(([key, val]) => {
+    const name = key.replace('Icon', '');
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: markRaw(val as object), library: 'HugeIcons', category: cat, subCategory: getSubCategory(name, cat) };
+  });
 
 const faEntries = Object.entries(fas)
   .filter(([key, val]) => key.startsWith('fa') && val && val.icon)
@@ -527,7 +838,9 @@ const faEntries = Object.entries(fas)
       ...props
     }, [h('path', { d: path })]));
     
-    return { name: key.replace(/^fa/, ''), exportKey: key, icon: faComponent, library: 'FontAwesome', category: getCategory(key) };
+    const name = key.replace(/^fa/, '');
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: faComponent, library: 'FontAwesome', category: cat, subCategory: getSubCategory(name, cat) };
   });
 
 const simpleEntries = Object.entries(SimpleIcons)
@@ -541,7 +854,9 @@ const simpleEntries = Object.entries(SimpleIcons)
       ...props
     }, [h('path', { d: val.path })]));
     
-    return { name: val.title, exportKey: key, icon: simpleComponent, library: 'SimpleIcons', category: 'Logos', hex: '#' + val.hex };
+    const name = val.title;
+    const cat = getCategory(name);
+    return { name, exportKey: key, icon: simpleComponent, library: 'SimpleIcons', category: 'Brand Logos', subCategory: getSubCategory(name, 'Brand Logos'), hex: '#' + val.hex };
   });
 
 const allIcons = shallowRef([
@@ -549,24 +864,27 @@ const allIcons = shallowRef([
   ...tablerEntries, ...phosphorEntries, ...hugeEntries, ...faEntries, ...simpleEntries
 ]);
 
-// Dynamically generate the Categories
 const generateCategories = () => {
   const counts = new Map<string, number>();
   allIcons.value.forEach(i => {
     counts.set(i.category, (counts.get(i.category) || 0) + 1);
   });
 
-  const protectedCategories = new Set([
-    'Arrows', 'Communication', 'Commerce', 'Data', 'Development', 'Devices', 
-    'Editing', 'Files', 'Food & Drink', 'Medical', 'Media', 'Nature', 'Navigation', 
-    'Objects', 'People', 'Security', 'Shapes', 'Sports', 'Status', 'Text', 'Time', 
-    'Transport', 'UI', 'Weather', 'Power', 'Household', 'Education', 'Tools', 
-    'Emotions', 'Clothing', 'Connectivity'
-  ]);
+  // Get the top 28 most populated categories (to leave room for 'All' and 'Miscellaneous' = 30 total)
+  const sortedByCount = Array.from(counts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(entry => entry[0]);
+    
+  const topCategories = new Set(sortedByCount.slice(0, 29));
+  if (!topCategories.has('Objects')) {
+    topCategories.delete(sortedByCount[28]); // Make room
+    topCategories.add('Objects');
+  }
 
   allIcons.value.forEach(i => {
-    if (!protectedCategories.has(i.category) && (counts.get(i.category) || 0) < 15) {
-      i.category = 'Miscellaneous';
+    if (!topCategories.has(i.category)) {
+      i.category = 'Objects';
+      i.subCategory = getSubCategory(i.name, 'Objects');
     }
   });
 
@@ -577,8 +895,6 @@ const generateCategories = () => {
 
   const dynamicCategories = Array.from(counts.keys());
   dynamicCategories.sort((a, b) => {
-    if (a === 'Miscellaneous') return 1;
-    if (b === 'Miscellaneous') return -1;
     return a.localeCompare(b);
   });
 
@@ -600,7 +916,25 @@ const searchQuery = ref('');
 const selectedAnimation = ref('bounce');
 const selectedLibrary = ref('All');
 const selectedCategory = ref('All');
+const selectedSubCategory = ref<string | null>(null);
+const expandedCategory = ref<string | null>(null);
 const selectedColor = ref('currentColor');
+
+const toggleCategory = (cat: string) => {
+  selectedCategory.value = cat;
+  selectedSubCategory.value = null; // Clear subcategory when clicking parent
+  
+  if (expandedCategory.value === cat) {
+    expandedCategory.value = null; // Collapse if already expanded
+  } else {
+    expandedCategory.value = cat; // Expand
+  }
+};
+
+const selectSubCategory = (cat: string, sub: string) => {
+  selectedCategory.value = cat;
+  selectedSubCategory.value = sub;
+};
 
 // Export Modal States
 const isModalOpen = ref(false);
@@ -727,100 +1061,97 @@ const animSearchQuery = ref('');
 const animSearchInput = ref<HTMLInputElement | null>(null);
 
 const allAnimations = [
-  { value: 'pulse', label: 'Pulse' },
+  { value: 'aurora', label: 'Aurora' },
+  { value: 'blink', label: 'Blink' },
+  { value: 'blob', label: 'Blob' },
+  { value: 'blur-in', label: 'Blur In' },
+  { value: 'blur-out', label: 'Blur Out' },
+  { value: 'boomerang', label: 'Boomerang' },
   { value: 'bounce', label: 'Bounce' },
-  { value: 'spin', label: 'Spin' },
-  { value: 'shake', label: 'Shake' },
-  { value: 'jiggle', label: 'Jiggle' },
+  { value: 'bounce-wave', label: 'Bounce Wave' },
+  { value: 'breathing', label: 'Breathing' },
+  { value: 'bubble', label: 'Bubble' },
+  { value: 'cartoon-shake', label: 'Cartoon Shake' },
+  { value: 'charge', label: 'Charge' },
+  { value: 'cinematic-zoom', label: 'Cinematic Zoom' },
+  { value: 'combo-bounce', label: 'Combo Bounce' },
+  { value: 'compress', label: 'Compress' },
+  { value: 'cyber-pulse', label: 'Cyber Pulse' },
+  { value: 'dash', label: 'Dash' },
+  { value: 'distort', label: 'Distort' },
+  { value: 'drift', label: 'Drift' },
+  { value: 'drift-float', label: 'Drift Float' },
+  { value: 'drift-spin', label: 'Drift Spin' },
+  { value: 'elastic', label: 'Elastic' },
+  { value: 'elegant-swing', label: 'Elegant Swing' },
+  { value: 'energy-burst', label: 'Energy Burst' },
+  { value: 'explosion-pop', label: 'Explosion Pop' },
+  { value: 'fade-drift', label: 'Fade Drift' },
+  { value: 'flash', label: 'Flash' },
+  { value: 'flicker', label: 'Flicker' },
   { value: 'flip', label: 'Flip' },
   { value: 'float', label: 'Float' },
-  { value: 'heartbeat', label: 'Heartbeat' },
-  { value: 'swing', label: 'Swing' },
-  { value: 'wobble', label: 'Wobble' },
-  { value: 'tada', label: 'Tada (Pop)' },
-  { value: 'zoom-in', label: 'Zoom In' },
-  { value: 'zoom-out', label: 'Zoom Out' },
-  { value: 'rubber-band', label: 'Rubber Band' },
-  { value: 'spin-pulse', label: 'Spin Pulse' },
+  { value: 'flutter', label: 'Flutter' },
+  { value: 'frost', label: 'Frost' },
+  { value: 'glass-shine', label: 'Glass Shine' },
   { value: 'glitch', label: 'Glitch' },
-  
-  // 76 new animations
-  { value: 'drift', label: 'Drift' },
-  { value: 'flicker', label: 'Flicker' },
-  { value: 'blink', label: 'Blink' },
-  { value: 'pop', label: 'Pop' },
-  { value: 'snap', label: 'Snap' },
-  { value: 'flash', label: 'Flash' },
-  { value: 'ripple', label: 'Ripple' },
   { value: 'glow-pulse', label: 'Glow Pulse' },
-  { value: 'neon-flicker', label: 'Neon Flicker' },
-  { value: 'breathing', label: 'Breathing' },
-  { value: 'magnetic', label: 'Magnetic' },
+  { value: 'gooey', label: 'Gooey' },
+  { value: 'heartbeat', label: 'Heartbeat' },
+  { value: 'hologram', label: 'Hologram' },
+  { value: 'hop', label: 'Hop' },
   { value: 'hover-lift', label: 'Hover Lift' },
-  { value: 'tilt', label: 'Tilt' },
-  { value: 'elastic', label: 'Elastic' },
-  { value: 'warp', label: 'Warp' },
-  { value: 'stretch', label: 'Stretch' },
-  { value: 'compress', label: 'Compress' },
+  { value: 'impact', label: 'Impact' },
+  { value: 'jelly', label: 'Jelly' },
+  { value: 'jiggle', label: 'Jiggle' },
+  { value: 'light-sweep', label: 'Light Sweep' },
+  { value: 'liquid', label: 'Liquid' },
+  { value: 'magnetic', label: 'Magnetic' },
+  { value: 'matrix', label: 'Matrix' },
+  { value: 'morph', label: 'Morph' },
+  { value: 'neon-flicker', label: 'Neon Flicker' },
+  { value: 'orbit', label: 'Orbit' },
+  { value: 'peek', label: 'Peek' },
+  { value: 'pendulum', label: 'Pendulum' },
+  { value: 'pixelate', label: 'Pixelate' },
+  { value: 'pop', label: 'Pop' },
+  { value: 'power-up', label: 'Power Up' },
+  { value: 'pulse', label: 'Pulse' },
+  { value: 'recoil', label: 'Recoil' },
+  { value: 'rgb-split', label: 'RGB Split' },
+  { value: 'ripple', label: 'Ripple' },
+  { value: 'roll', label: 'Roll' },
+  { value: 'rotate-3d', label: 'Rotate 3D' },
+  { value: 'rubber-band', label: 'Rubber Band' },
+  { value: 'scanline', label: 'Scanline' },
+  { value: 'shake', label: 'Shake' },
+  { value: 'shockwave', label: 'Shockwave' },
+  { value: 'slam', label: 'Slam' },
+  { value: 'slide-down', label: 'Slide Down' },
   { value: 'slide-left', label: 'Slide Left' },
   { value: 'slide-right', label: 'Slide Right' },
   { value: 'slide-up', label: 'Slide Up' },
-  { value: 'slide-down', label: 'Slide Down' },
-  { value: 'drift-float', label: 'Drift Float' },
-  { value: 'orbit', label: 'Orbit' },
-  { value: 'rotate-3d', label: 'Rotate 3D' },
-  { value: 'spiral', label: 'Spiral' },
-  { value: 'wave', label: 'Wave' },
-  { value: 'pendulum', label: 'Pendulum' },
-  { value: 'roll', label: 'Roll' },
-  { value: 'swing-3d', label: 'Swing 3D' },
-  { value: 'boomerang', label: 'Boomerang' },
-  { value: 'drift-spin', label: 'Drift Spin' },
-  { value: 'liquid', label: 'Liquid' },
-  { value: 'morph', label: 'Morph' },
-  { value: 'gooey', label: 'Gooey' },
-  { value: 'blur-in', label: 'Blur In' },
-  { value: 'blur-out', label: 'Blur Out' },
-  { value: 'frost', label: 'Frost' },
-  { value: 'hologram', label: 'Hologram' },
-  { value: 'matrix', label: 'Matrix' },
-  { value: 'cyber-pulse', label: 'Cyber Pulse' },
-  { value: 'vhs', label: 'VHS' },
-  { value: 'rgb-split', label: 'RGB Split' },
-  { value: 'static-noise', label: 'Static Noise' },
-  { value: 'scanline', label: 'Scanline' },
-  { value: 'pixelate', label: 'Pixelate' },
-  { value: 'distort', label: 'Distort' },
-  { value: 'power-up', label: 'Power Up' },
-  { value: 'energy-burst', label: 'Energy Burst' },
-  { value: 'charge', label: 'Charge' },
-  { value: 'explosion-pop', label: 'Explosion Pop' },
-  { value: 'shockwave', label: 'Shockwave' },
-  { value: 'turbo-spin', label: 'Turbo Spin' },
-  { value: 'combo-bounce', label: 'Combo Bounce' },
-  { value: 'dash', label: 'Dash' },
-  { value: 'impact', label: 'Impact' },
-  { value: 'slam', label: 'Slam' },
-  { value: 'recoil', label: 'Recoil' },
-  { value: 'jelly', label: 'Jelly' },
-  { value: 'squish', label: 'Squish' },
-  { value: 'blob', label: 'Blob' },
-  { value: 'wiggle', label: 'Wiggle' },
-  { value: 'peek', label: 'Peek' },
-  { value: 'hop', label: 'Hop' },
-  { value: 'flutter', label: 'Flutter' },
-  { value: 'bubble', label: 'Bubble' },
-  { value: 'bounce-wave', label: 'Bounce Wave' },
-  { value: 'cartoon-shake', label: 'Cartoon Shake' },
-  { value: 'aurora', label: 'Aurora' },
-  { value: 'silk-float', label: 'Silk Float' },
-  { value: 'glass-shine', label: 'Glass Shine' },
-  { value: 'light-sweep', label: 'Light Sweep' },
   { value: 'smooth-orbit', label: 'Smooth Orbit' },
-  { value: 'fade-drift', label: 'Fade Drift' },
+  { value: 'snap', label: 'Snap' },
   { value: 'soft-pulse', label: 'Soft Pulse' },
-  { value: 'cinematic-zoom', label: 'Cinematic Zoom' },
-  { value: 'elegant-swing', label: 'Elegant Swing' },
+  { value: 'spin', label: 'Spin' },
+  { value: 'spin-pulse', label: 'Spin Pulse' },
+  { value: 'spiral', label: 'Spiral' },
+  { value: 'squish', label: 'Squish' },
+  { value: 'static-noise', label: 'Static Noise' },
+  { value: 'stretch', label: 'Stretch' },
+  { value: 'swing', label: 'Swing' },
+  { value: 'swing-3d', label: 'Swing 3D' },
+  { value: 'tada', label: 'Tada (Pop)' },
+  { value: 'tilt', label: 'Tilt' },
+  { value: 'turbo-spin', label: 'Turbo Spin' },
+  { value: 'vhs', label: 'VHS' },
+  { value: 'warp', label: 'Warp' },
+  { value: 'wave', label: 'Wave' },
+  { value: 'wiggle', label: 'Wiggle' },
+  { value: 'wobble', label: 'Wobble' },
+  { value: 'zoom-in', label: 'Zoom In' },
+  { value: 'zoom-out', label: 'Zoom Out' },
 ];
 
 const filteredAnimations = computed(() => {
@@ -1213,10 +1544,7 @@ const animationMetadata: Record<string, { trigger: string; keyframes: string }> 
     keyframes: '@keyframes provider-aurora { 0% { filter: drop-shadow(0 0 3px #3B82F6); } 33% { filter: drop-shadow(0 0 6px #EC4899); } 66% { filter: drop-shadow(0 0 6px #10B981); } 100% { filter: drop-shadow(0 0 3px #3B82F6); } }',
     trigger: 'svg { transition: filter 0.3s ease; } svg:hover { animation: provider-aurora 2.5s linear infinite; }'
   },
-  'silk-float': {
-    keyframes: '@keyframes provider-silk-float { 0% { transform: translateY(0) rotate(0deg) scale(1); } 50% { transform: translateY(-4px) rotate(2deg) scale(1.02); } 100% { transform: translateY(-6px) rotate(4deg) scale(1); } }',
-    trigger: 'svg { transition: transform 0.3s ease; transform-origin: center; } svg:hover { animation: provider-silk-float 3s ease-in-out infinite alternate; }'
-  },
+
   'glass-shine': {
     keyframes: '@keyframes provider-glass-shine { 0% { opacity: 0.85; filter: brightness(1) drop-shadow(0 0 0 currentColor); } 50% { opacity: 1; filter: brightness(1.5) drop-shadow(0 0 8px currentColor); transform: scale(1.05); } 100% { opacity: 0.85; filter: brightness(1) drop-shadow(0 0 0 currentColor); } }',
     trigger: 'svg { transition: all 0.3s ease; } svg:hover { animation: provider-glass-shine 1.5s ease-in-out infinite; }'
@@ -1452,6 +1780,36 @@ const getCategoryCount = (cat: string) => {
   return list.filter(i => i.category === cat).length;
 };
 
+const getSubCategoriesFor = (cat: string) => {
+  const subs = new Set<string>();
+  allIcons.value.forEach(i => {
+    if (i.category === cat && i.subCategory && !i.subCategory.startsWith('Other ')) {
+      subs.add(i.subCategory);
+    }
+  });
+  const subArr = Array.from(subs).sort();
+  // Add 'Other XYZ' at the end if it exists
+  const otherName = cat === 'Brand Logos' ? 'Other Brands' : `Other ${cat}`;
+  const hasOther = allIcons.value.some(i => i.category === cat && i.subCategory === otherName);
+  if (hasOther) {
+    subArr.push(otherName);
+  }
+  
+  if (subArr.length === 1 && subArr[0] === otherName) {
+    return [];
+  }
+  
+  return subArr;
+};
+
+const getSubCategoryCount = (cat: string, sub: string) => {
+  let list = allIcons.value;
+  if (selectedLibrary.value !== 'All') {
+    list = list.filter(i => i.library === selectedLibrary.value);
+  }
+  return list.filter(i => i.category === cat && i.subCategory === sub).length;
+};
+
 const filteredSet = computed(() => {
   let result = allIcons.value;
   
@@ -1460,6 +1818,9 @@ const filteredSet = computed(() => {
   }
   if (selectedCategory.value !== 'All') {
     result = result.filter(i => i.category === selectedCategory.value);
+  }
+  if (selectedSubCategory.value) {
+    result = result.filter(i => i.subCategory === selectedSubCategory.value);
   }
   
   const query = searchQuery.value.toLowerCase();
@@ -1474,7 +1835,7 @@ const totalFiltered = computed(() => filteredSet.value.length);
 const currentPage = ref(1);
 const itemsPerPage = ref(100);
 
-watch([searchQuery, selectedLibrary, selectedCategory], () => {
+watch([searchQuery, selectedLibrary, selectedCategory, selectedSubCategory], () => {
   currentPage.value = 1;
 });
 
@@ -1564,6 +1925,34 @@ const paginatedIcons = computed(() => {
   background: var(--text-color);
   color: var(--bg-color);
   opacity: 1;
+}
+
+.sub-category-list {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  margin: 0.2rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border-left: 2px solid rgba(129, 140, 248, 0.2);
+}
+
+.sub-category-list li {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+.sub-category-list li:hover {
+  background: rgba(129, 140, 248, 0.1);
+  opacity: 1;
+}
+
+.sub-category-list li.active {
+  background: rgba(129, 140, 248, 0.2);
+  color: var(--text-color);
+  opacity: 1;
+  font-weight: 600;
 }
 
 .cat-content {
