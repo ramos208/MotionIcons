@@ -1,0 +1,50 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "wobble-shift",
+    "rotation": [
+      -10,
+      10
+    ],
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1,
+    "easing": "linear",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-out",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 100,
+    "tension": 500,
+    "friction": 200,
+    "damping": 0.7,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion is designed to mimic the flow of air around an arrow, with subtle wobbles and drifts for a natural, kinetic feel, and sharp, impactful animations for clicks and hovers."
+}

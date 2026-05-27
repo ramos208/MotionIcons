@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "axis-3d-subtle-flip",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "axis-3d-flare",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -20,
+      10
+    ],
+    "skew": [
+      10,
+      -10
+    ],
+    "duration": 500,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "axis-3d-shake",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 800,
+    "friction": 200,
+    "damping": 1,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "This motion profile for the 'axis-3d' icon aims to create a fluid and energetic effect, with subtle rotations and scales during idle state. Upon hover, it introduces a dynamic flair using spring motion to emphasize the directional flow. A gentle shake animation is applied upon click, accompanied by vibrancy and an ambient glow to add depth."
+}

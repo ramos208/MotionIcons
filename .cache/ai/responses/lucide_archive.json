@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "archive-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "archive-hover",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "archive-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.3,
+    "friction": 0.2,
+    "damping": 0.75,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The animation starts with a smooth rotation and scale-up effect when idle, creating a gentle transition. Upon hovering, the icon accelerates into an elastic pop to mimic opening or closing of an archive. The click animation includes subtle vibrations and ripple effects for added engagement."
+}

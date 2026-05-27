@@ -1,0 +1,53 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neutral-bounce",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "hover-stretch",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "particle-explosion"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 300,
+    "friction": 0.2,
+    "damping": 0.9,
+    "stiffness": 10
+  },
+  "motionPhilosophy": "This motion profile mimics the elastic and dynamic behavior of a spring, creating an engaging and visually appealing interaction for the align-horizontal-distribute-start icon."
+}

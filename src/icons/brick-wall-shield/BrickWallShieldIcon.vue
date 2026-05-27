@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M10.5 20.5C6.72876 20.5 4.84315 20.5 3.67157 19.3284C2.5 18.1569 2.5 16.2712 2.5 12.5V10.5C2.5 6.72876 2.5 4.84315 3.67157 3.67157C4.84315 2.5 6.72876 2.5 10.5 2.5H12.5C16.2712 2.5 18.1569 2.5 19.3284 3.67157C20.3886 4.73177 20.4894 5.5578 20.499 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M11.5 8.5H2.5H7M11.5 8.5H20.5H16M11.5 8.5V10.5M9.5 14.5H2.5H7V20M7 3V8.5M7 8.5H16M16 3V8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M20.4817 13.1729C19.6407 12.7492 18.6115 12.5 17.5 12.5C16.3885 12.5 15.3593 12.7492 14.5183 13.1729C14.1059 13.3807 13.8996 13.4846 13.6998 13.8112C13.5 14.1378 13.5 14.4541 13.5 15.0867V16.6567C13.5 19.2142 15.5188 20.6362 16.688 21.2452C17.0141 21.4151 17.1771 21.5 17.5 21.5C17.8229 21.5 17.9859 21.4151 18.312 21.2452C19.4812 20.6362 21.5 19.2142 21.5 16.6567L21.5 15.0867C21.5 14.4541 21.5 14.1378 21.3002 13.8112C21.1004 13.4846 20.8941 13.3807 20.4817 13.1729Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: brick-wall-shield
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for brick-wall-shield (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-brick-wall-shield {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-brick-wall-shield {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-brick-wall-shield 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-brick-wall-shield 3s ease-in-out infinite alternate;
+}
+</style>

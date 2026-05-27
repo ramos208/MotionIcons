@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-up",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "lightning-flash"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 500,
+    "friction": 300,
+    "damping": 0.6,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the elegance and precision of Japanese yen symbols, emphasizing a subtle yet energetic movement during idle and hover states. The click animation adds a dynamic pop effect with shimmering particles for added visual interest."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "float-up",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -15
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-up",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.75,
+    "stiffness": 500
+  },
+  "motionPhilosophy": "The icon is designed to resemble an alarm clock, with a dynamic and pulsating motion that enhances the urgency and importance of the notification."
+}

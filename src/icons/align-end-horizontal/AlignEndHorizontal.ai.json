@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      5,
+      -5
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 120,
+    "tension": 90,
+    "friction": 40,
+    "damping": 35,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "This motion profile emulates the elastic pop effect, emphasizing a lively and energetic vibe that's characteristic of the icon. The idle animation introduces a subtle pulse with slight rotation and scale changes to represent fluidity and motion. The hover animation adds dynamic sparks in a targeted way to attract user attention effectively. Click animations are designed for vibration feedback while avoiding unwanted ripple effects."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badge-x-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 1000,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "badge-x-hover",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": null,
+    "skew": [
+      5,
+      -5
+    ],
+    "duration": 1500,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "badge-x-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 10,
+    "tension": 300,
+    "friction": 20,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The icon badge-x adopts an elastic-pop motion type to highlight its key features while maintaining a visually engaging and interactive experience. The idle animation emphasizes the badge's presence with subtle rotation and scale adjustments, creating a sense of depth and interactivity. Upon hovering, the badge experiences a spring-like expansion that mimics the pop effect of badges, making it stand out more prominently. When interacted with, a gentle vibration is triggered to enhance user experience without being overwhelming."
+}

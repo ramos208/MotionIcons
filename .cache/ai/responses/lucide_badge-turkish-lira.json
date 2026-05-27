@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badge-turkish-lira-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 1,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "badge-turkish-lira-hover",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -0.5,
+      -0.5
+    ],
+    "skew": [
+      20,
+      20
+    ],
+    "duration": 1,
+    "easing": "outSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.9,
+    "mass": 1.5,
+    "tension": 30,
+    "friction": 20,
+    "damping": 40,
+    "stiffness": 50
+  },
+  "motionPhilosophy": "This motion profile aims to mimic the crisp appearance of a Turkish Lira badge. The idle animation uses an elastic pop effect to make the icon appear as if it's gently floating. When hovered, the icon subtly skews and scales up with a spring motion for added depth and interest."
+}

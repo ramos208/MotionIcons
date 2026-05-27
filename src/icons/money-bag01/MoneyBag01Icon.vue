@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M20.9427 16.8354C20.2864 12.8866 18.2432 9.94613 16.467 8.219C15.9501 7.71642 15.6917 7.46513 15.1208 7.23257C14.5499 7 14.0592 7 13.0778 7H10.9222C9.94081 7 9.4501 7 8.87922 7.23257C8.30834 7.46513 8.04991 7.71642 7.53304 8.219C5.75682 9.94613 3.71361 12.8866 3.05727 16.8354C2.56893 19.7734 5.27927 22 8.30832 22H15.6917C18.7207 22 21.4311 19.7734 20.9427 16.8354Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M7.25662 4.44287C7.05031 4.14258 6.75128 3.73499 7.36899 3.64205C8.00392 3.54651 8.66321 3.98114 9.30855 3.97221C9.89237 3.96413 10.1898 3.70519 10.5089 3.33548C10.8449 2.94617 11.3652 2 12 2C12.6348 2 13.1551 2.94617 13.4911 3.33548C13.8102 3.70519 14.1076 3.96413 14.6914 3.97221C15.3368 3.98114 15.9961 3.54651 16.631 3.64205C17.2487 3.73499 16.9497 4.14258 16.7434 4.44287L15.8105 5.80064C15.4115 6.38146 15.212 6.67187 14.7944 6.83594C14.3769 7 13.8373 7 12.7582 7H11.2418C10.1627 7 9.6231 7 9.20556 6.83594C8.78802 6.67187 8.5885 6.38146 8.18945 5.80064L7.25662 4.44287Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: money-bag01
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for money-bag01 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-money-bag01 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-money-bag01 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-money-bag01 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-money-bag01 3s ease-in-out infinite alternate;
+}
+</style>

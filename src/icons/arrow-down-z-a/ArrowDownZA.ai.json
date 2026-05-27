@@ -1,0 +1,55 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 3000,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "gear-rattle",
+    "rotation": [
+      -5,
+      5
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "skew": [
+      30,
+      -30
+    ],
+    "duration": 750,
+    "easing": "ease-out-cubic",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "gear-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 3,
+    "friction": 0.75,
+    "damping": 0.6,
+    "stiffness": 4
+  },
+  "motionPhilosophy": "This motion profile aims to mimic the feel of a mechanical gear system, emphasizing smooth acceleration and deceleration with subtle rattle effects on hover and click interactions. The use of particles and shaders adds visual interest while maintaining a cohesive physical motion experience."
+}

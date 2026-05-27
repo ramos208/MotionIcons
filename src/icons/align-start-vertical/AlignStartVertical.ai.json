@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-slide",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 400,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "zoom-shift",
+    "rotation": [
+      -3,
+      3
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 300,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop-up",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 400,
+    "friction": 0.2,
+    "damping": 0.8,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "This motion profile employs a dynamic-pop animation for the align-start-vertical icon, emphasizing elasticity and smooth transitions. The hover state introduces slight rotations and scale changes to enhance user interaction cues, while the click event triggers a pop-up effect with subtle vibrations."
+}

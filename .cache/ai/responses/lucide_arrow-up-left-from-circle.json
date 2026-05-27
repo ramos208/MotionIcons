@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibration-ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 0.2,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The animation mimics the physical properties of a spring-loaded arrow, with a strong dynamic pop at click to signify movement and energy transfer."
+}

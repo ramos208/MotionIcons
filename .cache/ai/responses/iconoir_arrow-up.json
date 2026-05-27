@@ -1,0 +1,55 @@
+{
+  "motionType": "acceleration",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "hover-glide",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": null,
+    "duration": 700,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 200,
+    "friction": 0.5,
+    "damping": 0.1,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "The animation follows an accelerating motion pattern, enhancing the sense of dynamic and energetic directionality. The hover effect introduces a subtle rotation with scale adjustments to create a sense of depth and volume, while the click animation includes a visual ripple effect for interactivity."
+}

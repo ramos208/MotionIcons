@@ -1,0 +1,47 @@
+{
+  "motionType": "neural-pulse",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": null,
+    "scale": [
+      0.96,
+      1.04
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      4,
+      0
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "quantum-dust"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 1.02,
+    "elasticity": 1.08,
+    "mass": 1.2,
+    "tension": 34,
+    "friction": 31.5,
+    "damping": 22.6,
+    "stiffness": 435
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for panels-right-bottom (lucide). Selected semantic motion: neural-pulse with custom idle (neural-pulse) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

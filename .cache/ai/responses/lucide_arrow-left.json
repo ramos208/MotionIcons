@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 300,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "orbit-spin",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "duration": 350,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "pop-in",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "particle-burst",
+    "spark-glow"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 120,
+    "friction": 80,
+    "damping": 0.8,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "This motion design emphasizes a dynamic and pop-like effect, combining subtle rotation with scale adjustments to simulate the action of an arrow moving through space. The hover animation adds orbital spin for depth, while the click animation includes vibrations and ripple effects for enhanced interactivity."
+}

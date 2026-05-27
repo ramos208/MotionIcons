@@ -1,0 +1,59 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -20
+    ],
+    "duration": 1.5,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -10,
+      -25
+    ],
+    "skew": [
+      5,
+      5
+    ],
+    "duration": 0.8,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-out",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 10,
+    "friction": 0.8,
+    "damping": 0.5,
+    "stiffness": 3
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic and energetic experience for the arrow-up-a-z icon, emphasizing its directional flow through subtle particle effects and vibrant shaders. The hover animation introduces a ripple effect with increased scale and rotation, while the click animation enhances the visual impact by adding a pop-out transition."
+}

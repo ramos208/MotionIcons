@@ -1,0 +1,55 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": [
+      -5,
+      -10
+    ],
+    "duration": 4,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "glow-pulse",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      3,
+      5
+    ],
+    "skew": [
+      -10,
+      -10
+    ],
+    "duration": 2,
+    "easing": "ease-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 2.5,
+    "tension": 30,
+    "friction": 10,
+    "damping": 0.6,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile is designed to mimic a pendulum swing, providing a gentle and calm feel for the badge-alert icon. The idle animation features a subtle drift motion that creates a sense of restlessness but keeps it grounded with a slight translation. Upon hovering, a pulsating glow effect is introduced using particles to highlight the notification in a visually engaging way. When clicked, a sound ripple effect is triggered along with vibrations to enhance interactivity and user experience."
+}

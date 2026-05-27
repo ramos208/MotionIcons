@@ -1,0 +1,49 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "vibrate-slow",
+    "rotation": [
+      270,
+      90
+    ],
+    "scale": [
+      0.8,
+      0.8
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2,
+    "tension": 100,
+    "friction": 1,
+    "damping": 0.8,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion profile for the cog icon aims to capture its mechanical nature, with a smooth and dynamic rotation that emphasizes stability and precision. The hover animation gently vibrate the cog while it scales down slightly for an interactive feel, enhancing user engagement without overwhelming the subtle design."
+}

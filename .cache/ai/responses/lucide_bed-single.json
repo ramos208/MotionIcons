@@ -1,0 +1,50 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bed-single-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "bed-single-hover",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 800,
+    "easing": "easeOutSine",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "bed-single-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [],
+  "shader": "none",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 600,
+    "friction": 200,
+    "damping": 0.75,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The bed-single icon is designed to have a soft, inviting feel with subtle animations that mimic the comfort and relaxation of sleeping in a single bed. The idle animation creates a slight rotation and scale increase to represent the natural movement and warmth associated with being on a bed. The hover animation adds more motion to simulate the gentle sway one might experience when lying down or looking at the icon from an angle. The click animation includes a vibration effect for haptic feedback, enhancing user interaction."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      null,
+      null
+    ],
+    "duration": 2.5,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-push",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -10,
+      -10
+    ],
+    "skew": null,
+    "duration": 0.5,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-pulse",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sphere"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 200,
+    "damping": 0.3,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "The blend icon's motion is designed to convey a sense of elasticity and gentle popping upon interaction, reflecting its soft yet functional nature within the generic category."
+}

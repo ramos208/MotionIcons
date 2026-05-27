@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M7.61 2.1479L7.80042 2.10885C8.28808 2.00885 8.53191 1.95884 8.6895 2.04202C8.84709 2.1252 8.97976 2.43749 9.24511 3.06207C9.72042 4.18086 10.8245 4.96673 12 4.96673C13.1755 4.96673 14.2796 4.18086 14.7549 3.06207C15.0202 2.43749 15.1529 2.1252 15.3105 2.04202C15.4681 1.95884 15.7119 2.00885 16.1996 2.10885L16.39 2.1479C17.6491 2.37803 17.6688 2.3895 18.5326 3.39285C19.2624 4.2406 20.3084 5.10689 20.8298 6.1272C21.2138 6.87865 20.8865 7.52289 20.4556 8.11988C19.9173 8.86555 19.2184 9.58171 18.272 9.00152C17.6678 8.63104 17.1859 7.84916 16.7173 7.30825C16.7173 7.30825 17 10.9246 16 11.9315C16.9077 12.5863 18.3424 13.858 19.4805 16.4642C19.8862 17.3933 20.4317 18.4519 19.8937 19.4437C18.0646 22.8154 5.97514 22.8887 4.10625 19.4437C3.56824 18.452 4.11378 17.3933 4.51948 16.4642C5.65756 13.858 7.0923 12.5863 8 11.9315C7 10.9246 7.2827 7.30825 7.2827 7.30825C6.81411 7.84916 6.33223 8.63104 5.72796 9.00152C4.78163 9.58171 4.08274 8.86554 3.54444 8.11988C3.11346 7.52289 2.78615 6.87864 3.17016 6.1272C3.69156 5.10689 4.73757 4.2406 5.46741 3.39285C6.33123 2.38948 6.35093 2.37803 7.61 2.1479Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M8 12H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: dress01
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for dress01 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-dress01 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-dress01 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-dress01 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-dress01 3s ease-in-out infinite alternate;
+}
+</style>

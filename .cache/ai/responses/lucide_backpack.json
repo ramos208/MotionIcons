@@ -1,0 +1,47 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      -1
+    ],
+    "skew": null,
+    "duration": 0.3,
+    "easing": "ease-in",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-out",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.6,
+    "elasticity": 0.8,
+    "mass": 3,
+    "tension": 5,
+    "friction": 1.2,
+    "damping": 0.4,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "This mechanical motion design emphasizes the backpack's directional flow, using a combination of inertia and elasticity to create a fluid yet dynamic experience that reflects its functional purpose. The gear-sync idle animation ensures smooth transitions between movements, while hover effects enhance interactivity by adding subtle ripple animations. Click animations are designed for vibrancy with pop-out elements, complementing the icon’s role as a directional symbol."
+}

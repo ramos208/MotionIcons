@@ -1,0 +1,56 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 1.5,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "spin-flip",
+    "rotation": [
+      45,
+      -90
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      2
+    ],
+    "duration": 0.7,
+    "easing": "ease-out"
+  },
+  "clickAnimation": {
+    "name": "pop-in",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.7,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion is designed to mimic a mechanical system with smooth, accelerating inertia and controlled oscillations for both hover and click interactions."
+}

@@ -34,30 +34,58 @@ bun add motion-icons
 
 ## 💻 Usage Guide
 
-Using MotionIcons is incredibly simple! We pre-bundle all major icon libraries, so you **do not** need to install `lucide`, `heroicons`, etc. Just import them directly from `motion-icons`!
+### 1. Global Plugin Installation
+Register the plugin in your `main.ts` or `main.js` to enable automatic global icon aliases.
+
+```ts
+import { createApp } from 'vue'
+import App from './App.vue'
+import MotionIcons from 'motion-icons'
+
+const app = createApp(App)
+app.use(MotionIcons)
+app.mount('#app')
+```
+
+### 2. Use in Any Component
+You **do not** need to import specific icon libraries anymore! Just use the global aliases:
 
 ```vue
 <script setup>
-// 1. Import the provider AND any icon library directly from motion-icons!
-import { AnimatedIconProvider, Lucide, Phosphor, HugeIcons } from 'motion-icons';
+// Only import the provider! The icons are globally injected.
+import { MotionIconsProvider } from 'motion-icons';
 </script>
 
 <template>
-  <!-- 2. Wrap the icon in the provider and set your animation! -->
-  <AnimatedIconProvider 
-    :icon="Lucide.RocketIcon" 
+  <!-- l = Lucide -->
+  <MotionIconsProvider 
+    :icon="l.Rocket" 
     animation="bounce" 
     :size="32" 
     color="#3B82F6" 
   />
 
-  <AnimatedIconProvider 
-    :icon="Phosphor.PhHeartStraight" 
+  <!-- p = Phosphor -->
+  <MotionIconsProvider 
+    :icon="p.PhHeartStraight" 
     animation="heartbeat" 
     color="#EF4444" 
   />
+  
+  <!-- t = Tabler -->
+  <MotionIconsProvider :icon="t.IconSettings" />
 </template>
 ```
+
+### Supported Aliases
+- `l` = Lucide (`lucide-vue-next`)
+- `i` = Iconoir (`@iconoir/vue`)
+- `h` = Heroicons (`@heroicons/vue`)
+- `t` = Tabler (`@tabler/icons-vue`)
+- `p` = Phosphor (`@phosphor-icons/vue`)
+- `hg` = HugeIcons (`hugeicons-vue`)
+- `f` = FontAwesome (`@fortawesome/free-solid-svg-icons`)
+- `b` = Brand Logos (`simple-icons`)
 
 ---
 

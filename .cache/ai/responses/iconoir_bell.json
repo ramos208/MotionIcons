@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-pop",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -0.1,
+      -0.1
+    ],
+    "skew": null,
+    "duration": 0.5,
+    "easing": "back-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.5,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The motion design for the bell icon is crafted to reflect its notification purpose, using a dynamic-pop animation type with pulsing and glimmer effects. The hover interaction introduces a glow effect that simulates a highlight from notifications, while the click event triggers an audio-like ripple effect and visual sparks. The custom shader enhances the glowing effect, providing a vibrant and engaging user experience."
+}

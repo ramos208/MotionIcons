@@ -1,0 +1,61 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "battery-medium-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "easeOutQuad"
+  },
+  "hoverAnimation": {
+    "name": "battery-medium-hover",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      0,
+      20
+    ],
+    "duration": 0.4,
+    "easing": "easeInOutQuad",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "battery-medium-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 4,
+    "stiffness": 70
+  },
+  "motionPhilosophy": "This motion profile aims to convey a sense of battery charge and refreshment, emphasizing elasticity and vibrant colors through the hover effect. The click animation includes subtle vibrations and ripple effects for interactivity."
+}

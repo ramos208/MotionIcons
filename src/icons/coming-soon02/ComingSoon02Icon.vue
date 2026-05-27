@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M18.0104 7.48959L19.5 6M20.5 13.5C20.5 18.1944 16.6944 22 12 22C7.30558 22 3.5 18.1944 3.5 13.5C3.5 8.80558 7.30558 5 12 5C16.6944 5 20.5 8.80558 20.5 13.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M12 19C8.96243 19 6.5 16.5376 6.5 13.5C6.5 10.4624 8.96243 8 12 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M14.5 2H9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M12 13.5L15.5 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: coming-soon02
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for coming-soon02 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-coming-soon02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-coming-soon02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-coming-soon02 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-coming-soon02 3s ease-in-out infinite alternate;
+}
+</style>

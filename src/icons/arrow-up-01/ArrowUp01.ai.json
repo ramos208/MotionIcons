@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "wave-ripple",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.2,
+      1.5
+    ],
+    "translate": [
+      0,
+      -10
+    ],
+    "duration": 2,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-rotate",
+    "rotation": [
+      360,
+      720
+    ],
+    "scale": [
+      1.5,
+      1.8
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 0.5,
+    "easing": "ease-in"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.7,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.5,
+    "damping": 0.6,
+    "stiffness": 1.3
+  },
+  "motionPhilosophy": "This motion design aims to create a lively and engaging experience for the arrow-up icon, emphasizing its directional flow with subtle wave animations and a slight vibration upon hover and click interactions."
+}

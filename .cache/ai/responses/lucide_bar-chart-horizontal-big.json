@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "bar-chart-horizontal-big-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 0.3,
+    "easing": "easeOutQuad"
+  },
+  "hoverAnimation": {
+    "name": "bar-chart-horizontal-big-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 0.2,
+    "easing": "easeInOutQuad"
+  },
+  "clickAnimation": {
+    "name": "bar-chart-horizontal-big-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.7,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The motion design for this bar chart icon emphasizes a smooth yet dynamic interaction, with the bars pulsing and swaying slightly during hover to simulate data movement within the chart. Upon click, there is a subtle vibration effect and a gentle ripple around the icon to enhance interactivity without overwhelming the user."
+}

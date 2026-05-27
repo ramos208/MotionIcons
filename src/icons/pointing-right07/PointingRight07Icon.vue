@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M12 22L9.33333 22C7.15998 22 6.07331 22 5.20816 21.6689C3.88524 21.1627 2.83992 20.1207 2.3321 18.8019C2 17.9395 2 16.8562 2 14.6897C2 13.5534 2 12.9853 2.11658 12.4566C2.29445 11.6499 2.67059 10.9 3.21121 10.2742C3.56557 9.86398 4.02149 9.52311 4.93333 8.84137L8.95125 5.83738C9.56862 5.3758 10.4211 5.38907 11.0237 5.86965C11.8112 6.49772 11.8763 7.66877 11.1631 8.3797L9.53773 10L19.5 10C20.3284 10 21 10.6716 21 11.5C21 12.3284 20.3284 13 19.5 13L16 13M16 13L16 14C16 15.1046 15.1046 16 14 16M16 13L13 13M14 16L13 16M14 16L15 16L15 17C15 18.1046 14.1046 19 13 19M13 19L12 19M13 19L14 19L13.7785 20.3288C13.6178 21.2932 12.7834 22 11.8057 22L11 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M22 4.5L16 4.5M22 4.5C22 3.79977 20.0057 2.49153 19.5 2M22 4.5C22 5.20023 20.0057 6.50847 19.5 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: pointing-right07
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for pointing-right07 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-pointing-right07 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(6px, 0px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(4px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-pointing-right07 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-pointing-right07 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-pointing-right07 3s ease-in-out infinite alternate;
+}
+</style>

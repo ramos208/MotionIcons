@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "wave-fade",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      0.95
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 800,
+    "easing": "easeOutCubic"
+  },
+  "hoverAnimation": {
+    "name": "rotate-spin",
+    "rotation": [
+      360,
+      720
+    ],
+    "scale": [
+      1.05,
+      0.95
+    ],
+    "translate": [
+      0,
+      -40
+    ],
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 800,
+    "easing": "easeOutCubic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-light",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "particle-cloud"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 0.75,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion design emphasizes a dynamic and energetic feel for the arrow-right-square icon, leveraging its directional nature to create an engaging interaction experience. The idle animation introduces a subtle wave-like effect with slight rotation and scale changes, while hovering activates a spinning hover animation with increased movement and vibrancy. Upon clicking, the ripple particle system amplifies the visual impact with vibrant neon elements."
+}

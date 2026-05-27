@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "battery-warning-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "easeOutQuad"
+  },
+  "hoverAnimation": {
+    "name": "battery-warning-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 300,
+    "easing": "easeInQuad"
+  },
+  "clickAnimation": {
+    "name": "battery-warning-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glowPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 800,
+    "friction": 200,
+    "damping": 0.75,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion design emphasizes an elastic and energetic transition, reflecting the warning nature of the battery icon with a gentle yet impactful pop effect upon hover and click."
+}

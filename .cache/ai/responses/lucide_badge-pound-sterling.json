@@ -1,0 +1,56 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badge-pound-sterling-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "badge-pound-sterling-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": [
+      -3,
+      3
+    ],
+    "duration": 2000,
+    "easing": "outElastic",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "badge-pound-sterling-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 100,
+    "friction": 80,
+    "damping": 0.1,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion design for the badge-pound-sterling icon is characterized by a blend of elasticity and pop, creating a visually engaging interaction that mimics the responsive behavior of the sterling symbol. The animation begins with a slight rotation and scale increase on hover to emphasize its shape, followed by an elastic bounce effect during click interactions to simulate the vibrant energy of currency icons."
+}

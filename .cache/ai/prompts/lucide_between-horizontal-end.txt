@@ -1,0 +1,58 @@
+You are an elite motion designer and professional animation engineer.
+Analyze the following SVG icon parameters and generate a highly custom, semantic, physically believable motion profile.
+
+ICON NAME: between-horizontal-end
+LIBRARY: lucide
+CATEGORY: generic
+SVG GEOMETRY METRICS:
+- Curves count: 44
+- Corners count: 4
+- Circles count: 0
+- Lines count: 27
+- Complexity: complex
+- Directional Flow: No
+- Symmetry: Yes
+- Detected Motion Opportunities: elastic-pop
+
+Your task is to design a unique kinetic experience for this specific icon.
+Return ONLY a valid JSON object matching the TypeScript interface below. Do NOT wrap inside markdown block. Do NOT include any additional chat or output explanation.
+
+Interface:
+{
+  "motionType": string, // e.g. pendulum, turbulence, pulse, radar, mechanical, dynamic-pop
+  "idleAnimation": {
+    "name": string, // e.g. neural-pulse, floating, subtle-drift, gear-sync
+    "rotation": [number, number] | null,
+    "scale": [number, number] | null,
+    "translate": [number, number] | null,
+    "duration": number,
+    "easing": string
+  },
+  "hoverAnimation": {
+    "name": string,
+    "rotation": [number, number] | null,
+    "scale": [number, number] | null,
+    "translate": [number, number] | null,
+    "skew": [number, number] | null,
+    "duration": number,
+    "easing": string,
+    "spring": boolean
+  },
+  "clickAnimation": {
+    "name": string,
+    "vibration": boolean,
+    "ripple": boolean
+  },
+  "particles": string[], // e.g. ["sound-wave", "glow-sparks", "mist"]
+  "shader": string, // e.g. "metallicGlow", "neonPlasma", "cyberGlitch", "none"
+  "physics": {
+    "inertia": number, // 0.0 to 1.0
+    "elasticity": number, // 0.0 to 1.0
+    "mass": number,
+    "tension": number,
+    "friction": number,
+    "damping": number,
+    "stiffness": number
+  },
+  "motionPhilosophy": string // Description of the motion behavior design and reasoning
+}

@@ -1,0 +1,46 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bean-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "bean-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "skew": null,
+    "duration": 1.5,
+    "easing": "expo-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "bean-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.6,
+    "mass": 1,
+    "tension": 300,
+    "friction": 200,
+    "damping": 0.07,
+    "stiffness": 800
+  },
+  "motionPhilosophy": "The bean icon is designed to have a subtle yet engaging motion behavior with an elastic-pop effect, emphasizing its semantic meaning of a bean. The idle animation ensures the icon remains static and stable, while the hover animation adds a gentle shake for emphasis on interaction. Click animations are triggered by user interaction, creating a vibrant reaction as if the bean were popping. Particles and shaders enhance the visual appeal with a neon-like glow effect."
+}

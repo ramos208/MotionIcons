@@ -1,0 +1,59 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "information-circle-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "information-circle-hover",
+    "rotation": [
+      -5,
+      5
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      3,
+      -3
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.4,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "information-circle-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [],
+  "shader": "none",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 600,
+    "friction": 200,
+    "damping": 0.3,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile is designed to create a subtle yet engaging interaction for the information-circle icon, emphasizing its semantic meaning and visually representing its importance through a harmonious blend of elasticity and pop effects."
+}

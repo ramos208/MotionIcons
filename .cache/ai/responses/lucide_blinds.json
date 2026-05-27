@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      -10,
+      10
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "duration": 500,
+    "easing": "ease-in"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.7,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion is designed to mimic the appearance of curtains or blinds, moving smoothly and dynamically with a slight elastic effect when hovered over, and creating an engaging ripple effect upon clicking."
+}

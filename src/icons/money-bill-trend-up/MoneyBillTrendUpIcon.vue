@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M480 8c0-13.3-10.7-24-24-24L354.2-16c-13.3 0-24 10.7-24 24s10.7 24 24 24l43.9 0-111.3 111.3-95.1-81.5c-9-7.7-22.2-7.7-31.2 0l-112 96c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l96.4-82.6 96.4 82.6c9.5 8.2 23.7 7.6 32.6-1.3l127-127 0 43.9c0 13.3 10.7 24 24 24s24-10.7 24-24L480 8zM48 256c-26.5 0-48 21.5-48 48L0 464c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48L48 256zm47.3 56c-3.4 20.1-19.2 36-39.4 39.4-4.4 .7-8-2.9-8-7.3l0-32c0-4.4 3.6-8 8-8l32 0c4.4 0 8.1 3.6 7.3 8zm0 144.1c.7 4.4-2.9 8-7.3 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8.1 8-7.3 20.1 3.4 36 19.2 39.4 39.4zM456 416.7c4.4-.7 8 2.9 8 7.3l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8.1-3.6-7.3-8 3.4-20.1 19.2-36 39.4-39.4zM416.7 312c-.7-4.4 2.9-8 7.3-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8.1-8 7.3-20.1-3.4-36-19.2-39.4-39.4zM192 384a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" fill="currentColor"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: money-bill-trend-up
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for money-bill-trend-up (fontawesome). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-money-bill-trend-up {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(0px, -6px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(0px, -4px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-money-bill-trend-up {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-money-bill-trend-up 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-money-bill-trend-up 3s ease-in-out infinite alternate;
+}
+</style>

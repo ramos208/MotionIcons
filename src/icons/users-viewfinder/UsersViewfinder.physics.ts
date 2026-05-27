@@ -1,0 +1,9 @@
+export const UsersViewfinderPhysics = {
+  tension: 12,
+  friction: 37,
+  mass: 1.2,
+  damping: 24.8,
+  stiffness: 490,
+  elasticity: 1.19,
+  inertia: 1.13
+};

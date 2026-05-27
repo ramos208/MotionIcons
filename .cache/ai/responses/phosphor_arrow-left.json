@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-flare",
+    "rotation": [
+      30,
+      -30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 200,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.65,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "This motion profile emphasizes a gentle yet energetic feel, with subtle drift during idle and hover animations to create a sense of calm followed by sudden bursts of energy upon interaction."
+}

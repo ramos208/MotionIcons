@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "vortex-flip",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      20,
+      -20
+    ],
+    "duration": 1,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "light-pulse",
+    "smoke-cloud"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 20,
+    "friction": 3,
+    "damping": 0.1,
+    "stiffness": 15
+  },
+  "motionPhilosophy": "The badge question mark icon features a subtle yet dynamic drift motion to signify focus and attention, enhanced by hover effects that create a vortex-like flip effect with particles for visual interest. The click animation adds a shimmering ripple effect to mimic the behavior of an interactive element."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2.5,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.3,
+    "easing": "quintic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibrate-and-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.8,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The motion is designed to emphasize the directional nature of the arrow by combining subtle rotations and scale changes on hover, followed by a visually impactful pop upon click. The dynamic-pop type ensures that the icon's movement feels natural and responsive while maintaining its core functionality."
+}

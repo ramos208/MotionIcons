@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "pulse-flare",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "quint-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 1.2
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic and engaging interaction for the badge-minus icon, blending subtle shifts with energetic effects like pulsing and sparkles. The physics settings ensure that the icon reacts realistically in terms of inertia, elasticity, and other physical properties."
+}

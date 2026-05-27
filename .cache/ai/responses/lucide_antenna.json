@@ -1,0 +1,60 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "antenna-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "antenna-hover",
+    "rotation": [
+      0,
+      45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -0.25
+    ],
+    "skew": [
+      3,
+      3
+    ],
+    "duration": 1,
+    "easing": "quintOut",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "particle-lightning"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.7,
+    "damping": 0.6,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion is designed to mimic the mechanical properties of an antenna, emphasizing its directional and oscillating nature through a combination of rotation, scale changes, and translational movements. The hover effect introduces a sense of dynamism with added skewing for depth perception, while the click animation incorporates vibration and ripple effects for tactile feedback."
+}

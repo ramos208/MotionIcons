@@ -1,0 +1,55 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 3,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -0.5,
+      -0.5
+    ],
+    "duration": 1,
+    "easing": "ease-in"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.3,
+    "mass": 1.5,
+    "tension": 0.9,
+    "friction": 0.2,
+    "damping": 0.6,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "The motion is designed to mimic the mechanical properties of a physical arrow up square icon, with subtle inertia and elasticity that gives it a lively and kinetic feel."
+}

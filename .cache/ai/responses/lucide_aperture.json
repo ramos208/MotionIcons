@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 300,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 300,
+    "easing": "linear"
+  },
+  "clickAnimation": {
+    "name": "vibrate",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 2.5,
+    "tension": 100,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile aims to mimic the aperture opening and closing action, with a focus on fluid transitions and subtle vibrations that enhance the icon's representation of light passing through an opening."
+}

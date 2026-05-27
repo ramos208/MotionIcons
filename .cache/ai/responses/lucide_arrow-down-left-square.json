@@ -1,0 +1,56 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "soft-tide",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "twirl-dance",
+    "rotation": [
+      -30,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      5,
+      -2
+    ],
+    "duration": 1,
+    "easing": "outBack"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "dust-glow",
+    "glow-particles"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 3,
+    "tension": 1.2,
+    "friction": 0.7,
+    "damping": 0.4,
+    "stiffness": 1.5
+  },
+  "motionPhilosophy": "This motion design captures the essence of a modern, directional arrow by incorporating soft, fluid transitions and subtle vibrations upon hover and click interactions, enhancing its elegance and responsiveness."
+}

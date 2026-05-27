@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -10
+    ],
+    "duration": 300,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 300,
+    "easing": "quint-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibration-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 350,
+    "friction": 45,
+    "damping": 0.95,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The idle animation creates a subtle drift effect, while the hover animation introduces an elastic and visually engaging ripple motion. The click animation adds vibration and ripple effects to enhance interactivity."
+}

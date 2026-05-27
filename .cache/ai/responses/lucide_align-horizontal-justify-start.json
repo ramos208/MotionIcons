@@ -1,0 +1,53 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -5,
+      -5
+    ],
+    "duration": 1.2,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 0.8,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.6,
+    "elasticity": 0.8,
+    "mass": 1.5,
+    "tension": 0.3,
+    "friction": 0.2,
+    "damping": 0.7,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion is designed to mimic a delicate, yet assertive elastic-pop motion typical of modern UI elements. The hover effect adds an interactive flair with turbulence and particle effects for depth."
+}

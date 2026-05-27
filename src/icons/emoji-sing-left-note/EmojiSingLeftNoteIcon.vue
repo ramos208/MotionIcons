@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M2.8 8.1C2.8 8.59706 2.39706 9 1.9 9C1.40294 9 1 8.59706 1 8.1C1 7.60294 1.40294 7.2 1.9 7.2C2.39706 7.2 2.8 7.60294 2.8 8.1Z" fill="currentColor"/><path d="M2.8 8.1C2.8 8.59706 2.39706 9 1.9 9C1.40294 9 1 8.59706 1 8.1C1 7.60294 1.40294 7.2 1.9 7.2C2.39706 7.2 2.8 7.60294 2.8 8.1ZM2.8 8.1V3.6C2.8 3.26863 3.06863 3 3.4 3H5" stroke="currentColor" stroke-linecap="round"/><path d="M8 17C9.10457 17 10 16.1046 10 15C10 13.8954 9.10457 13 8 13C6.89543 13 6 13.8954 6 15C6 16.1046 6.89543 17 8 17Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.04938 13C2.5511 18.0533 6.81465 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C10.5778 2 9.22492 2.2969 8 2.83209" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 9C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8C15.2239 8 15 8.22386 15 8.5C15 8.77614 15.2239 9 15.5 9Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 9C8.77614 9 9 8.77614 9 8.5C9 8.22386 8.77614 8 8.5 8C8.22386 8 8 8.22386 8 8.5C8 8.77614 8.22386 9 8.5 9Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: emoji-sing-left-note
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for emoji-sing-left-note (iconoir). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-emoji-sing-left-note {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(-6px, 0px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(-4px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-emoji-sing-left-note {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-emoji-sing-left-note 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-emoji-sing-left-note 3s ease-in-out infinite alternate;
+}
+</style>

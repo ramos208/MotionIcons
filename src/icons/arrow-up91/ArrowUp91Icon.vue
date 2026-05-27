@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-kinetic-trail']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M150.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L96 141.3 96 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7 41.4 41.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-96-96zM365.1 206.6c-9.6 14.8-5.4 34.6 9.4 44.3s34.6 5.4 44.3-9.4l42.1-64.9c12.4-19.2 19.1-41.6 19.1-64.5 0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.1 23.9 66.7 56.8 76.6l-11.7 18zM376 112a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm42.7 182c-8.3-6-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26z" fill="currentColor"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: arrow-up91
+// Category: directional
+// Physics Presets: Dynamic kinetic adaptation for arrow-up91 (fontawesome). Selected semantic motion: kinetic-trail with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-arrow-up91 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(0px, -6px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(0px, -4px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-arrow-up91 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-arrow-up91 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-arrow-up91 3s ease-in-out infinite alternate;
+}
+</style>

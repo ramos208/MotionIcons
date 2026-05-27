@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "fade-out",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      0.98,
+      0.98
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "linear"
+  },
+  "clickAnimation": {
+    "name": "none",
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 30,
+    "friction": 15,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion profile for bar-chart-3 emphasizes a subtle yet engaging elastic-pop effect that mirrors the visual complexity of the icon's geometric structure. The idle animation drifts gently, scaling up slightly and rotating subtly to hint at potential interaction cues. Upon hover, it fades out softly with enhanced translucency, while clicking triggers no additional motion but maintains its current state."
+}

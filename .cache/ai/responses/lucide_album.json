@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "album-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "album-hover",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -25,
+      25
+    ],
+    "duration": 1500,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "album-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-burst"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 200,
+    "friction": 40,
+    "damping": 0.8,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "This motion profile is designed to give the album icon a vibrant and lively feel, with elastic movements that create an engaging interaction experience."
+}

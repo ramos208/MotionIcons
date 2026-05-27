@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-pendulum']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-subtle-drift"
+    >
+      <path d="M12 2.99902C4.13281 2.99902 2 7.02846 2 11.999C2 14.0703 2.37034 15.9781 3.37161 17.499C4.63281 19.499 3.99253 21.3324 3 21.999C4.61547 21.999 5.70211 21.4848 6.39239 20.9756C6.88252 20.6141 7.50688 20.4354 8.0984 20.5805C9.20689 20.8524 10.4991 20.999 12 20.999C19.1328 20.999 22 16.9696 22 11.999C22 11.3116 21.9643 10.6422 21.8812 9.99902" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M12.1248 11.999H11.9998M16.125 11.999H16M8.125 11.999H8M12.2498 11.999C12.2498 12.1371 12.1379 12.249 11.9998 12.249C11.8618 12.249 11.7498 12.1371 11.7498 11.999C11.7498 11.861 11.8618 11.749 11.9998 11.749C12.1379 11.749 12.2498 11.861 12.2498 11.999ZM16.25 11.999C16.25 12.1371 16.1381 12.249 16 12.249C15.8619 12.249 15.75 12.1371 15.75 11.999C15.75 11.861 15.8619 11.749 16 11.749C16.1381 11.749 16.25 11.861 16.25 11.999ZM8.25 11.999C8.25 12.1371 8.13807 12.249 8 12.249C7.86193 12.249 7.75 12.1371 7.75 11.999C7.75 11.861 7.86193 11.749 8 11.749C8.13807 11.749 8.25 11.861 8.25 11.999Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M18 2.00098C17.3932 2.59081 15 4.1607 15 5.00098C15 5.84125 17.3932 7.41114 18 8.00098M15.5 5.00098L22 5.00098" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: message-incoming02
+// Category: notification
+// Physics Presets: Dynamic kinetic adaptation for message-incoming02 (hugeicons). Selected semantic motion: pendulum with custom idle (subtle-drift) and interaction profile (bell-ring) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-subtle-drift {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-message-incoming02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(-18deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1) rotate(15deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-message-incoming02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1) rotate(6deg) translate(0px, 0px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-message-incoming02 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) forwards;
+}
+
+.anim-subtle-drift {
+  animation: motion-ai-idle-message-incoming02 2.5s ease-in-out infinite alternate;
+}
+</style>

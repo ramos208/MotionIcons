@@ -1,0 +1,52 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 3000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "gear-friction",
+    "rotation": null,
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      -2,
+      -2
+    ],
+    "skew": null,
+    "duration": 500,
+    "easing": "outSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "gear-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.2,
+    "mass": 10,
+    "tension": 50,
+    "friction": 30,
+    "damping": 0.8,
+    "stiffness": 20
+  },
+  "motionPhilosophy": "The gear icon's motion is designed to mimic the physical properties of a mechanical component, emphasizing smooth rotation and subtle friction effects."
+}

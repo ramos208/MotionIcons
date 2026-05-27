@@ -1,0 +1,4 @@
+export const UserCodeParticles = {
+  types: ["glow-sparks","quantum-dust"],
+  active: true
+};

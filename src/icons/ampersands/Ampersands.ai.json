@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "vibrant-bounce",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.15,
+      1.15
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1000,
+    "easing": "quad-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 40,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "This motion profile is designed to give the ampersands icon a dynamic and lively feel, blending subtle drift for a calm idle state with a vibrant bounce on hover, emphasizing elasticity while maintaining physical realism through a combination of inertia, tension, and other physics properties."
+}

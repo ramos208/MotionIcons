@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-flip",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glitch-twirl",
+    "rotation": [
+      -360,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      20,
+      -20
+    ],
+    "duration": 1,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-shrink",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "fire-flick"
+  ],
+  "shader": "glitchGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2.5,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 1.2
+  },
+  "motionPhilosophy": "This motion profile aims to create a lively and dynamic experience for the arrow-right icon, emphasizing acceleration and kinetic-trail opportunities with smooth transitions and subtle flicker effects during hover and click interactions."
+}

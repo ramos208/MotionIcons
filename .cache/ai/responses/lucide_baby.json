@@ -1,0 +1,58 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple",
+    "rotation": null,
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 300,
+    "easing": "quint-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "vibrate-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.65,
+    "mass": 1.2,
+    "tension": 40,
+    "friction": 0.5,
+    "damping": 0.75,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion profile emulates a baby's gentle, almost imperceptible movements, with elastic effects adding a playful bounce to enhance the sense of life and spontaneity."
+}

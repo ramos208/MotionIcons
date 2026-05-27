@@ -1,0 +1,7346 @@
+[
+  {
+    "primary": "lock",
+    "similar": [
+      "alarm-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-lightning"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "alarm-clock-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "alarm-clock-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "alarm-clock-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "alarm-clock-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-dot"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-electric"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-ring"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blocks"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bluetooth-searching"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "book-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "book-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "book-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "calendar-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "calendar-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "circle-user-round"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "circle-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clipboard-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-1"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-10"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-11"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-12"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-3"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-4"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-5"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-6"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-7"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-8"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-9"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-alert"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-arrow-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-arrow-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-fading"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-alert"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-backup"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-download"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-drizzle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-fog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-hail"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-moon-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-moon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-rain-wind"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-sun-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-sun"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-sync"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-upload"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudy"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "columns-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "concierge-bell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "database-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "door-closed-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "download-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "dumbbell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "ear"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "earth-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-lock-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "file-search-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "file-search-corner"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "file-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "file-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "folder-search-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "folder-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "globe-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-keyhole-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-keyhole"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "mail-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "map-pin-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-square-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "monitor-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "package-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "scan-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-alert"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "shield-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "square-user-round"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "square-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "text-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "unlock-keyhole"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "unlock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "upload-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-check-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-cog-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-key"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-minus-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-pen"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-plus-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-key"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-pen"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "user-round-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-round"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "user-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-square-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-square"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-x-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-round"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-alert"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-snooze"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-arrow-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-arrow-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-modern"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-closed"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-group"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "area-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-notification"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "brain-research"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bubble-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "card-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-rotate-right"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-bookmark"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-desync"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-square"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-sunny"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-xmark"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "database-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "fingerprint-lock-circle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "folder-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "google-home"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-alt-slim-horiz"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-alt-slim"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-hospital"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-sale"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-secure"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-shield"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-simple-door"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-simple"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-table"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-temperature-in"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-temperature-out"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "home-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "input-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "ios-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-square"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "package-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "page-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "adjustments-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "automatic-gearbox"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "barbell-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "barbell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "barrier-block-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "barrier-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "basket-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-ringing-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-ringing"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-school"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bell-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-z"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockquote"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "brand-cloudflare"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "brand-google-home"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "brand-nextcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "brand-soundcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "calendar-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "camera-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "clipboard-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-24"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-bitcoin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-edit"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-1"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-10"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-11"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-12"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-3"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-4"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-5"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-6"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-7"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-8"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-hour-9"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-play"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-record"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "clock-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-shield"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-stop"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-bitcoin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-computing"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-data-connection"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-lock-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-network"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "cloud-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-storm"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "codeblock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-desktop-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-imac-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-ipad-horizontal-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-ipad-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-mobile-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-tablet-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "device-watch-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "devices-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "droplet-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "eye-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "file-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "filter-2-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "filter-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "flag-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "heart-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-bitcoin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-dot"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-eco"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-edit"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-hand"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-infinity"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-link"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "home-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-move"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-ribbon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "home-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-signal"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-spark"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-stats"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "list-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "location-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-access-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-access"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-bitcoin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-open-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-open-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-password"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "lock-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-square-rounded"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "manual-gearbox"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "map-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "map-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "message-2-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "message-circle-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "message-circle-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "message-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "message-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "mood-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "music-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "navigation-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "om"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "password-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "pencil-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "photo-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "pointer-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "replace-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "report-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "rotate-clockwise-2"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "rotate-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "school-bell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-ai"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-automation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "settings-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-spark"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-star"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-x"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "shield-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "shield-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "shopping-bag-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "shopping-cart-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "smart-home-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "smart-home"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-bitcoin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-bolt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-cancel"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-code"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-down"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-edit"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-exclamation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-heart"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-hexagon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-off"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-pause"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-pentagon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-pin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-question"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-scan"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-screen"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-share"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-shield"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-square-rounded"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-up"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-group"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "virus-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "world-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "arrow-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "arrow-counter-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "arrows-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "arrows-counter-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-simple"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-simple-ringing"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-simple-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-simple-z"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "book-open-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "call-bell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-afternoon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-countdown"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-counter-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-warning"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "code-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "file-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-simple-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "folder-simple-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "folder-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "gear-fine"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "gear-six"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-key"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-key-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-laminated"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-laminated-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-simple"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-simple-open"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lockers"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "rainbow-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "soundcloud-logo"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle-check"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle-dashed"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "user-circle-gear"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-focus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "user-gear"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-list"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-rectangle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-sound"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-switch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-four"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-three"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "ai-cloud01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "ai-cloud02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "ai-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "ai-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "ai-search02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "ai-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "ai-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "bitcoin-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bitcoin-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bitcoin-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "block-game"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain05"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain06"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchain07"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bluetooth-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bookmark-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bookmark-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bubble-chat-blocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bubble-chat-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "bubble-chat-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bubble-chat-unlock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "bubble-chat-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "c"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "calendar-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "calendar-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "calendar-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "calendar-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-blocked02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-blocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-locked02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-unlocked02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "call-unlocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-blocked01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-blocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "chat-search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "chat-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "chat-unlock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "chat-user01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "chat-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-add01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-add02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-check01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-check02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-minus01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-minus02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-remove01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-lock-remove02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "circle-unlock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock05"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-add"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-angled-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-angled-rain-zap"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-angled-zap"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-big-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-fast-wind"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-hailstone"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-little-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-little-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-loading"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-mid-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-mid-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-saving-done01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-saving-done02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-server"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-slow-wind"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "comment-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "comment-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "comment-block03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "computer-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "computer-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "computer-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "cpu-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "dashboard-circle-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "database-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "digital-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "door-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "dumbbell01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "dumbbell02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "dumbbell03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "edit-user02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "electric-home01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "electric-home02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "file-unlocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "folder-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "folder-search-two"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "folder-unlocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "gears"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "global-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "hanging-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "hold-locked01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "hold-locked02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home05"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home06"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home07"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home08"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home09"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home10"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home11"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home12"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home13"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "home-wifi"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "hotel-bell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "image-counter-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "image-rotation-clockwise"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "job-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "kettlebell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "laptop-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "laptop-settings"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "left-to-right-block-quote"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "location-user01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "location-user02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "location-user03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "location-user04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-computer"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-sync01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "lock-sync02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "locker01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "locker"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "mail-search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "mail-search02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "mail-unlock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "maps-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-blocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "message-search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "message-search02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "message-unlock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "message-user01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "message-user02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "money-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-angled-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-angled-zap"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-big-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-fast-wind"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-hailstone"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-little-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-little-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-mid-rain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-mid-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-slow-wind"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "moon-cloud-snow"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "notification-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "notification-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "notification-block03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "package-search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "phone-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "property-search"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "right-to-left-block-quote"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "route-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "rss-locked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "rss-unlocked"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "school-bell01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "school-bell02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "screen-add-to-home02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "screen-add-to-home"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "screen-lock-rotation"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-add"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-area"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-circle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-dollar"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-focus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-list01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-list02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-minus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-remove"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-replace"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-square"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-visual"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "searching"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "security-block"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "security-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings05"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-error01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "settings-error02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "shield-blockchain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "soundcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-add01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-add02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-check01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-check02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-minus01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-minus02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-password"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-remove01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-lock-remove02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "square-unlock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-rain01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-rain02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-rain-zap01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-rain-zap02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-zap01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-angled-zap02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-big-rain01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-big-rain02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-fast-wind01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-fast-wind02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-hailstone01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-hailstone02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-little-rain01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-little-rain02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-little-snow01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-little-snow02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-mid-rain01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-mid-rain02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-mid-snow01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-mid-snow02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-slow-wind01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-slow-wind02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-snow01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sun-cloud-snow02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "touch-locked01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "touch-locked02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "touch-locked03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "touch-locked04"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "twenty-four-hours-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-account"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-add01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-add02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-ai"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-arrow-left-right"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-block01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-block02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-check01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-check02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-circle02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-edit01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-full-view"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-group02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-group03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-id-verification"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-lock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-lock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-love01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-love02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-minus01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-minus02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-multiple02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-multiple03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-multiple"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-question01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-question02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-remove01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-remove02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-roadside"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "user-search01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "user-search02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "user-settings01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "user-settings02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-sharing"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-shield01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-shield02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-star01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-star02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-status"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-story"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-time01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-time02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-time03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-unlock01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-unlock02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-warning01"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-warning02"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-warning03"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "vintage-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "wifi-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "wifi-unlock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "wireless-cloud-access"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "a"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "anchor-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "arrow-down-up-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "b"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "bell-concierge"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "bridge-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "building-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "building-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "chalkboard-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "clipboard-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clock-rotate-left"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-download-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-meatball"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-showers-heavy"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-showers-water"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud-upload-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "d"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "e"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "g"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "h"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "hospital-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "house-chimney-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "house-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "house-user"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "i"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "k"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "l"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "location-pin-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "m"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "n"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "o"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "plane-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "r"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "road-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "s"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "school-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-location"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "search-plus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "shop-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "settings",
+    "similar": [
+      "t"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "table-cells-column-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "table-cells-row-lock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "table-cells-row-unlock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "tachometer-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "u"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "unlock-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-alt"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-alt-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-astronaut"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "user-clock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-doctor"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-friends"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-graduate"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-injured"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-md"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-ninja"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-nurse"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-secret"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-tag"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-tie"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-times"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "user-xmark"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-between-lines"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-cog"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "users-gear"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-line"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-rays"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-rectangle"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-slash"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "users-viewfinder"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "adblock"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "adblockplus"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "alibabacloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "apachecloudstack"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "arc"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockbench"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "blockchaindotcom"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "clevercloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "clockify"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloud66"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudbees"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudcannon"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudera"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudflare"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudflarepages"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudflareworkers"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudfoundry"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudinary"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudnativebuild"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudron"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudsmith"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "cloudways"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "codeblocks"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "ea"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "elasticcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "elasticsearch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "esphome"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "fugacloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "googlecloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "googlecloudcomposer"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "googlecloudspanner"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "googlecloudstorage"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "googlehome"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "googlesearchconsole"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "hive_blockchain"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homeadvisor"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homeassistant"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homeassistantcommunitystore"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homebrew"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homebridge"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "homepage"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "icloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "meilisearch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "mixcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "neteasecloudmusic"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "gear",
+    "similar": [
+      "netgear"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "nextcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "omadacloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "opensearch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "owncloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "home",
+    "similar": [
+      "petsathome"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "researchgate"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "roamresearch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "sonarqubecloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "superuser"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "bell",
+    "similar": [
+      "tacobell"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "lock",
+    "similar": [
+      "ublockorigin"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "upcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "user",
+    "similar": [
+      "uservoice"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "wasmcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "cloud",
+    "similar": [
+      "yandexcloud"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  },
+  {
+    "primary": "search",
+    "similar": [
+      "zincsearch"
+    ],
+    "confidence": 0.85,
+    "action": "MERGE_ALIAS"
+  }
+]

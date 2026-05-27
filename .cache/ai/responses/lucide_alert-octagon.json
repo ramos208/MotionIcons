@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1500,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "glow-pop",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -3,
+      -3
+    ],
+    "skew": null,
+    "duration": 500,
+    "easing": "cubicOut",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.9,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The icon design is a highly complex octagon with directional flow opportunities. The motion is intended to simulate an alert or warning signal, starting from a subtle drift to attract attention and ending in a dynamic pop effect upon hover. A sound ripple animation will be added for a more realistic notification experience."
+}

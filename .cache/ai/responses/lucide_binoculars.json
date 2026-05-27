@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 1000,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 10,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.8,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The binoculars icon will have a dynamic, pulsing idle animation that smoothly drifts and expands when hovered over with a subtle glow-sparks particle effect. Upon click, there will be an elastic ripple effect to emphasize interaction. The physical properties are tuned for the type of content these icons often represent, such as browsing or exploration."
+}

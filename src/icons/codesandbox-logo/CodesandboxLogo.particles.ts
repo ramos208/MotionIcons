@@ -1,0 +1,4 @@
+export const CodesandboxLogoParticles = {
+  types: ["glow-sparks","quantum-dust"],
+  active: true
+};

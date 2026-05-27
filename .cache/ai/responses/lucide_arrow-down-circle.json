@@ -1,0 +1,48 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gentle-spin",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "orbit",
+    "rotation": [
+      -180,
+      180
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "quintic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 2,
+    "tension": 1,
+    "friction": 0.5,
+    "damping": 0.3,
+    "stiffness": 1
+  },
+  "motionPhilosophy": "This animation design emphasizes a gentle yet dynamic motion for the arrow-down-circle, starting from its idle state with a subtle spin and engaging into a more kinetic hover effect that orbits around its center axis. Upon clicking, it triggers a ripple-like visual effect and vibrates to enhance the user's interaction experience."
+}

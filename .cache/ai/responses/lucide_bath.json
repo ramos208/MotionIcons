@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "out-circ"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.3,
+    "easing": "out-circ",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.6,
+    "elasticity": 0.95,
+    "mass": 10,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.2,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "The motion design emphasizes a gentle yet engaging interaction, mimicking the fluidity of water as the icon 'bath' suggests. The animation starts with a subtle drift to mimic the flow in a bathtub before gradually intensifying with elastic-pop effects upon hover and click. This ensures both visual appeal and user-friendly experience."
+}

@@ -1,0 +1,54 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "easeOutCubic"
+  },
+  "hoverAnimation": {
+    "name": "ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 250,
+    "easing": "easeOutElastic"
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.5,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The motion is designed to simulate the search functionality of a Bluetooth icon, with an elastic-pop effect that emphasizes smooth transitions and visual engagement."
+}

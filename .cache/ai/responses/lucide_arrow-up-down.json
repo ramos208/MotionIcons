@@ -1,0 +1,62 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      90,
+      -90
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      5
+    ],
+    "skew": [
+      45,
+      -45
+    ],
+    "duration": 2,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 45,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion profile for the arrow-up-down icon is designed with a mechanical theme, emphasizing fluid and kinetic interactions. The idle animation simulates smooth, pulsating movement while maintaining symmetry broken by subtle angular displacement, representing the directional flow of the icon. Upon hover, the icon undergoes a series of turbulent movements to convey dynamic interaction. Upon click, a ripple effect enhances user experience, further illustrating the upward and downward motion."
+}

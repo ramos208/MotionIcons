@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M12 2C8.13398 2 4.99997 5.13401 4.99997 9C4.99997 10.5151 5.48133 11.9178 6.29947 13.0635C6.55866 13.4264 6.68827 13.608 6.73978 13.6988C6.90985 13.9988 6.95318 14.134 6.98909 14.4769C6.99997 14.5808 6.99997 14.7173 6.99997 14.9904C6.99997 15.9293 6.99997 16.3988 7.10416 16.7838C7.38276 17.8131 8.18685 18.6172 9.21621 18.8958C9.60116 19 10.0706 19 11.0096 19H12.9903C13.9293 19 14.3988 19 14.7837 18.8958C15.8131 18.6172 16.6172 17.8131 16.8958 16.7838C17 16.3988 17 15.9293 17 14.9904C17 14.7173 17 14.5808 17.0108 14.4769C17.0468 14.134 17.0901 13.9988 17.2602 13.6988C17.3117 13.6079 17.4413 13.4265 17.7005 13.0635C18.5186 11.9178 19 10.5151 19 9C19 5.13401 15.866 2 12 2Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M11 15H13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M12 15V12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M12 19V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: parking-meter
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for parking-meter (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-parking-meter {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-parking-meter {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-parking-meter 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-parking-meter 3s ease-in-out infinite alternate;
+}
+</style>

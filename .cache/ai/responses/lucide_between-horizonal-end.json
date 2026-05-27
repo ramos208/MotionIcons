@@ -1,0 +1,58 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "outQuad"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -0.1,
+      -0.1
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.5,
+    "easing": "outSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.7,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "This motion profile is designed to emphasize the elastic and pop characteristics of the icon, creating a visually engaging and interactive experience that reflects its geometric complexity."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "neonFlare",
+    "rotation": [
+      90,
+      90
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      35,
+      -35
+    ],
+    "duration": 2000,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 200,
+    "friction": 80,
+    "damping": 0.6,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile emphasizes a dynamic and populating movement for the arrow-up-circle icon, leveraging subtle drift animations during idle state to create a smooth and natural flow. Hovering over the icon triggers a vibrant neon flare animation with a slight skew effect, enhancing its directional clarity. Upon clicking, an explosion-like animation is triggered with accompanying vibrations and ripples to simulate physical interaction. The addition of particles like glow-sparks and sound-wave further enriches the visual experience by creating a dynamic environment around the icon, while the shader enhances the overall appearance with a neon-plasma effect for a modern, energetic feel."
+}

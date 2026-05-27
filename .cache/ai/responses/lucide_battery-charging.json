@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "battery-idle-charging",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "battery-hover-charging",
+    "rotation": [
+      360,
+      -90
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "duration": 400,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "battery-click-charging",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 40,
+    "friction": 3,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "This motion profile aims to simulate the charging process of a battery with an emphasis on fluidity and dynamic pops, enhancing the icon's energy and responsiveness."
+}

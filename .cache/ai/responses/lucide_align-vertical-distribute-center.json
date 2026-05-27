@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      5,
+      -5
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1500,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.65,
+    "mass": 100,
+    "tension": 200,
+    "friction": 50,
+    "damping": 0.7,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion design for this icon is crafted to evoke a sense of calm and stability, with subtle drift during idle state and an energetic pulse upon hover, complemented by elastic pop for click interaction. The shader adds a futuristic glow effect that enhances the visual appeal."
+}

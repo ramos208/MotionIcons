@@ -1,0 +1,56 @@
+{
+  "motionType": "turbulence",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "spin-flick",
+    "rotation": [
+      2,
+      2
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 3,
+    "easing": "cubicOut"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 30,
+    "friction": 40,
+    "damping": 20,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The app-window icon is designed to depict a window that floats and moves, evoking the sense of openness and flexibility. The turbulence motion type ensures smooth, flowing animations, which are highly intuitive for users interacting with this conceptually open interface."
+}

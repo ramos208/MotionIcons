@@ -1,0 +1,50 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "out-quint"
+  },
+  "hoverAnimation": {
+    "name": "wobble-shift",
+    "rotation": [
+      10,
+      -10
+    ],
+    "scale": [
+      0.9,
+      0.9
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "in-out-sine",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-up-bounce",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "electric-streak",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.5,
+    "mass": 1.2,
+    "tension": 10,
+    "friction": 0.6,
+    "damping": 0.9,
+    "stiffness": 4
+  },
+  "motionPhilosophy": "This motion design aims to create a dynamic and lively feeling for the align-left icon, using elastic pop as an opportunity for visual dynamism. The animation is designed to look natural and engaging, with subtle shifts and bursts of energy that reflect the core function of the icon."
+}

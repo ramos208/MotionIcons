@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0.5,
+      -0.3
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0.2,
+      -0.1
+    ],
+    "duration": 0.5,
+    "easing": "cubic-in"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.65,
+    "elasticity": 0.7,
+    "mass": 10,
+    "tension": 80,
+    "friction": 5,
+    "damping": 0.2,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion design emphasizes a gentle yet impactful pop effect, combined with subtle particles and vibrant shaders to highlight the badge-russian-ruble icon, ensuring it stands out in various interactions."
+}

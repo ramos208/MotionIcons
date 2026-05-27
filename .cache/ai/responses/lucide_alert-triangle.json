@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 300,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "swirl",
+    "rotation": [
+      -180,
+      180
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": [
+      45,
+      45
+    ],
+    "duration": 300,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 80,
+    "damping": 0.3,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "This motion profile for the alert-triangle icon is designed to create a dynamic and engaging interaction, with subtle drift during idle and hover states followed by an impactful pop when clicked. The use of particles, shader, and physics settings ensure a visually vibrant yet realistic motion experience that aligns well with its category of notification."
+}

@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "soft-fade-in",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 200,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "pulse",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0.2,
+      -0.2
+    ],
+    "duration": 300,
+    "easing": "cubicInOut",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glowNeon",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1000,
+    "tension": 200,
+    "friction": 50,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "Designs a dynamic, pulsating hover effect with subtle sparkles and a glowing neon shader to mimic the motion of an arrow transitioning from a static state into a kinetic one."
+}

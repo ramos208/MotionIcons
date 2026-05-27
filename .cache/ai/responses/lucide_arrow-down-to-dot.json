@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 0.5,
+    "easing": "quint-in"
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.75,
+    "friction": 0.3,
+    "damping": 0.8,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The motion philosophy for this icon is to create a dynamic and lively hover effect with particles, emphasizing the kinetic trail opportunities while maintaining a subtle yet engaging visual feedback upon clicking."
+}

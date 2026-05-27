@@ -1,0 +1,49 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": null,
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      -0.3,
+      -0.4
+    ],
+    "skew": null,
+    "duration": 0.75,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 4.5,
+    "friction": 2.5,
+    "damping": 0.6,
+    "stiffness": 3.5
+  },
+  "motionPhilosophy": "The icon is designed to mimic the motion of a pendulum, which naturally represents a simple yet effective alarm mechanism. The hover animation adds subtle movement and visual interest without overwhelming the simplicity, while the click ripple emphasizes the alert feature with vibrant colors."
+}

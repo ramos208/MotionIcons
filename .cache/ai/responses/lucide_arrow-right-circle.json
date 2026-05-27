@@ -1,0 +1,58 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 300,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -2,
+      -2
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 300,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-fade",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 800,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion design emphasizes a lively and energetic feel, with subtle drifting to create depth in the hover state and a pronounced pop effect on click."
+}

@@ -1,0 +1,9 @@
+export const MacOsWindowPhysics = {
+  tension: -10,
+  friction: 35,
+  mass: 1.2,
+  damping: 27,
+  stiffness: 545,
+  elasticity: 1.3,
+  inertia: 1.09
+};

@@ -1,0 +1,53 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      5
+    ],
+    "duration": 500,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile emphasizes a gentle yet visually engaging transition, using elastic pop to create subtle movement that mimics the natural bounce of an object being pushed gently and then released. The hover effect adds a touch of levity with a floating animation, while clicks are accompanied by a vibrant glow to enhance interaction."
+}

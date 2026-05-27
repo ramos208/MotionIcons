@@ -1,0 +1,53 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 800,
+    "easing": "inBack",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.6,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile aims to capture the dynamic and mechanical nature of an arrow pointing upwards, with a focus on realism in terms of inertia, elasticity, and friction, while incorporating subtle vibrations for added interactivity."
+}

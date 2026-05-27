@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-aurora",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      30,
+      -30
+    ],
+    "skew": null,
+    "duration": 0.5,
+    "easing": "quad-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibration-rumble",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2,
+    "tension": 300,
+    "friction": 100,
+    "damping": 40,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "This motion design prioritizes a smooth, elastic transition for the idle state, emphasizing visual and physical responsiveness during hover. The click animation includes a subtle vibration effect to enhance interactivity without overpowering the overall icon's aesthetics."
+}

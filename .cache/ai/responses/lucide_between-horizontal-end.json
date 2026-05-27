@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-spin",
+    "rotation": [
+      -45,
+      45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -3
+    ],
+    "duration": 1,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.95,
+    "mass": 10,
+    "tension": 200,
+    "friction": 100,
+    "damping": 0.3,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the elastic-pop interaction of the 'between-horizontal-end' icon from the Lucide library. The animation starts with a soft, pulsating idle state that gradually transforms into a more dynamic hover effect and finally culminates in a gentle ripple upon click. This design ensures the motion feels natural and responsive, reflecting the fluid nature of the icon's shape."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gentle-drift",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.1
+    ],
+    "translate": null,
+    "duration": 4000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "swirl-twister",
+    "rotation": [
+      360,
+      -360
+    ],
+    "scale": [
+      1.2,
+      0.8
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 2000,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "glowSparks",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 100,
+    "damping": 0.9,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic, engaging experience for the arrow-big-left icon. The idle animation encourages subtle movement and transformation, while the hover animation adds an element of excitement through rotation and skewing effects. Upon clicking, the ripple effect enhances the visual feedback, providing a sense of depth and interactivity."
+}

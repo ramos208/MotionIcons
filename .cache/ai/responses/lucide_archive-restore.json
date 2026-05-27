@@ -1,0 +1,61 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "float-down",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "rotate-spin",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      20,
+      0
+    ],
+    "duration": 800,
+    "easing": "cubic-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-wave",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 2,
+    "tension": 40,
+    "friction": 30,
+    "damping": 0.6,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "This animation emphasizes a smooth and elastic pop upon hover, with subtle vibrations for added feedback during click events."
+}

@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -3
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "This motion profile is designed to convey a dynamic and energetic feel, reflecting the complex curves of the icon. The idle animation provides subtle drift for a natural appearance, hover animation uses spark particles with a slight scale up effect to add depth, and click animation includes glow-sparks particles but no vibration or ripple effects."
+}

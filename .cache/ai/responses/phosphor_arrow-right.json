@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "sparkle-fade-in",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 300,
+    "easing": "quint-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "lightning-flash"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 250,
+    "friction": 0.6,
+    "damping": 0.5,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion design prioritizes a smooth and dynamic appearance for the arrow-right icon, focusing on subtle drift during idle with a hover effect that emphasizes movement through scaling and rotation. Click interactions are designed to be visually engaging with a ripple animation and tactile feedback."
+}

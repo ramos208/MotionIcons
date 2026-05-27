@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M21.001 4.49988H15.001M21.001 4.49988C21.001 3.79965 19.0067 2.49141 18.501 1.99988M21.001 4.49988C21.001 5.20011 19.0067 6.50835 18.501 6.99988" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M6.51282 13.5147V3.48575C6.51282 2.66411 7.17966 1.99805 8.00225 1.99805C8.82484 1.99805 9.49168 2.66411 9.49168 3.48575V8.68783M9.49168 8.68783V11.0115M9.49168 8.68783C10.2966 7.56941 12.0992 7.94193 12.4829 9.68079C12.4892 9.70965 12.4944 9.73874 12.4986 9.76798M12.5137 11.0075V10.0046C12.5137 9.9255 12.5098 9.84619 12.4986 9.76798M12.4986 9.76798C12.9918 8.41762 15.2563 8.93261 15.5028 10.8609M15.5028 10.8609V12.0069M15.5028 10.8609C15.9068 9.37034 18.5586 10.4121 18.5012 12.1544V15.3329C18.4982 17.059 18.2101 18.3105 17.184 19.34C16.236 20.4718 16.459 21.1053 16.4354 22.0017M6.51282 8.9905C5.19389 10.1843 3.69691 11.8159 3.50578 12.2023C2.61647 13.5544 2.93276 14.6153 4.19658 16.4175C5.13711 17.7587 6.39859 19.2534 6.46467 19.3282C7.13727 20.0896 7.00546 20.6958 7.00546 21.9907" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: swipe-right06
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for swipe-right06 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-swipe-right06 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(6px, 0px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(4px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-swipe-right06 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-swipe-right06 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-swipe-right06 3s ease-in-out infinite alternate;
+}
+</style>

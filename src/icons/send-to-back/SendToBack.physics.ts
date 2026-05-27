@@ -1,0 +1,9 @@
+export const SendToBackPhysics = {
+  tension: -54,
+  friction: 30,
+  mass: 1.2,
+  damping: 31.400000000000002,
+  stiffness: 655,
+  elasticity: 1.52,
+  inertia: 0.99
+};

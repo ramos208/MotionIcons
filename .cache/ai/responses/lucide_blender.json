@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-pulse",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.75,
+    "easing": "ease-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-echo",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "light-blink"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 350,
+    "friction": 250,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile emphasizes a gentle yet engaging spin and drift effect for the idle state, paired with an energetic pulse during hover, accompanied by subtle particles and vibrant shaders to enhance visual appeal."
+}

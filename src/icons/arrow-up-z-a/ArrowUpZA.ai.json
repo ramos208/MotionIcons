@@ -1,0 +1,47 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": null,
+    "duration": 0.3,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-and-shake",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.4,
+    "damping": 0.5,
+    "stiffness": 1.3
+  },
+  "motionPhilosophy": "This motion design is tailored to create a dynamic and engaging pop effect for the 'arrow-up-z-a' icon, incorporating subtle vibrations upon hover and click interactions, while using complex particle effects and a futuristic shader."
+}

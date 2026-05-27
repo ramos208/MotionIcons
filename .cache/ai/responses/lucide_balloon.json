@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "balloon-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "balloon-hover",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -25,
+      -25
+    ],
+    "duration": 0.5,
+    "easing": "out-exponential",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "balloon-click",
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "bubble-spray"
+  ],
+  "shader": "glowPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 300,
+    "friction": 0.2,
+    "damping": 0.9,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion is designed to mimic the feeling of a balloon expanding and contracting, with subtle elastic movements that give it a lifelike quality."
+}

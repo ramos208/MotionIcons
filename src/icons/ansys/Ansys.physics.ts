@@ -1,0 +1,9 @@
+export const AnsysPhysics = {
+  tension: 52,
+  friction: 38,
+  mass: 1.2,
+  damping: 20.8,
+  stiffness: 390,
+  elasticity: 0.99,
+  inertia: 1.15
+};

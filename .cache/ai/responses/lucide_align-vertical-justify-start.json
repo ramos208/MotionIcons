@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "outBack"
+  },
+  "hoverAnimation": {
+    "name": "flicker",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 200,
+    "easing": "inExpo",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.75,
+    "friction": 0.6,
+    "damping": 0.3,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion design emulates a subtle, almost imperceptible movement combined with a slight skew during hover to simulate the icon's vertical alignment functionality. The click animation is omitted as it would be redundant given its semantic nature."
+}

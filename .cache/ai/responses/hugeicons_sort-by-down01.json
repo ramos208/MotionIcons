@@ -1,0 +1,49 @@
+{
+  "motionType": "radar",
+  "idleAnimation": {
+    "name": "ambient-floating",
+    "rotation": null,
+    "scale": [
+      0.98,
+      1.02
+    ],
+    "translate": [
+      0,
+      -1.5
+    ],
+    "duration": 3,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      4
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "light-trail"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 1.03,
+    "elasticity": 1.5,
+    "mass": 1.2,
+    "tension": -50,
+    "friction": 32,
+    "damping": 31,
+    "stiffness": 645
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for sort-by-down01 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

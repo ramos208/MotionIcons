@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0.5,
+      -0.5
+    ],
+    "scale": [
+      1.2,
+      0.8
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "skew": null,
+    "duration": 1000,
+    "easing": "quint-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 200,
+    "friction": 100,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile utilizes a combination of elasticity and pop to create a visually engaging animation for the align-center-vertical icon. The idle state is designed with a subtle drift effect, while hover brings in sparks of light, emphasizing its centering nature. Click events are handled without additional haptic or visual feedback, keeping them lightweight."
+}

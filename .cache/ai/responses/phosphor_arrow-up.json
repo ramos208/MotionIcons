@@ -1,0 +1,55 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      -360,
+      360
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      20,
+      -20
+    ],
+    "duration": 800,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-movement",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 400,
+    "friction": 200,
+    "damping": 0.7,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This motion profile aims to emulate a mechanical arrow-up icon, emphasizing smooth rotations and subtle vibrations for a responsive user experience."
+}

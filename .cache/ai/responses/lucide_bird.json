@@ -1,0 +1,50 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "floating",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "quint-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "sound-wave",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.7,
+    "elasticity": 0.95,
+    "mass": 10,
+    "tension": 300,
+    "friction": 200,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion design for the bird icon is based on an elastic-pop motion type, emphasizing fluid and dynamic movements that mimic real-world physical properties such as elasticity and inertia. The hover animation creates a sense of lightness by using a floating effect with slight rotational dynamics to represent air currents around the bird's wings. The click animation includes sound-wave particles to simulate the sound effects often associated with clicking an icon in user interfaces."
+}

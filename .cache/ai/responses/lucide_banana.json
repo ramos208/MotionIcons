@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "banana-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 1.5,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "banana-hover",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 0.5,
+    "easing": "out-cubic"
+  },
+  "clickAnimation": {
+    "name": "banana-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.6,
+    "damping": 0.3,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion profile aims to create a lively and engaging interaction experience for the banana icon. The idle animation features subtle rotation and scale changes, emphasizing its vibrant color while maintaining a stable base. The hover effect adds a slight rotation and scale increase, creating an illusion of growth and excitement. For clicks, a gentle vibration is applied with no ripple effect to highlight the interactive nature without overwhelming the user."
+}

@@ -1,0 +1,57 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "soft-wave",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 4,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-wave",
+    "rotation": null,
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      0,
+      -3
+    ],
+    "skew": [
+      -2,
+      2
+    ],
+    "duration": 4,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-dots"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 2,
+    "tension": 400,
+    "friction": 100,
+    "damping": 0.9,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "This motion design emphasizes a smooth, dynamic transition with an emphasis on inertia and responsiveness to the user's interaction. The animation is designed to convey energy and movement while maintaining a visually appealing and engaging experience."
+}

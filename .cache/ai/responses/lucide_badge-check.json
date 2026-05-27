@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.02,
+      1.02
+    ],
+    "translate": [
+      0,
+      -3
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.6,
+    "friction": 0.3,
+    "damping": 0.9,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion design for the badge-check icon emphasizes a dynamic and visually engaging hover effect with subtle glows and sparks to simulate interaction, combined with a gentle click animation that includes a realistic spring-like feel and ripple effects."
+}

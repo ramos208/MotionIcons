@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-fade",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 300,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 0.6,
+    "friction": 0.3,
+    "damping": 0.7,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion is designed to feel elastic and playful, mimicking the icon's semantic meaning of centering alignment in a gentle and fluid manner. The animation starts with an initial drift for idle interaction, followed by a slight fade-in when hovered over, emphasizing symmetry and balance."
+}

@@ -1,0 +1,48 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neutral-shift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-shift",
+    "rotation": null,
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1500,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": false,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-spray"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 1.1
+  },
+  "motionPhilosophy": "The icon's motion emphasizes a gentle yet visually engaging interaction, incorporating elasticity and subtle shifts to create a dynamic yet calm effect."
+}

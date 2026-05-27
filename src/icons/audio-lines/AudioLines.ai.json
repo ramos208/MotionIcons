@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "audio-lines-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "audio-lines-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -1,
+      -1
+    ],
+    "skew": [
+      5,
+      -5
+    ],
+    "duration": 2,
+    "easing": "inSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "audio-lines-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-burst"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion of the audio-lines icon is designed to mimic the sound waves and transitions through a subtle yet dynamic pop effect. The idle animation gently rotates and scales the icon, while the hover adds a playful spin and skew offsetting it from its center. Upon clicking, a subtle vibration effect combined with an expanding ripple effect enhances the interactivity of the icon."
+}

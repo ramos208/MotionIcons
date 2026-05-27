@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "shield-warning-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "shield-warning-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 1500,
+    "easing": "outQuint",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "shield-warning-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple"
+  ],
+  "shader": "glowSparks",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 600,
+    "friction": 800,
+    "damping": 30,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion profile emphasizes a subtle yet noticeable elastic pop effect, with the icon appearing to spring back after being interacted with. The hover state is designed to create a sense of depth and interaction, while the click animation includes an engaging ripple effect."
+}

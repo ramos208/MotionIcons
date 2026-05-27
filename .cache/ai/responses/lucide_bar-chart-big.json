@@ -1,0 +1,54 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outQuad"
+  },
+  "hoverAnimation": {
+    "name": "wave-tremor",
+    "rotation": [
+      1.5,
+      -1.5
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": null,
+    "skew": [
+      -0.2,
+      0.2
+    ],
+    "duration": 1500,
+    "easing": "outBounce",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 600,
+    "friction": 300,
+    "damping": 0.75,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion is designed to be elastic and dynamic, with a subtle drift during idle state, a lively wave tremor on hover, and strong elasticity upon click. The shader adds a neon glow effect for visual appeal, while the physics settings ensure realistic interaction mechanics."
+}

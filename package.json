@@ -15,7 +15,11 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "pipeline": "tsx engine/index.ts",
+    "pipeline:download": "tsx engine/downloader/index.ts",
+    "pipeline:duplicates": "tsx engine/queue/index.ts",
+    "pipeline:generate": "tsx engine/generator/index.ts"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.2.0",
@@ -25,10 +29,13 @@
     "@iconoir/vue": "^7.11.0",
     "@phosphor-icons/vue": "^2.2.1",
     "@tabler/icons-vue": "^3.44.0",
+    "@tresjs/cientos": "^5.7.1",
+    "@tresjs/core": "^5.8.1",
     "gsap": "^3.15.0",
     "hugeicons-vue": "^0.0.1",
     "lucide-vue-next": "^1.0.0",
     "simple-icons": "^16.21.0",
+    "three": "^0.184.0",
     "vue": "^3.5.34"
   },
   "devDependencies": {
@@ -38,8 +45,12 @@
     "@vue/test-utils": "^2.4.10",
     "@vue/tsconfig": "^0.9.1",
     "eslint": "^10.4.0",
+    "fast-glob": "^3.3.3",
     "jsdom": "^29.1.1",
+    "lucide-static": "^1.16.0",
     "prettier": "^3.8.3",
+    "svgo": "^4.0.1",
+    "tsx": "^4.22.3",
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
     "vitest": "^4.1.7",

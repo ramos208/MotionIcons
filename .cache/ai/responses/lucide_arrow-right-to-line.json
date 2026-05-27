@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 300,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "vibrate",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -2,
+      -2
+    ],
+    "skew": [
+      3,
+      3
+    ],
+    "duration": 400,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.3,
+    "damping": 0.7,
+    "stiffness": 50
+  },
+  "motionPhilosophy": "This dynamic-pop motion emphasizes a subtle yet engaging hover effect, followed by a strong click animation with vibrations and a visual glow to highlight the arrow-right-to-line icon."
+}

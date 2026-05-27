@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 200,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "swirl",
+    "rotation": [
+      -45,
+      45
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      -20,
+      20
+    ],
+    "duration": 300,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.8,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "The idle animation subtly drags the icon into a natural movement, while hover activates a swirling effect with added spring for depth. The click animation includes a vibrant ripple to mimic an upward motion and adds visual flair."
+}

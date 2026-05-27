@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      3,
+      -3
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "inSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-fade",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.65,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.9,
+    "stiffness": 800
+  },
+  "motionPhilosophy": "The icon's directional flow is emphasized through a dynamic and pulsating motion that gradually decelerates upon hovering, simulating fluid movement and acceleration upon clicking. The ripple effect adds visual depth to the hover animation."
+}

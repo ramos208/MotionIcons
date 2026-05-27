@@ -1,0 +1,54 @@
+{
+  "motionType": "turbulence",
+  "idleAnimation": {
+    "name": "cloud-float-subtle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -25,
+      -30
+    ],
+    "duration": 1.5,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "cloud-float-activate",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -20,
+      -35
+    ],
+    "skew": [
+      1.5,
+      -1.5
+    ],
+    "duration": 0.75,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "name": "cloud-lightning-flash",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "lightning-strike"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.65,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 3.5,
+    "friction": 0.9,
+    "damping": 0.7,
+    "stiffness": 4
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the chaotic and unpredictable nature of lightning flashes, with a focus on creating an energetic and engaging visual effect that reflects the intensity and unpredictability of natural phenomena."
+}

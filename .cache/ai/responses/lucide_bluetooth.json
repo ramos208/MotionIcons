@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      null,
+      null
+    ],
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "pulse",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.8,
+    "easing": "elastic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 100,
+    "friction": 1,
+    "damping": 0.3,
+    "stiffness": 10
+  },
+  "motionPhilosophy": "The motion is designed to mimic the behavior of an elastic material, such as a spring or rubber band. The icon will feel light and vibrant when hovered over and smoothly animate with subtle elasticity upon click interactions."
+}

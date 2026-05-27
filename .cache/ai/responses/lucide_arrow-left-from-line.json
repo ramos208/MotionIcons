@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "acceleration-shift",
+    "rotation": [
+      5,
+      -5
+    ],
+    "scale": [
+      1.1,
+      0.9
+    ],
+    "translate": [
+      0.5,
+      -0.5
+    ],
+    "skew": [
+      -3,
+      3
+    ],
+    "duration": 1,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.5,
+    "mass": 1,
+    "tension": 0.3,
+    "friction": 0.2,
+    "damping": 0.7,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion profile emphasizes dynamic pops and subtle accelerations, simulating the flick of a page or button press. The hover effect creates an engaging acceleration shift with particles and shader effects to add visual interest."
+}

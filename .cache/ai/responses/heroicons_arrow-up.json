@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-rotation",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "wobble",
+    "rotation": [
+      3,
+      -3
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "quart-in"
+  },
+  "clickAnimation": {
+    "name": "pop-out",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glow-Halo",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 30,
+    "friction": 1.1,
+    "damping": 0.8,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The arrow-up icon motion is designed to convey a sense of upward movement and action. The idle state features a subtle rotation, scale increase, and translation towards the center. Upon hover, there's a slight wobble effect to mimic finger touch, followed by a pronounced pop-out animation when clicked. The particle system adds visual interest while the shader enhances the glow and halo effect for a more immersive experience."
+}

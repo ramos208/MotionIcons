@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "out-quint"
+  },
+  "hoverAnimation": {
+    "name": "tween-shift",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      30,
+      -30
+    ],
+    "skew": null,
+    "duration": 1.5,
+    "easing": "out-quint",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.5,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.6,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile creates a dynamic and engaging interaction for the accessibility icon, with subtle drift in idle state, smooth tweening during hover, and vibrant particle effects upon click, emphasizing physical properties of light and movement."
+}

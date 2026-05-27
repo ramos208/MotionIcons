@@ -1,0 +1,50 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-spin",
+    "rotation": [
+      0,
+      180
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparkle",
+    "sparkling-dots"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.4,
+    "damping": 0.6,
+    "stiffness": 0.5
+  },
+  "motionPhilosophy": "The motion design emphasizes a subtle yet dynamic transition for the icon during idle and hover states, with a distinct elastic-pop effect upon click. The particles add depth and visual interest, while the neon plasma shader enhances the overall aesthetic appeal."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "wave-pulse",
+    "rotation": [
+      -10,
+      10
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "duration": 1,
+    "easing": "ease-out"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "glow-techno",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.8,
+    "mass": 2,
+    "tension": 100,
+    "friction": 50,
+    "damping": 0.7,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion profile emphasizes a dynamic and pulsating bell-dot icon, creating a lively and engaging interaction. The idle state starts with subtle rotations and scales to add depth, while the hover effect introduces a gentle wave-like animation to simulate sound ripples. Upon clicking, a vibrant ripple effect is generated using particles for a realistic touch sensation."
+}

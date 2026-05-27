@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "minimal-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 200,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 250,
+    "easing": "quintic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-vibration",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "none",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.5
+  },
+  "motionPhilosophy": "This motion profile emphasizes a dramatic pop effect, with subtle vibrations and sparkles upon hover and click to create an engaging and dynamic user experience for the arrow-right icon."
+}

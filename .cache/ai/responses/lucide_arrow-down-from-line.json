@@ -1,0 +1,55 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "wave-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": [
+      -5,
+      -5
+    ],
+    "duration": 2.5,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "orbit-spin",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "impact-flash",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-light"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 100,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "This motion profile employs a pendulum-like swing for the idle animation to represent the icon's directional flow. The hover animation includes orbital spinning with increased scale, simulating the arrow sweeping across its base line. Click events are triggered by an impact flash and accompanying ripple effect. Particles enhance visual depth, while neonPlasma shader adds dynamic lighting effects to maintain a modern and vivid appearance."
+}

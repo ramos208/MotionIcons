@@ -10,7 +10,7 @@
       alpha
       antialias
       :shadows="shadows"
-      window-size="false"
+      :window-size="false"
       class="tres-canvas"
     >
       <TresPerspectiveCamera :position="[0, 0, 5]" :look-at="[0, 0, 0]" />

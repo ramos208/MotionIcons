@@ -1,0 +1,56 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 2000,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 40,
+    "damping": 30,
+    "stiffness": 80
+  },
+  "motionPhilosophy": "This motion profile designs an energetic and engaging bolt icon, characterized by a subtle pulse on idle. Upon hover, the particle system simulates sparks and sound waves to add depth and realism. Click animation includes vibrations and ripple effects for added interactivity."
+}

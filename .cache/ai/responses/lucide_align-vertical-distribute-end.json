@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      -45,
+      45
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2000,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "neon-sparks"
+  ],
+  "shader": "glow-neon",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "This motion design aims to mimic the elastic movement of a spring, where the icon gently bounces back after being interacted with and returns to its original position during idle state. The hover animation adds a mechanical sense by skewing the icon slightly, creating an engaging visual effect."
+}

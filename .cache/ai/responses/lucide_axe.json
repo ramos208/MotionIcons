@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "wave-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-impact",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      -15
+    ],
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 0.75,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "glow-flash",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-burst"
+  ],
+  "shader": "etherealGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 30,
+    "friction": 0.2,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion profile for the axe icon is designed to mimic a dynamic, yet gentle movement that reflects its cutting edge. The elastic-pop motion type ensures a lively and engaging interaction with the user, while the ripple impact on hover adds depth and interactivity. The glow-burst particle effect enhances visual appeal without overwhelming the design, complementing the physical realism of the icon's function."
+}

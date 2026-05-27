@@ -1,0 +1,59 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "pulse-fast",
+    "rotation": null,
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      -0.3,
+      -0.3
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "outBack",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-large",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.9,
+    "mass": 5,
+    "tension": 100,
+    "friction": 30,
+    "damping": 0.5,
+    "stiffness": 20
+  },
+  "motionPhilosophy": "The motion design is crafted to mimic the fluid and kinetic behavior of an arrow-down-a-z icon, emphasizing smooth acceleration during hover, immediate click response with visual feedback, and a vibrant shader effect."
+}

@@ -1,0 +1,50 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "waveform-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "easeOutQuad"
+  },
+  "hoverAnimation": {
+    "name": "waveform-hover",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      3,
+      -3
+    ],
+    "duration": 0.5,
+    "easing": "quadOut"
+  },
+  "clickAnimation": {
+    "name": "waveform-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sphere"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 95,
+    "friction": 15,
+    "damping": 40,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "The icon's waveform motion is designed to look both mechanical and elastic, simulating the sound waves' oscillatory nature. The idle animation ensures a steady yet subtle movement, while hover introduces dynamic changes with a slight rotational effect to mimic air currents around an audio wave. Click effects include vibration for tactile feedback and visual ripple for added immersion."
+}

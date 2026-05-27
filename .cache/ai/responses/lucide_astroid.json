@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "float-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "pulse-flare",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0.2,
+      0.2
+    ],
+    "duration": 1500,
+    "easing": "cubic-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-flash",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.6,
+    "mass": 2.5,
+    "tension": 100,
+    "friction": 30,
+    "damping": 0.95,
+    "stiffness": 75
+  },
+  "motionPhilosophy": "This motion design focuses on creating a visually engaging and energetic experience for the ASTROID icon, emphasizing its complex geometry with subtle yet impactful hover interactions. The animation is designed to mimic the dynamic properties of the astroid shape, ensuring it feels both stable and alive."
+}

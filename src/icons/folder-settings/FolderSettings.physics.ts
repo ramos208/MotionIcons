@@ -1,0 +1,9 @@
+export const FolderSettingsPhysics = {
+  tension: -68,
+  friction: 39,
+  mass: 1.2,
+  damping: 32.8,
+  stiffness: 690,
+  elasticity: 1.59,
+  inertia: 1.17
+};

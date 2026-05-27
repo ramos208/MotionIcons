@@ -1,0 +1,59 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.03,
+      1.03
+    ],
+    "translate": [
+      -5,
+      -2
+    ],
+    "skew": [
+      0.1,
+      -0.1
+    ],
+    "duration": 1000,
+    "easing": "easeInOutQuad",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 40,
+    "damping": 0.7,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion profile for the arrow-down icon is designed to create a dynamic and lively effect, with an emphasis on pulsing animations during idle state and subtle turbulence when hovered over. The click animation includes vibrations to enhance user interaction feedback."
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 :root {
   --bg-color: #ffffff;
   --text-color: #0f172a;
@@ -5,6 +7,10 @@
   --border-color: #e2e8f0;
   --btn-bg: #f8fafc;
   --btn-hover-bg: #f1f5f9;
+  
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
 }
 
 :root[data-theme="dark"] {
@@ -21,10 +27,19 @@ body {
   padding: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-family: var(--font-body);
   transition: background-color 0.3s ease, color 0.3s ease;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .display-font {
+  font-family: var(--font-display);
+}
+
+code, pre, .mono-font {
+  font-family: var(--font-mono);
 }
 
 /* Base resets */

@@ -1,0 +1,54 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "linear"
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 1,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.85,
+    "damping": 0.75,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion profile emphasizes a mechanical feel, with the icon appearing to spin smoothly when hovered and quickly snapped into place upon click. The particles mimic the physical interaction, adding subtle visual effects like ripples."
+}

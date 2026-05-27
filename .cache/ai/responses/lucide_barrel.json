@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "soft-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "swoop",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparkle",
+    "ripple"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 20,
+    "friction": 0.6,
+    "damping": 0.3,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion is designed to reflect the core of a barrel, emphasizing its rounded and sturdy nature with an elastic-pop effect that captures both its mass and fluid movement."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "easeOutSine"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      90,
+      90
+    ],
+    "scale": [
+      1.5,
+      1.5
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 800,
+    "easing": "easeInCubic",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1,
+    "tension": 800,
+    "friction": 200,
+    "damping": 30,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "The biceps-flexed icon undergoes a gentle yet dynamic pulse during idle state, emphasizing its muscular and toned appearance. Upon hover, it transforms into an energetic and lively motion with rotational skewing and scaling effects to showcase the flexed position more vividly. On click, it delivers a vibrant ripple effect accompanied by a subtle vibration for user feedback, enhancing both visual appeal and interactive experience."
+}

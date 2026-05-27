@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "easeOutQuad"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": [
+      0,
+      0.5
+    ],
+    "duration": 0.75,
+    "easing": "easeInOutQuad",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.9,
+    "damping": 0.65,
+    "stiffness": 50
+  },
+  "motionPhilosophy": "The animation is designed to mimic a lively and energetic arrow, with subtle motion for the hover effect and dynamic pops upon clicking. The particles add visual interest while the shader creates a vibrant and modern look."
+}

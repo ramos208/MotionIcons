@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "hover-fade-in",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "quad-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 30,
+    "damping": 0.9,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the organic and playful nature of a beef icon, with emphasis on elasticity and visual pop during hover and click interactions."
+}

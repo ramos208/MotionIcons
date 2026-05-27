@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "glow-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-out"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 600,
+    "friction": 300,
+    "damping": 0.2,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile emphasizes a subtle yet engaging animation, with the elastic-pop motion type giving the icon a lively and energetic feel upon hover and click events."
+}

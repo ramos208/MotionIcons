@@ -1,0 +1,58 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      0.2,
+      0.2
+    ],
+    "duration": 300,
+    "easing": "quad-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 2,
+    "tension": 10,
+    "friction": 0.3,
+    "damping": 0.7,
+    "stiffness": 2
+  },
+  "motionPhilosophy": "This motion design emphasizes a soft and gentle hover effect, with the icon gently popping into view upon clicking, enhancing both interaction and visual appeal."
+}

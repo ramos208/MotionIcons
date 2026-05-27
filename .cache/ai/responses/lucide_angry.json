@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "angry-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "angry-hover",
+    "rotation": [
+      -30,
+      0
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "outQuad",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "angry-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.95,
+    "mass": 10,
+    "tension": 200,
+    "friction": 50,
+    "damping": 0.5,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The icon's angry state is designed to convey intensity and energy through a combination of rotation, scaling, and particle effects. The motion starts with an elastic pop upon hover, emphasizing the sudden change in mood. Upon click, a gentle vibration adds a physical feeling without causing too much disturbance."
+}

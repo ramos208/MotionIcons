@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "gentle-wave",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "zoom-in",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -50,
+      -50
+    ],
+    "skew": null,
+    "duration": 800,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 0.6,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 2
+  },
+  "motionPhilosophy": "The motion is designed to mimic the look and feel of a simple elastic band, with gentle waves that settle into place during idle animation, a fluid zoom-in effect on hover, and a vibrant visual reaction upon click. The particles simulate a subtle ripple effect, enhancing the icon's interaction dynamics."
+}

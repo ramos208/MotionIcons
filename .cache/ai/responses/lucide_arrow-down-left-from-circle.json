@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 3,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "skew": [
+      0,
+      5
+    ],
+    "duration": 1,
+    "easing": "ease-out"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 2,
+    "tension": 150,
+    "friction": 40,
+    "damping": 0.6,
+    "stiffness": 250
+  },
+  "motionPhilosophy": "This motion profile combines a dynamic-pop movement for the idle state to ensure fluid transitions, a hover animation with sparkles and sound waves for engaging interaction, and click effects like vibration and ripple to enhance user experience. The physics properties are tuned to simulate physical objects in motion, emphasizing realism."
+}

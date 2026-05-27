@@ -1,0 +1,9 @@
+export const MapsEditingPhysics = {
+  tension: -70,
+  friction: 38,
+  mass: 1.2,
+  damping: 33,
+  stiffness: 695,
+  elasticity: 1.6,
+  inertia: 1.15
+};

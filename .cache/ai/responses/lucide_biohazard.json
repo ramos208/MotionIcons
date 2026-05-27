@@ -1,0 +1,60 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "shimmer",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      1
+    ],
+    "skew": [
+      0.2,
+      -0.2
+    ],
+    "duration": 1,
+    "easing": "linear",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.9,
+    "mass": 10,
+    "tension": 500,
+    "friction": 200,
+    "damping": 0.3,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion is designed to mimic the elastic and popping nature of a biohazard symbol, with subtle drift during idle state, shimmer effect on hover, and vibrant glow upon click."
+}

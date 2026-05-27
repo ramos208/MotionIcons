@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 600,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "shimmer",
+    "rotation": null,
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      5
+    ],
+    "duration": 600,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 150,
+    "friction": 0.5,
+    "damping": 0.3,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The badge-info icon is designed to convey information in a subtle yet engaging manner, with a focus on dynamic pop and shimmer effects during hover and click interactions. The shader adds a vibrant neon touch, while the physical properties ensure that the icon behaves realistically under these conditions."
+}

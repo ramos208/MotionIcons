@@ -1,0 +1,57 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 400,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      2,
+      -1
+    ],
+    "duration": 400,
+    "easing": "in-cubic",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.7,
+    "damping": 0.6,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "This motion profile for the arrow-up icon is designed to provide a dynamic and engaging visual experience upon hover, emphasizing the directionality of the arrow while adding subtle vibrancy through particle effects and neon shader."
+}

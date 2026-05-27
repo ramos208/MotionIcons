@@ -1,0 +1,54 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "euro-badge-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 3,
+    "easing": "outQuad"
+  },
+  "hoverAnimation": {
+    "name": "euro-badge-hover",
+    "rotation": [
+      2,
+      -2
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 3,
+    "easing": "outQuad"
+  },
+  "clickAnimation": {
+    "name": "euro-badge-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 1,
+    "mass": 2,
+    "tension": 0.8,
+    "friction": 0.7,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The badge-euro icon is designed to evoke a sense of luxury and modernity with its sleek, angular shape. The motion profile incorporates an elastic-pop effect that simulates the bounce of currency or metal, enhancing the tactile experience for users. The hover animation adds depth and interest by introducing a slight skew, while the click animation ensures a responsive interaction without causing excessive visual feedback."
+}

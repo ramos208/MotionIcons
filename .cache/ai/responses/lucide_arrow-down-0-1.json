@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 1.5,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      0.98,
+      0.98
+    ],
+    "translate": [
+      -3,
+      -3
+    ],
+    "skew": null,
+    "duration": 1,
+    "easing": "outQuint",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 100,
+    "tension": 30,
+    "friction": 20,
+    "damping": 0.75,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The arrow-down-0-1 icon's motion profile is designed to mimic a subtle yet dynamic drift in idle state, with hover and click animations emphasizing its kinetic flow and visual impact through the use of ripple effects and glowing particles. The physics settings ensure the animation feels both fluid and responsive."
+}

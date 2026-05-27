@@ -1,0 +1,56 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 4,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "vortex-ripple",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -3
+    ],
+    "skew": [
+      5,
+      5
+    ],
+    "duration": 2,
+    "easing": "outQuint"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "wave-particle"
+  ],
+  "shader": "glow-aurora",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 2,
+    "tension": 1.2,
+    "friction": 0.8,
+    "damping": 0.5,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The motion is designed to mimic a pendulum swinging, with subtle vibrations during hover and click interactions. The particles create an aurora glow effect, enhancing the visual appeal while maintaining semantic fidelity."
+}

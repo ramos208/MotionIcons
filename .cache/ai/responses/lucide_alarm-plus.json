@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -15
+    ],
+    "duration": 400,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      30,
+      -30
+    ],
+    "scale": null,
+    "translate": [
+      5,
+      -10
+    ],
+    "skew": [
+      5,
+      20
+    ],
+    "duration": 400,
+    "easing": "cubicIn",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-up-bounce",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.65,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 80,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile emphasizes a dynamic and playful feel, with the icon pulsing subtly when idle. On hover, it undergoes a gentle drift to highlight its presence, while on click, the animation becomes more pronounced with a pop-up effect that incorporates sound waves and glowing sparks for added interactivity."
+}

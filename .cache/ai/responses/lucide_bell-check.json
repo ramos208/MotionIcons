@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-pop",
+    "rotation": null,
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -0.3,
+      -0.3
+    ],
+    "skew": null,
+    "duration": 0.5,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-burst",
+    "flick-star"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 200,
+    "friction": 100,
+    "damping": 0.8,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This design emphasizes a dynamic and visually impactful motion that captures the essence of the notification bell check icon, with subtle drift for an idle state, a pop effect during hover, and a vibrant explosion upon click to represent alerting and confirmation."
+}

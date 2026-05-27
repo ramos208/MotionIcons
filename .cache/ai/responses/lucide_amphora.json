@@ -1,0 +1,60 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.3,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 0.7,
+    "friction": 0.6,
+    "damping": 0.8,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion is designed to mimic the subtle movement of water or air currents, giving a sense of fluidity and elegance. The elastic-pop effect enhances this by creating a momentary burst upon hovering and clicking."
+}

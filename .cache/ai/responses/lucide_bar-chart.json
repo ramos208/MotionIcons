@@ -1,0 +1,56 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "chart-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "chart-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "clickAnimation": {
+    "name": "chart-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 300,
+    "friction": 20,
+    "damping": 0.9,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion design for the bar-chart icon focuses on a smooth, elastic motion that mimics real-world physics interactions such as tension and elasticity, making it visually appealing and interactive."
+}

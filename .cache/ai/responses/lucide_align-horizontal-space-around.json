@@ -1,0 +1,58 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      null,
+      null
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 100,
+    "tension": 50,
+    "friction": 20,
+    "damping": 30,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The icon's motion is designed to mimic the visual effect of objects moving evenly and smoothly around a central point. The dynamic-pop animation ensures that the icon feels responsive and engaging when hovered over or interacted with, while maintaining its overall shape and integrity."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-fade",
+    "rotation": null,
+    "scale": [
+      1.02,
+      1.02
+    ],
+    "translate": [
+      -10,
+      -10
+    ],
+    "skew": [
+      0.5,
+      -0.5
+    ],
+    "duration": 300,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-dust"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 100,
+    "damping": 0.9,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile emphasizes the elastic and pop-like behavior typical of icon elements, ensuring a lively and dynamic appearance with a slight elasticity to simulate real-world deformation under pressure."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neutral-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 1000,
+    "easing": "outQuint"
+  },
+  "hoverAnimation": {
+    "name": "vortex-twirl",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.25,
+      1.25
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "outElastic",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-burst",
+    "sparkle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 800,
+    "friction": 300,
+    "damping": 400,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "This motion design emphasizes an elastic pop effect for the icon, starting from a neutral pulse animation. Upon hover, it transforms into a vortex-twirl that creates a sense of depth and movement. The click event is handled with vibration and ripple effects to enhance interactivity."
+}

@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M2.452 5.44A2.446 2.446 0 0 0 0 7.892v8.216a2.446 2.446 0 0 0 2.452 2.452h19.096A2.446 2.446 0 0 0 24 16.108V7.892a2.446 2.446 0 0 0-2.452-2.452zM15.73 8.9c.964 0 1.616.257 2.149.651a.7.7 0 0 1 .275.56.69.69 0 0 1-.698.689.74.74 0 0 1-.422-.137c-.395-.295-.809-.46-1.314-.46-1.083 0-1.863.9-1.863 2.002v.019c0 1.102.762 2.02 1.861 2.02.597 0 .993-.184 1.396-.506a.655.655 0 1 1 .845 1.001c-.578.505-1.258.808-2.286.808-1.89 0-3.295-1.458-3.295-3.305v-.018c0-1.828 1.377-3.325 3.352-3.325m-6.98.008h.084c.385 0 .661.212.817.56l2.24 5.061a.7.7 0 0 1 .074.284.67.67 0 0 1-.668.68c-.33 0-.551-.193-.68-.487l-.431-1.01H7.358l-.45 1.056a.695.695 0 0 1-.652.441.65.65 0 0 1-.652-.661.75.75 0 0 1 .08-.303l2.242-5.06c.154-.35.44-.56.826-.56m.02 1.718-.891 2.121H9.66z"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: solveddotac
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for solveddotac (simpleicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-solveddotac {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-solveddotac {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-solveddotac 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-solveddotac 3s ease-in-out infinite alternate;
+}
+</style>

@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -25,
+      -25
+    ],
+    "duration": 3000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-flick",
+    "rotation": [
+      180,
+      180
+    ],
+    "scale": [
+      1.5,
+      1.5
+    ],
+    "translate": [
+      -20,
+      -20
+    ],
+    "duration": 750,
+    "easing": "cubic-in"
+  },
+  "clickAnimation": {
+    "name": "ripple-explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 200,
+    "friction": 0.9,
+    "damping": 0.8,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The animation is designed to mimic the appearance of a banknote flipping up with an acceleration effect and kinetic trail, giving it a lively and dynamic feel."
+}

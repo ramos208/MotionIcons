@@ -1,0 +1,57 @@
+{
+  "motionType": "neonPlasma",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "neon-flare",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 2,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "neon-plasma"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 0.6,
+    "friction": 0.4,
+    "damping": 0.2,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "The motion is designed to mimic the glow and pulsation effect of neon lights, with a subtle yet engaging drift for idle animations and vibrant highlights during hover interactions. The click animation includes both visual vibrations and an expanding ripple effect."
+}

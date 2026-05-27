@@ -1,0 +1,50 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bean-off-subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 400,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "bean-off-subtle-drift",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 300,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 0.3,
+    "friction": 0.4,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This bean-off icon animates with a gentle yet playful motion, reminiscent of the elastic bounce one would expect from an off switch. The idle animation introduces a subtle drift to create movement without overwhelming the user's perception. When hovered over, it adds a slight rotation and scale enhancement for more engagement. Upon clicking, there is a short vibration effect to mimic the action of flipping a physical switch."
+}

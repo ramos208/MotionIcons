@@ -1,0 +1,54 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -20
+    ],
+    "duration": 3000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "vortex-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -20
+    ],
+    "skew": [
+      30,
+      60
+    ],
+    "duration": 2000,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 2.5,
+    "tension": 60,
+    "friction": 0.3,
+    "damping": 1.2,
+    "stiffness": 70
+  },
+  "motionPhilosophy": "The animation is designed to mimic the motion of a physical arrow, with subtle yet impactful gestures when hovered over and clicked. The design aims to create an energetic and visually engaging experience that aligns with the directional nature of the icon."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "battery-full-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "easeOutCubic"
+  },
+  "hoverAnimation": {
+    "name": "battery-full-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "easeOutSine",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "battery-full-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-burst"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 400,
+    "friction": 200,
+    "damping": 0.7,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The motion design emphasizes a subtle yet dynamic interaction, with the icon appearing to bounce and expand gently upon hover, and pulsing rapidly during a click event. The shader adds a vibrant neon effect for added appeal."
+}

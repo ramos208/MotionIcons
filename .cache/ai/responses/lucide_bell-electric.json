@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.4,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion is designed to mimic the sound of a bell, starting with subtle vibrations and building up to a dynamic pop effect upon hover and click. The particles and shader add depth and visual interest, while physics principles ensure realistic interactions."
+}

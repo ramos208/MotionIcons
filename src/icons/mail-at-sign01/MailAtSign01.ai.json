@@ -1,0 +1,46 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      -6,
+      6
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "bell-ring",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": null,
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "cubic-bezier(0.36, 0.07, 0.19, 0.97)",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 1.03,
+    "elasticity": 1.42,
+    "mass": 1.2,
+    "tension": -34,
+    "friction": 32,
+    "damping": 29.4,
+    "stiffness": 605
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for mail-at-sign01 (hugeicons). Selected semantic motion: pendulum with custom idle (subtle-drift) and interaction profile (bell-ring) matched to SVG complexity (complex) and flow geometry."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2000,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      180,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      45,
+      -45
+    ],
+    "duration": 1000,
+    "easing": "easeOutBack",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The icon's motion is designed to mimic the movement of mechanical gears, with subtle vibrations and pulsing lights that give it a dynamic yet calming feel."
+}

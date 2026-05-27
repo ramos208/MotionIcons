@@ -1,0 +1,54 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "float-indigo",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      -15
+    ],
+    "duration": 2000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "shimmer-aurora",
+    "rotation": [
+      180,
+      180
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      -5
+    ],
+    "duration": 750,
+    "easing": "inSine"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "lightning-flash",
+    "glow-burst"
+  ],
+  "shader": "digitalPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 400,
+    "friction": 200,
+    "damping": 0.8,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "This motion profile designs a visually dynamic and interactive icon, emphasizing acceleration and subtle kinetic trails for both hover and click states to create an engaging and immersive experience."
+}

@@ -1,0 +1,49 @@
+{
+  "motionType": "radar",
+  "idleAnimation": {
+    "name": "ambient-floating",
+    "rotation": null,
+    "scale": [
+      0.98,
+      1.02
+    ],
+    "translate": [
+      0,
+      -1.5
+    ],
+    "duration": 3,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      4
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "light-trail"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 1.17,
+    "elasticity": 1.87,
+    "mass": 1.2,
+    "tension": -124,
+    "friction": 39,
+    "damping": 38.400000000000006,
+    "stiffness": 830
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for chart-down (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

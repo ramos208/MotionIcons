@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "floral-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 3000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "orb-tremor",
+    "rotation": [
+      20,
+      -20
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      10,
+      -10
+    ],
+    "duration": 1500,
+    "easing": "cubic-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "wave-plosion",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 40,
+    "damping": 0.7,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "This motion profile creates a dynamic and pulsing effect for the arrow-right-left icon, with an emphasis on vibrant particles and a subtle shimmer. The hover animation adds a tremor to signify interaction, while the click animation includes a gentle ripple effect to enhance user engagement."
+}

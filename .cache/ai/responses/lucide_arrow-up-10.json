@@ -1,0 +1,51 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -25,
+      -15
+    ],
+    "duration": 1.5,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      -90,
+      90
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.3,
+    "easing": "quadInOut"
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 2.5,
+    "tension": 1.2,
+    "friction": 0.6,
+    "damping": 0.7,
+    "stiffness": 1.3
+  },
+  "motionPhilosophy": "This motion profile emulates a mechanical, smooth acceleration from the idle state to a high-speed rotation upon hover and click. The particles add depth, making the animation more visually engaging."
+}

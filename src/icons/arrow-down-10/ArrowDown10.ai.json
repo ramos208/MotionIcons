@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gentle-rotation",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "skew": [
+      -2,
+      -2
+    ],
+    "duration": 1500,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibrate-and-flash",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The animation begins with a gentle rotation and scale increase to simulate the weight of the icon. Upon hovering, it creates an expansive ripple effect that interacts with particles for a dynamic yet elegant visual experience. When clicked, the motion includes vibrational feedback and an energetic glow effect to highlight its interaction."
+}

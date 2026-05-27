@@ -1,0 +1,58 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2,
+    "tension": 1.5,
+    "friction": 0.8,
+    "damping": 0.3,
+    "stiffness": 1.2
+  },
+  "motionPhilosophy": "This motion profile is designed to emulate the quick yet impactful sensation of an arrow moving downwards, emphasizing acceleration and dynamic fluidity with subtle particle effects for a visually engaging interaction."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      5,
+      5
+    ],
+    "duration": 1.2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "swirl-dance",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      0.8,
+      0.8
+    ],
+    "translate": null,
+    "skew": [
+      0.2,
+      -0.2
+    ],
+    "duration": 0.6,
+    "easing": "out-cubic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-charge",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 1.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 1.4
+  },
+  "motionPhilosophy": "This motion profile emphasizes a smooth yet dynamic transition during idle, with a lively and energetic hover effect that feels natural. The click animation introduces gentle vibrations and a vibrant ripple to enhance interactivity."
+}

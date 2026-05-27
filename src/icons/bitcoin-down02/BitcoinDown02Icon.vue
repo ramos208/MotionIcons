@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M10.9999 8.99985C7.41009 8.99985 4.49994 11.91 4.49994 15.4998C4.49994 19.0897 7.41009 21.9998 10.9999 21.9998C14.5898 21.9998 17.4999 19.0897 17.4999 15.4998C17.4999 11.91 14.5898 8.99985 10.9999 8.99985Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M20 8.5L15.4116 4.29397C14.7437 3.68176 14.4098 3.37565 14.0084 3.38437C13.6069 3.3931 13.2866 3.71342 12.6459 4.35406L11.6803 5.31973C11.116 5.88402 10.8338 6.16617 10.4728 6.19872C10.1118 6.23127 9.78377 6.00415 9.12764 5.5499L4 2M20 8.5H16.5M20 8.5V5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M9.43744 18.1665L9.43744 12.8332M10.9999 12.8332V11.4998M10.9999 19.4998V18.1665M9.43744 15.4998H12.5624M12.5624 15.4998C13.0802 15.4998 13.4999 15.9476 13.4999 16.4998V17.1665C13.4999 17.7188 13.0802 18.1665 12.5624 18.1665H8.49994M12.5624 15.4998C13.0802 15.4998 13.4999 15.0521 13.4999 14.4998V13.8332C13.4999 13.2809 13.0802 12.8332 12.5624 12.8332H8.49994" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: bitcoin-down02
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for bitcoin-down02 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-bitcoin-down02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(0px, 6px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(0px, 4px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-bitcoin-down02 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-bitcoin-down02 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-bitcoin-down02 3s ease-in-out infinite alternate;
+}
+</style>

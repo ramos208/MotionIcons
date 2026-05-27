@@ -1,0 +1,48 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "mechanical-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "mechanical-hover",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "mechanical-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 10,
+    "tension": 200,
+    "friction": 100,
+    "damping": 0.8,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The anvil is designed to have a robust, industrial motion that reflects its strength and durability. The idle animation maintains the icon's stability with subtle rotations and scales, while the hover adds a lively dynamic by introducing angular and scale variations. Upon clicking, a mechanical spring effect simulates the movement of lifting or lowering heavy objects, accompanied by a gentle vibration feedback to enhance user interaction."
+}

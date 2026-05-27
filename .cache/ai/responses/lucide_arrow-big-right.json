@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gentle-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "orbit-spin",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      0.95,
+      0.95
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 1,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "electric-pulse"
+  ],
+  "shader": "particle-charge",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 12,
+    "tension": 3,
+    "friction": 0.6,
+    "damping": 0.4,
+    "stiffness": 1
+  },
+  "motionPhilosophy": "The motion is designed to emphasize the directional nature of the icon by creating a subtle yet impactful hover and click experience, coupled with dynamic particle effects that add visual depth and complexity."
+}

@@ -1,0 +1,9 @@
+export const CircleDottedLetterVPhysics = {
+  tension: 14,
+  friction: 44.5,
+  mass: 1.2,
+  damping: 24.6,
+  stiffness: 485,
+  elasticity: 1.18,
+  inertia: 1.28
+};

@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 2,
+    "easing": "cubicOut"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 10,
+    "tension": 400,
+    "friction": 200,
+    "damping": 0.9,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the feeling of a beer bottle opening, creating an elastic and lively effect that reflects the icon's cheerful nature."
+}

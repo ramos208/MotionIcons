@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "swirl",
+    "rotation": [
+      -40,
+      40
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 1,
+    "easing": "cubic-in"
+  },
+  "clickAnimation": {
+    "name": "shake",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "shadow-dust"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.6,
+    "mass": 10,
+    "tension": 300,
+    "friction": 0.9,
+    "damping": 0.8,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "This motion profile aims to create a vibrant and dynamic experience for the arrow-big-up-dash icon, emphasizing its directional nature with smooth acceleration during idle state and engaging hover animation using swirl effects. The click interaction includes a shake effect for added depth without creating an overwhelming ripple or vibration."
+}

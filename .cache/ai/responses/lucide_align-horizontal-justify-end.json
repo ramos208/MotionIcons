@@ -1,0 +1,50 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neutral-swirl",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "focus-flick",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "bounce-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "lightning-flash",
+    "glow-star"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2,
+    "tension": 0.8,
+    "friction": 0.1,
+    "damping": 0.3,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "This motion profile is designed to mimic a confident and assertive horizontal alignment, characterized by a slight elastic pop upon hover. The particles add a dynamic flair while the shader emphasizes visual clarity and depth."
+}

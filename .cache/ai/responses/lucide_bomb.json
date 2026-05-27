@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bomb-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "bomb-hover",
+    "rotation": [
+      35,
+      -45
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "name": "bomb-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "fire-flame",
+    "lightning-bolt"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.6,
+    "elasticity": 0.95,
+    "mass": 1,
+    "tension": 300,
+    "friction": 200,
+    "damping": 0.7,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile for the bomb icon incorporates a blend of elastic and popping effects to mimic the explosive force and sudden release characteristic of its name. The hover animation exaggerates the rotation and scale, simulating the impact of an approaching danger. The click animation includes vibration and ripple effects to enhance the sense of detonation."
+}

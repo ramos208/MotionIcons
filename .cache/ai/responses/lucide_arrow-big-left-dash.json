@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 5,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "spin",
+    "rotation": [
+      360,
+      -360
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 5,
+    "easing": "linear"
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1,
+    "tension": 0.6,
+    "friction": 0.4,
+    "damping": 0.8,
+    "stiffness": 0.2
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic, energetic experience for the arrow-big-left-dash icon. The idle animation uses subtle drift to keep it grounded and steady while maintaining directional consistency. Upon hovering, the icon spins with a moderate speed, emphasizing its directional flow. A click event triggers an engaging ripple effect that mimics fluid motion, ensuring users can interact smoothly without feeling disconnected."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "block-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "block-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -15
+    ],
+    "skew": [
+      0.3,
+      0.3
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-spark"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.6,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 40,
+    "damping": 0.7,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "This motion design emphasizes a spring-like response for the blocks icon, creating a gentle yet impactful interaction that mimics elastic material properties."
+}

@@ -1,0 +1,59 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple",
+    "rotation": null,
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 300,
+    "easing": "quintic-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1,
+    "tension": 200,
+    "friction": 80,
+    "damping": 0.3,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion is designed to create a dynamic and engaging experience, emphasizing the directional flow with a subtle hover effect that highlights the kinetic trail, followed by a click animation with vibration and ripple effects for added interactivity."
+}

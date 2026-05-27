@@ -1,0 +1,48 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-flip",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "wobble-slow",
+    "rotation": [
+      12,
+      -12
+    ],
+    "scale": null,
+    "translate": null,
+    "skew": [
+      0,
+      90
+    ],
+    "duration": 0.5,
+    "easing": "quint-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop-up",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-fade"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 1.3,
+    "friction": 0.7,
+    "damping": 0.6,
+    "stiffness": 0.8
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic and engaging hover effect for the arrow-down-right-square icon, emphasizing its directional flow with subtle wobbles during hover. Upon click, the animation triggers a visually striking pop-up effect, enhancing user interaction."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "neonPlasma",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 1,
+    "easing": "quintic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "sound-wave",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "lightning-bolt",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.7,
+    "damping": 0.6,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion profile for the magnifying-glass icon is designed to evoke a sense of futuristic, glowing technology with a hint of soft animation. The particles and shader add depth and visual interest, while the physics simulation ensures that the icon feels responsive and engaging."
+}

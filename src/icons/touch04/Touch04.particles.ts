@@ -1,0 +1,4 @@
+export const Touch04Particles = {
+  types: ["light-trail"],
+  active: true
+};

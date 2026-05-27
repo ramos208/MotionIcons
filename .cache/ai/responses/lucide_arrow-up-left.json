@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -20,
+      -30
+    ],
+    "duration": 1.5,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -10,
+      -15
+    ],
+    "skew": [
+      0.3,
+      -0.3
+    ],
+    "duration": 0.8,
+    "easing": "quad-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.9,
+    "elasticity": 0.8,
+    "mass": 1.5,
+    "tension": 200,
+    "friction": 50,
+    "damping": 0.1,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This motion profile emphasizes dynamic and pop-like interactions with the arrow-up-left icon, featuring pulsing animations for both idle and hover states, along with a visually engaging click animation and particle effects to create an immersive user experience."
+}

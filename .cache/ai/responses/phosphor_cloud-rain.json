@@ -1,0 +1,55 @@
+{
+  "motionType": "turbulence",
+  "idleAnimation": {
+    "name": "cloud-float",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -2.5,
+      -10
+    ],
+    "duration": 18,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "cloud-breeze",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      null,
+      null
+    ],
+    "skew": [
+      -2.5,
+      -2.5
+    ],
+    "duration": 6,
+    "easing": "ease-out-cubic"
+  },
+  "clickAnimation": {
+    "name": "cloud-toss",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "rain-splash",
+    "cloud-fog"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 3,
+    "tension": 0.25,
+    "friction": 0.1,
+    "damping": 0.9,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the chaotic and unpredictable nature of a rain cloud, with elements of turbulence and floating. The particles enhance this effect by adding splashes and fog. The shader creates a vibrant and dynamic look that captures the essence of rain in a visually appealing manner."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "magnifying-glass-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "magnifying-glass-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -3,
+      -3
+    ],
+    "duration": 500,
+    "easing": "cubic-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "magnifying-glass-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "particle-explosion"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 60,
+    "friction": 30,
+    "damping": 0.4,
+    "stiffness": 70
+  },
+  "motionPhilosophy": "The motion is designed to mimic the behavior of a physical elastic object, which gradually returns to its original state after being pushed (hover) and vibrates when clicked."
+}

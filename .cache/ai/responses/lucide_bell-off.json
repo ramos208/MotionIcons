@@ -1,0 +1,59 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 1,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      -20,
+      20
+    ],
+    "duration": 0.75,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibrate-pulsate",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.65,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.7,
+    "stiffness": 1.1
+  },
+  "motionPhilosophy": "The bell icon starts with a subtle, drifting motion to indicate it is inactive. Upon hovering, the particle system creates a ripple effect and vibrates to simulate sound waves. When clicked, the vibration persists and an additional pulsating ripple animation occurs to emphasize user interaction."
+}

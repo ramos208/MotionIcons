@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "float-spin",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-wave",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "duration": 2,
+    "easing": "quintic-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop-shake",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-particle",
+    "sparkle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.95,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.98,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The motion design for the Bitcoin icon is inspired by the concept of digital currency, incorporating a blend of float-spin and spin-wave animations to represent both stability and fluidity. The click animation adds a tactile response through pop-shake with optional vibration feedback. A glow-particle shader enhances visual appeal while maintaining a smooth interaction feel."
+}

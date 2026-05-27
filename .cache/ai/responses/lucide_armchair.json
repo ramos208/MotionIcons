@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "neonPlasma",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 800,
+    "easing": "ease-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "glow-sparks",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "particle-cloud"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.5,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion is designed to mimic a soft, pulsing hover effect with subtle vibrations and sparks for interaction, reflecting the AI category and complex geometry of the armchair icon."
+}

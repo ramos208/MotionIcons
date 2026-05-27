@@ -1,0 +1,50 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-spin",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "hover-push",
+    "rotation": [
+      -180,
+      180
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 0.5,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-drip"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.65,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 350,
+    "friction": 40,
+    "damping": 0.95,
+    "stiffness": 70
+  },
+  "motionPhilosophy": "The motion is designed to mimic the fluid, yet powerful nature of a spinning arrow. The subtle spin in idle mode gives it a balanced, almost mechanical feel. Upon hover, the icon pops forward slightly with rotation and scale changes for an engaging interaction. Clicking triggers a vibrant ripple effect that adds depth to the animation."
+}

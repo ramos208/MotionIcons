@@ -1,0 +1,60 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 3,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "expo-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "neonPlasma"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 2.5,
+    "tension": 0.3,
+    "friction": 0.1,
+    "damping": 0.75,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the mechanical movement of an arrow, with a subtle and kinetic feel that emphasizes the directionality and energy of the icon."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 1.5,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.5,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-up-notify",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.8
+  },
+  "motionPhilosophy": "This motion profile emphasizes a subtle yet dynamic pop effect, where the icon subtly shifts during idle animation and displays a ripple upon hover with a vibrancy shader to enhance the notification feel."
+}

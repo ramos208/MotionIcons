@@ -1,0 +1,192 @@
+{
+  "processed": [
+    "lucide:bell",
+    "lucide:alarm-clock",
+    "lucide:activity",
+    "lucide:accessibility",
+    "lucide:cloud-lightning",
+    "lucide:refresh-cw",
+    "lucide:settings",
+    "lucide:search",
+    "lucide:arrow-right",
+    "lucide:shield-check",
+    "heroicons:bell",
+    "heroicons:shield-check",
+    "heroicons:arrow-right",
+    "heroicons:arrow-left",
+    "heroicons:arrow-up",
+    "heroicons:arrow-down",
+    "heroicons:magnifying-glass",
+    "heroicons:cog",
+    "heroicons:adjustments-horizontal",
+    "heroicons:information-circle",
+    "phosphor:bell",
+    "phosphor:alarm",
+    "phosphor:cloud-rain",
+    "phosphor:gear",
+    "phosphor:magnifying-glass",
+    "phosphor:arrow-right",
+    "phosphor:arrow-left",
+    "phosphor:arrow-up",
+    "phosphor:arrow-down",
+    "phosphor:shield-warning",
+    "fontawesome:bell",
+    "fontawesome:cloud",
+    "fontawesome:cog",
+    "fontawesome:search",
+    "fontawesome:arrow-right",
+    "fontawesome:arrow-left",
+    "fontawesome:arrow-up",
+    "fontawesome:arrow-down",
+    "fontawesome:user",
+    "simpleicons:github",
+    "simpleicons:npm",
+    "simpleicons:vite",
+    "simpleicons:javascript",
+    "simpleicons:typescript",
+    "simpleicons:google",
+    "simpleicons:facebook",
+    "simpleicons:react"
+  ],
+  "failed": {
+    "iconoir:bell": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/bell: HTTP Error 404: Not Found"
+    },
+    "iconoir:alarm": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/alarm: HTTP Error 404: Not Found"
+    },
+    "iconoir:cloud": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/cloud: HTTP Error 404: Not Found"
+    },
+    "iconoir:settings": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/settings: HTTP Error 404: Not Found"
+    },
+    "iconoir:search": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/search: HTTP Error 404: Not Found"
+    },
+    "iconoir:arrow-right": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/arrow-right: HTTP Error 404: Not Found"
+    },
+    "iconoir:arrow-left": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/arrow-left: HTTP Error 404: Not Found"
+    },
+    "iconoir:arrow-up": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/arrow-up: HTTP Error 404: Not Found"
+    },
+    "iconoir:arrow-down": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/arrow-down: HTTP Error 404: Not Found"
+    },
+    "iconoir:shield-question": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download iconoir/shield-question: HTTP Error 404: Not Found"
+    },
+    "tabler:bell": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/bell: HTTP Error 404: Not Found"
+    },
+    "tabler:alarm": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/alarm: HTTP Error 404: Not Found"
+    },
+    "tabler:cloud-storm": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/cloud-storm: HTTP Error 404: Not Found"
+    },
+    "tabler:settings": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/settings: HTTP Error 404: Not Found"
+    },
+    "tabler:search": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/search: HTTP Error 404: Not Found"
+    },
+    "tabler:arrow-right": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/arrow-right: HTTP Error 404: Not Found"
+    },
+    "tabler:arrow-up": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/arrow-up: HTTP Error 404: Not Found"
+    },
+    "tabler:arrow-down": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/arrow-down: HTTP Error 404: Not Found"
+    },
+    "tabler:shield": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/shield: HTTP Error 404: Not Found"
+    },
+    "tabler:user": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download tabler/user: HTTP Error 404: Not Found"
+    },
+    "hugeicons:bell": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/bell: HTTP Error 404: Not Found"
+    },
+    "hugeicons:alarm": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/alarm: HTTP Error 404: Not Found"
+    },
+    "hugeicons:cloud": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/cloud: HTTP Error 404: Not Found"
+    },
+    "hugeicons:settings-01": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/settings-01: HTTP Error 404: Not Found"
+    },
+    "hugeicons:search-refraction": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/search-refraction: HTTP Error 404: Not Found"
+    },
+    "hugeicons:arrow-right": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/arrow-right: HTTP Error 404: Not Found"
+    },
+    "hugeicons:arrow-left": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/arrow-left: HTTP Error 404: Not Found"
+    },
+    "hugeicons:arrow-up": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/arrow-up: HTTP Error 404: Not Found"
+    },
+    "hugeicons:arrow-down": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/arrow-down: HTTP Error 404: Not Found"
+    },
+    "hugeicons:shield-keyhole": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download hugeicons/shield-keyhole: HTTP Error 404: Not Found"
+    },
+    "fontawesome:shield-halved": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download fontawesome/shield-halved: HTTP Error 404: Not Found"
+    },
+    "simpleicons:vue-dot-js": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download simpleicons/vue-dot-js: HTTP Error 404: Not Found"
+    },
+    "simpleicons:three-dot-js": {
+      "attempts": 1,
+      "lastError": "Max retries reached. Failed to download simpleicons/three-dot-js: HTTP Error 404: Not Found"
+    }
+  },
+  "counts": {
+    "lucide": 10,
+    "heroicons": 10,
+    "phosphor": 10,
+    "fontawesome": 9,
+    "simpleicons": 8
+  }
+}

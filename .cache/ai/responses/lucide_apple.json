@@ -1,0 +1,56 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 1000,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "vibrate-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 50,
+    "friction": 30,
+    "damping": 0.7,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion profile for the apple icon is designed to mimic an elastic and playful experience, with a subtle drift in idle state and a vibrant ripple effect upon hover. The click animation adds a lively vibe through vibration and ripple effects, enhancing user interaction."
+}

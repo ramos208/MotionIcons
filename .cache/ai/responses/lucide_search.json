@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "wave-pulse",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "skew": null,
+    "duration": 750,
+    "easing": "inSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.95,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This design aims to create a smooth, elastic motion for the search icon when hovered over and clicked, with subtle particles and vibrant shading to enhance its visual appeal."
+}

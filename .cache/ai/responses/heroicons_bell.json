@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 300,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -2,
+      -2
+    ],
+    "skew": [
+      5,
+      -5
+    ],
+    "duration": 300,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.8,
+    "damping": 0.7,
+    "stiffness": 10
+  },
+  "motionPhilosophy": "The icon bell is designed to have a subtle yet engaging motion that represents the alertness and importance of notifications. The motion starts with a gentle drift, scales up slightly upon hovering, and vibrates and creates an animated ripple effect when clicked, enhancing its visual impact."
+}

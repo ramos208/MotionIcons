@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.8,
+    "easing": "in-out-quad",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.6,
+    "mass": 10,
+    "tension": 400,
+    "friction": 300,
+    "damping": 25,
+    "stiffness": 20
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic the feel of a spring-loaded mechanism. The elastic-pop motion type creates an immediate reaction when the icon is hovered over, followed by a gentle oscillation during hover and a burst of energy upon click."
+}

@@ -1,0 +1,49 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "bed-idle-animation",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 3000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "bed-hover-animation",
+    "rotation": [
+      -2,
+      2
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "duration": 500,
+    "easing": "ease-in"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.4,
+    "damping": 0.7,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "The motion design emulates a softly falling bed, combining elastic elasticity for the transition effect and subtle inertia to reflect its weight."
+}

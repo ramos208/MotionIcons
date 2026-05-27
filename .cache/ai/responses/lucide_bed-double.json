@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bed-double-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "bed-double-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 500,
+    "easing": "outSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "bed-double-click",
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "ripple"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.9,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The motion is designed to reflect the comfort and relaxation of a bed, with an elastic-pop animation for both hover and click interactions. The idle animation emphasizes symmetry and slight scale increase, while hover adds a playful twist in rotation and skew. Click events are subtle to maintain focus on the icon's design."
+}

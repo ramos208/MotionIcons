@@ -1,0 +1,57 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -3,
+      -3
+    ],
+    "skew": null,
+    "duration": 500,
+    "easing": "cubic-in",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion design emphasizes a dynamic and engaging pop effect, combining inertia for smooth movement with subtle elasticity to create a realistic hover sensation. The ripple animation further enhances the click experience, while the neon plasma shader adds visual depth."
+}

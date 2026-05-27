@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 200,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": null,
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": null,
+    "duration": 200,
+    "easing": "ease-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "vibrate-and-flash",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 0.3,
+    "damping": 0.75,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion is designed to be visually engaging and physically believable, with a focus on subtle drift for the idle state and prominent ripple effect during hover, emphasizing the directional nature of the arrow icon."
+}

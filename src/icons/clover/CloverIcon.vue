@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M310.4 16C346.6 16 376 45.4 376 81.7l0 5.2c0 11.2-2.7 22.3-7.8 32.2l-2.3 4.2-20.1 33.5c-1.1 1.9-1.2 3.4-1.1 4.5 .2 1.3 .9 2.7 2.1 3.9s2.6 1.9 3.9 2.1c1.1 .2 2.6 .1 4.5-1.1l33.5-20.1 4.2-2.3c10-5.1 21-7.8 32.2-7.8l5.2 0c36.2 0 65.6 29.4 65.6 65.7 0 17.4-6.9 34.1-19.2 46.4l-1.3 1.3c-3.7 3.7-3.7 9.6 0 13.3l1.3 1.3c12.3 12.3 19.2 29 19.2 46.4 0 36.2-29.4 65.6-65.6 65.6l-5.2 0c-12.8 0-25.5-3.5-36.5-10.1l-33.5-20.1c-1.9-1.1-3.4-1.2-4.5-1.1-1.3 .2-2.7 .9-3.9 2.1s-1.9 2.6-2.1 3.9c-.2 1.1-.1 2.6 1.1 4.5l20.1 33.5c6.6 11 10.1 23.6 10.1 36.5l0 5.2c0 36.2-29.4 65.6-65.6 65.6-17.4 0-34.1-6.9-46.4-19.2l-1.3-1.3c-3.7-3.7-9.6-3.7-13.3 0l-1.3 1.3c-12.3 12.3-29 19.2-46.4 19.2-36.2 0-65.6-29.4-65.7-65.6l0-5.2c0-12.8 3.5-25.5 10.1-36.5l20.1-33.5c1.1-1.9 1.2-3.4 1.1-4.5-.2-1.3-.9-2.7-2.1-3.9s-2.6-1.9-3.9-2.1c-.5-.1-1.2-.1-1.9 0l-2.5 1-33.5 20.1c-11 6.6-23.6 10.1-36.5 10.1l-5.2 0C45.4 376 16 346.6 16 310.4 16 293 22.9 276.3 35.2 264l1.3-1.3 1.2-1.5c2.1-3.1 2.1-7.2 0-10.3l-1.2-1.5-1.3-1.3C22.9 235.8 16 219.1 16 201.7 16 165.4 45.4 136 81.7 136l5.2 0c12.8 0 25.5 3.5 36.5 10.1l33.5 20.1 2.5 1c.7 .1 1.4 .1 1.9 .1 1.3-.2 2.7-.9 3.9-2.1s1.9-2.6 2.1-3.9c.1-.5 .1-1.2-.1-1.9l-1-2.5-20.1-33.5c-6.6-11-10.1-23.6-10.1-36.5l0-5.2c0-36.2 29.4-65.7 65.7-65.7 17.4 0 34.1 6.9 46.4 19.2l1.3 1.3c3.7 3.6 9.6 3.7 13.3 0l1.3-1.3 4.8-4.4C280.5 21.3 295.1 16 310.4 16z" fill="currentColor"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: clover
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for clover (fontawesome). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-clover {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-clover {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-clover 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-clover 3s ease-in-out infinite alternate;
+}
+</style>

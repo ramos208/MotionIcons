@@ -1,0 +1,58 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -1.5,
+      -1.5
+    ],
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "orbit-accelerate",
+    "rotation": [
+      90,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      1.5,
+      -1.5
+    ],
+    "skew": [
+      15,
+      45
+    ],
+    "duration": 3,
+    "easing": "quad-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-fade",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.6,
+    "stiffness": 800
+  },
+  "motionPhilosophy": "The arrow-down-right icon is designed to appear dynamic and engaging, with a subtle yet noticeable drift in the idle state. Upon hovering, it accelerates into a more pronounced rotation and scale change, mimicking the motion of an object being pushed by gravity or wind. The click event triggers a ripple effect that visually emphasizes the interaction."
+}

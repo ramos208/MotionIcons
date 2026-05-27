@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badgePercentIdle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "badgePercentHover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 1500,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "badgePercentClick",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-particles"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.6,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "The badge-percent icon features a visually engaging hover animation that highlights the percentage value, emphasizing its significance with subtle particle effects and vibrant neon glow. The click event triggers an energetic ripple effect to signify interaction, while the motion is designed to be elastic for added realism."
+}

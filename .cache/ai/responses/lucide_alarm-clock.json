@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "floating",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -15,
+      -20
+    ],
+    "duration": 300,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "quintInOut"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.2,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "The motion design focuses on creating a dynamic and engaging experience for the alarm clock icon, emphasizing its notification category by using pulsating particles and adding subtle vibrations upon click interaction."
+}

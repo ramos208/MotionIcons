@@ -1,0 +1,48 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-dance",
+    "rotation": [
+      -90,
+      90
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop-tick",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "light-flare"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.3,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.6,
+    "damping": 0.75,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion design aims to create a sense of movement and energy, with subtle animations for idle state, engaging hover states, and dynamic clicks. The shader enhances the visual appeal while maintaining physical realism."
+}

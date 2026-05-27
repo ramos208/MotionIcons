@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badge-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 0.3,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "badge-hover",
+    "rotation": [
+      -20,
+      20
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      5,
+      -5
+    ],
+    "duration": 0.4,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "badge-click",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 30,
+    "damping": 0.75,
+    "stiffness": 600
+  },
+  "motionPhilosophy": "This motion profile for the badge icon uses an elastic-pop type of motion, which creates a playful and energetic effect that simulates an object being pushed suddenly with a gentle bounce upon release. The idle state is designed to be slightly expanded and rotated for visual interest without overwhelming the viewer. Upon hover, the badge animates by rotating and scaling up more prominently, adding depth and engagement. During click, a slight vibration is applied, along with a ripple effect to simulate interaction."
+}

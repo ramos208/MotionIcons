@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bar-chart-2-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 1.2,
+    "easing": "easeOutQuart"
+  },
+  "hoverAnimation": {
+    "name": "bar-chart-2-hover",
+    "rotation": [
+      90,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      -10,
+      10
+    ],
+    "duration": 0.6,
+    "easing": "easeInBack",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "bar-chart-2-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.6,
+    "mass": 2,
+    "tension": 300,
+    "friction": 100,
+    "damping": 0.9,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "The bar-chart-2 icon will exhibit a dynamic yet subtle elastic motion upon hover, with pronounced vibrations and ripples upon click. The particles add visual interest, while the shader enhances the graphical appearance for a futuristic look."
+}

@@ -1,0 +1,62 @@
+{
+  "motionType": "turbulence",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -10
+    ],
+    "skew": [
+      0,
+      30
+    ],
+    "duration": 0.5,
+    "easing": "quintic-in",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.3,
+    "mass": 10,
+    "tension": 200,
+    "friction": 0.05,
+    "damping": 0.9,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion design creates a dynamic and energetic effect, emphasizing the directional flow of the airplay icon. The turbulence animation simulates airflow patterns with varying intensities, making the hover and click animations more engaging."
+}

@@ -1,0 +1,51 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bicycle-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "bicycle-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      -3,
+      -3
+    ],
+    "skew": null,
+    "duration": 0.75,
+    "easing": "cubic-in-out"
+  },
+  "clickAnimation": {
+    "name": "bicycle-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "particle-lightning"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 10,
+    "tension": 300,
+    "friction": 200,
+    "damping": 0.75,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The bike icon's motion profile is designed to mimic the elastic behavior of a bouncing ball, with a subtle popping effect during hover and click interactions. The idle animation maintains a steady rotation and scale, while hover introduces a slight skew and translate for added visual interest. Click animations feature a gentle vibration and ripple effect, enhancing the interactivity."
+}

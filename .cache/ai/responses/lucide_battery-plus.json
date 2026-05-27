@@ -1,0 +1,60 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      -3,
+      3
+    ],
+    "duration": 200,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.65,
+    "mass": 10,
+    "tension": 300,
+    "friction": 20,
+    "damping": 0.9,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "The motion is designed to simulate the behavior of an elastic object, with a slight spring-like motion when hovering and a pop effect upon clicking. The particles added create a vibrant glow around the icon, enhancing its visual appeal while maintaining a realistic sense of physical interaction."
+}

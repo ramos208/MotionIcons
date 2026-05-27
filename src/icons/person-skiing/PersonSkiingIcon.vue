@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M416 56a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zM2.7 300.9c6.1-11.8 20.6-16.3 32.4-10.2l197.8 102.7 62.3-87.2-82-92.2c-11-12.4-16.2-27.5-16.2-42.4l111.6 53.4 42.9 48.2c14.9 16.7 16.2 41.6 3.2 59.8l-64.4 90.2 128.3 66.6c13.6 7.1 29.8 7.2 43.6 .3l15.2-7.6c11.9-5.9 26.3-1.1 32.2 10.7s1.1 26.3-10.7 32.2l-15.2 7.6c-27.5 13.7-59.9 13.5-87.2-.7L12.9 333.3C1.2 327.2-3.4 312.7 2.7 300.9zM103 49.6l18 8.7 8.7-17.4c4-7.9 13.6-11.1 21.5-7.2s11.1 13.6 7.2 21.5l-8.5 17 84.8 41 .4-.2 76.1-33.8c31.3-13.9 67.9-.7 83.2 29.9l28.9 57.8 68.7 27.5c16.4 6.6 24.4 25.2 17.8 41.6s-25.2 24.4-41.6 17.8L393.8 224c-10.9-4.4-19.8-12.6-25.1-23.1l-11.5-23.1c-16.4 9.4-25.9 14.8-28.5 16.3l-7.6-3.7-185.6-89.6-9.2 18.3c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l9-17.9-17.6-8.5C81.1 74.6 77.8 65 81.6 57S95 45.7 103 49.6z" fill="currentColor"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: person-skiing
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for person-skiing (fontawesome). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-person-skiing {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.242) rotate(0deg) translate(0px, 0px) skew(0deg); }
+  100% { transform: scale(1.15) rotate(5deg) translate(0px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-person-skiing {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-person-skiing 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-person-skiing 3s ease-in-out infinite alternate;
+}
+</style>

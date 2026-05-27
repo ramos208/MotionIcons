@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "out-cubic"
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 80,
+    "stiffness": 500
+  },
+  "motionPhilosophy": "The icon is designed to mimic the movement of a banknote, starting with an elastic-pop effect that simulates the bill's springiness. Upon hovering, subtle particle effects add a dynamic glow, and upon clicking, a slight vibration ensures user interaction feedback."
+}

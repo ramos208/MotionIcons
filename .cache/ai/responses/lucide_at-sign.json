@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outCirc"
+  },
+  "hoverAnimation": {
+    "name": "glow-shake",
+    "rotation": [
+      5,
+      -5
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 800,
+    "easing": "outElastic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.8
+  },
+  "motionPhilosophy": "This motion design aims to create a lively and energetic experience for the at-sign icon, emphasizing its modern and digital nature with a subtle yet engaging hover effect and an immersive click animation featuring particles and a neon shader."
+}

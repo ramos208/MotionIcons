@@ -1,0 +1,50 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      180,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.5,
+    "easing": "quint-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 0.2,
+    "friction": 0.6,
+    "damping": 0.75,
+    "stiffness": 0.3
+  },
+  "motionPhilosophy": "This motion profile for the alarm-clock-check icon employs a pendulum-style motion, giving it a gentle and rhythmic sway that is both visually appealing and semantically fitting to its category of notification. The hover effect introduces subtle mechanical elements with gears syncing into place, emphasizing the alertness of the clock. Upon interaction, the click animation features vibrations and a sound ripple, mimicking the action of pressing or alerting."
+}

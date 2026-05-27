@@ -1,0 +1,49 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubicOut"
+  },
+  "hoverAnimation": {
+    "name": "flicker-flare",
+    "rotation": [
+      180,
+      180
+    ],
+    "scale": [
+      1.25,
+      1.25
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1500,
+    "easing": "cubicOut",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "lightning-trail"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 1000,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.1,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion design aims to mimic the subtle yet noticeable vibration of a Bluetooth device when it is turned off, creating an elegant and interactive user experience."
+}

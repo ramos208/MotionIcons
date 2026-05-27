@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      -45,
+      -45
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "cubic-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 2,
+    "friction": 0.7,
+    "damping": 0.3,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic and engaging interaction around the 'asterisk' icon, leveraging its complex geometry and symmetry to suggest an organic flow that is slightly elastic yet maintains stability."
+}

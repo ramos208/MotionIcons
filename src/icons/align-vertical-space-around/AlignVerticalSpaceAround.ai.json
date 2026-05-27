@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -3,
+      -3
+    ],
+    "skew": [
+      -20,
+      20
+    ],
+    "duration": 0.5,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 2,
+    "tension": 100,
+    "friction": 50,
+    "damping": 0.05,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile is designed to give the 'align-vertical-space-around' icon a lively and energetic feel, emphasizing its semantic meaning through subtle elastic movements during idle state, engaging hover interaction with a vibrant spark effect, and maintaining a cohesive visual identity through consistent shader application. The physics parameters ensure that the icon's motion feels natural and responsive while adhering to physical simulation principles."
+}

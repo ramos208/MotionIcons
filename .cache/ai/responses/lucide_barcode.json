@@ -1,0 +1,53 @@
+{
+  "motionType": "neural-pulse",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2.5,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "neural-pulse-active",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "cubic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "neural-pulse-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "particle-explosion"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.25,
+    "mass": 1,
+    "tension": 10,
+    "friction": 0.9,
+    "damping": 0.6,
+    "stiffness": 0.8
+  },
+  "motionPhilosophy": "The motion profile for the barcode icon is designed to mimic a neural pulse, starting with a subtle drift as the user idles over it, then engaging in an active and energetic animation upon clicking. The hover effect uses a spring-like transition, gradually pulsing outward from the center of the icon. The click animation includes vibration and a gentle ripple effect, enhancing interactivity and visual feedback."
+}

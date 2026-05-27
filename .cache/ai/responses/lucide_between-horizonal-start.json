@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 1000,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-effect",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibration-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "light-blink"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 10,
+    "tension": 800,
+    "friction": 300,
+    "damping": 0.4,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The icon's motion is designed to evoke a sense of fluid and energy, with the hover animation adding a dynamic ripple effect and the click animation incorporating tactile feedback. The shader enhances the neon glow for added visual interest."
+}

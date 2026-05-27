@@ -1,0 +1,53 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "particle-ripple",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.7,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.1,
+    "damping": 0.4,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "This motion profile utilizes an elastic-pop approach for the a-large-small icon, creating a visually engaging and physically believable animation that emphasizes the complex curves and symmetrical design of the SVG. The idle state is designed to pulse subtly, while the hover effect introduces subtle particle effects to mimic a popping sensation, transitioning smoothly into a click animation with a ripple motion effect. The shader enhances the visual appeal by adding neon plasma-like colors, further emphasizing the icon's large-to-small transformation."
+}

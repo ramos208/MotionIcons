@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "flicker",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.03,
+      1.03
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1,
+    "tension": 20,
+    "friction": 3,
+    "damping": 0.6,
+    "stiffness": 4
+  },
+  "motionPhilosophy": "The motion design focuses on creating a smooth and elastic transition with subtle vibrations, enhancing the semantic meaning of alignment for the user."
+}

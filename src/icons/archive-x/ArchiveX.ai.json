@@ -1,0 +1,57 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "archive-x-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 400,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "archive-x-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -2
+    ],
+    "duration": 300,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "archive-x-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.95,
+    "mass": 10,
+    "tension": 1000,
+    "friction": 50,
+    "damping": 25,
+    "stiffness": 800
+  },
+  "motionPhilosophy": "The icon's motion design is characterized by a smooth and elastic transition, with slight vibrations upon hover for emphasis. The animation emphasizes the 'archive' concept through subtle pulsing effects."
+}

@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-nudge",
+    "rotation": [
+      180,
+      -90
+    ],
+    "scale": [
+      1.5,
+      1.5
+    ],
+    "translate": [
+      -4,
+      2
+    ],
+    "skew": null,
+    "duration": 300,
+    "easing": "cubic-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "pop-shake",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 1,
+    "tension": 100,
+    "friction": 0.1,
+    "damping": 0.6,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "The motion is designed to simulate a gently pulsating and slightly elastic beaker, with subtle vibrations on hover and a vibrant, energetic pop upon interaction."
+}

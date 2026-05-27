@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 300,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "acceleration-spin",
+    "rotation": [
+      90,
+      -90
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "duration": 300,
+    "easing": "cubic-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.6,
+    "damping": 0.4,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The icon is designed to have a dynamic, pop-like hover effect that accelerates and spins as the user hovers over it, followed by subtle vibrations for feedback."
+}

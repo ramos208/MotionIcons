@@ -1,0 +1,52 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "glow-pop",
+    "rotation": [
+      180,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1,
+    "easing": "in-out-sine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-particle"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 30,
+    "friction": 20,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion is designed to mimic a physical system that has both elasticity and damping, creating a smooth yet lively interaction with the icon when hovered over and clicked."
+}

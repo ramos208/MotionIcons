@@ -1,0 +1,58 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "hover-ripple",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -0.2,
+      -0.2
+    ],
+    "skew": [
+      5,
+      -5
+    ],
+    "duration": 0.75,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.6,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.4,
+    "damping": 0.3,
+    "stiffness": 1.2
+  },
+  "motionPhilosophy": "The motion profile is designed to mimic a big right arrow with a dash, emphasizing the kinetic nature of the directional flow through subtle vibrations and sparks. The idle state maintains a static presence while the hover effect adds dynamic flair with a slight skew and scale change. The click animation features an engaging ripple effect that complements the icon's directional role."
+}

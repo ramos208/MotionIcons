@@ -1,0 +1,59 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "skew": [
+      3,
+      -3
+    ],
+    "duration": 1,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.9,
+    "mass": 10,
+    "tension": 30,
+    "friction": 20,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The idle animation maintains a mechanical, smooth rotation to simulate gears turning smoothly. The hover effect adds dynamic sparks to mimic an activated switch or button's response. Clicking triggers vibrations and creates a neon plasma-like glow effect around the arrow, enhancing the sense of direction and interaction."
+}

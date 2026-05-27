@@ -1,0 +1,48 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "badge-center-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2000,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "badge-center-hover",
+    "rotation": [
+      -15,
+      15
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2000,
+    "easing": "in-cubic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.95,
+    "friction": 0.6,
+    "damping": 0.3,
+    "stiffness": 1.4
+  },
+  "motionPhilosophy": "The motion is designed to mimic the feel of a badge center icon, emphasizing elasticity and a slight pop on hover and click. The use of particles creates a sense of depth and animation."
+}

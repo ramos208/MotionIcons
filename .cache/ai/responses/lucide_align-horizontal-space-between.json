@@ -1,0 +1,58 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 200,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      -5
+    ],
+    "skew": [
+      -20,
+      20
+    ],
+    "duration": 300,
+    "easing": "quint-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 40,
+    "friction": 30,
+    "damping": 5,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The icon's motion is designed to mimic an elastic object, gradually expanding and contracting with a spring-like effect. The hover animation adds a dynamic spark interaction for enhanced user engagement."
+}

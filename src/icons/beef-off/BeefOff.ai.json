@@ -1,0 +1,49 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      0,
+      -3
+    ],
+    "skew": [
+      -10,
+      10
+    ],
+    "duration": 0.5,
+    "easing": "ease-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 300,
+    "friction": 200,
+    "damping": 0.9,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion design emulates a beefy, rounded character with subtle elastic effects and vibrant particles to highlight the icon's robust nature."
+}

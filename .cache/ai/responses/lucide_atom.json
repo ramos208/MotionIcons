@@ -1,0 +1,51 @@
+{
+  "motionType": "neonPlasma",
+  "idleAnimation": {
+    "name": "atom-float",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -1.5,
+      -2.5
+    ],
+    "duration": 3,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": "atom-buzz",
+    "rotation": [
+      90,
+      90
+    ],
+    "scale": null,
+    "translate": null,
+    "skew": [
+      -10,
+      10
+    ],
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "clickAnimation": {
+    "name": "atom-flash",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "neonSpark"
+  ],
+  "shader": "glowNeon",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.9,
+    "mass": 10,
+    "tension": 300,
+    "friction": 20,
+    "damping": 0.8,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This motion profile uses a dynamic, pulsating animation to create an energetic and vibrant feel for the atom icon. The hover effect adds a buzz to simulate electron movement, while the click effect includes subtle vibrations and a glowing ripple. The particles and shader further enhance the visual appeal, blending together seamlessly with the main shape of the atom."
+}

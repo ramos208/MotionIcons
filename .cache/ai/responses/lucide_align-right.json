@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "gentle-flip",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 500,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "twinkling-star",
+    "rotation": [
+      -180,
+      0
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": [
+      2,
+      -4
+    ],
+    "duration": 300,
+    "easing": "cubic-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-star",
+    "ripple-effect"
+  ],
+  "shader": "neonGlitch",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.3,
+    "friction": 0.4,
+    "damping": 0.6,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "The icon's motion is designed to mimic a dynamic pop, with the hover effect adding twinkling stars and particles for visual interest. The click animation includes a subtle vibration feedback, enhancing user interaction."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "pulse",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2.5,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "flicker-wave",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -0.2,
+      0.2
+    ],
+    "duration": 0.5,
+    "easing": "outElastic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibrate-ring",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion is designed to reflect the sound and alert nature of the icon, with a pulsing effect that simulates a bell ringing and waves spreading out like an audio ripple."
+}

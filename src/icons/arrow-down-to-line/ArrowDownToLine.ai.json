@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-in-out"
+  },
+  "hoverAnimation": {
+    "name": "turbulence",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      -20,
+      30
+    ],
+    "duration": 0.6,
+    "easing": "quad-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibration-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.7,
+    "mass": 2,
+    "tension": 150,
+    "friction": 0.3,
+    "damping": 0.8,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "This motion profile is designed to mimic the fluid and dynamic nature of a downwards arrow, with subtle drift in idle animation, enhanced turbulence on hover, vibrational ripple effects on click, and an energetic shader that captures the essence of kinetic energy."
+}

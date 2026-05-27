@@ -1,0 +1,55 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "binary-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "binary-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -5,
+      -5
+    ],
+    "duration": 750,
+    "easing": "inExpo",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "binary-click",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "ripple"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.05,
+    "damping": 0.75,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The binary icon's kinetic experience emphasizes a dynamic and pulsating movement, combining an elastic pop for hover interactions with subtle drifts during idle state to mimic the visual complexity of its geometric design."
+}

@@ -1,0 +1,62 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "out-cubic"
+  },
+  "hoverAnimation": {
+    "name": "focus-flare",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      -0.5,
+      -0.5
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "in-out-sine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-explosion",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.65,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.9,
+    "damping": 0.4,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "This dynamic-pop motion profile is designed to create a visually engaging and responsive experience for the alarm-check icon. The icon's complex geometry and symmetry are emphasized through subtle, yet impactful animations that mimic real-world interactions such as vibrations and sound ripples. The hover animation adds a touch of flair with a focus flare effect, while the click animation includes pop-explosion motion and vibration to simulate a physical button press."
+}

@@ -1,0 +1,58 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "wobble-ripple",
+    "rotation": [
+      -30,
+      30
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": [
+      null,
+      null
+    ],
+    "skew": [
+      null,
+      null
+    ],
+    "duration": 200,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-fade-out",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glow-ribbon",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.8,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "The motion is designed to mimic an elastic material, giving a sense of responsiveness and flexibility. The hover effect adds a wobbly and lively feel with a subtle ripple animation, enhancing the icon's interactivity without overwhelming it."
+}

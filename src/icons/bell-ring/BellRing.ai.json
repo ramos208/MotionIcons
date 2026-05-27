@@ -1,0 +1,61 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "notification-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -20
+    ],
+    "duration": 800,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "notification-pulse",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      0,
+      -25
+    ],
+    "skew": [
+      -5,
+      5
+    ],
+    "duration": 400,
+    "easing": "ease-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "notification-pulse",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 600,
+    "friction": 300,
+    "damping": 0.9,
+    "stiffness": 250
+  },
+  "motionPhilosophy": "The motion design aims to mimic the physical behavior of a bell ringing, with a pendulum-like motion for idle and hover states, emphasizing the vibration effect for click events through sound waves and neon plasma shader."
+}

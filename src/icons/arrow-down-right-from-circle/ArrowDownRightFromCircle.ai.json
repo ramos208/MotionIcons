@@ -1,0 +1,61 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 1,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "ripple",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      1.2,
+      1.2
+    ],
+    "translate": [
+      -5,
+      -5
+    ],
+    "skew": [
+      45,
+      45
+    ],
+    "duration": 0.7,
+    "easing": "ease-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "vibrate",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 0.6,
+    "damping": 0.7,
+    "stiffness": 400
+  },
+  "motionPhilosophy": "The motion design is inspired by the directional arrow icon, emphasizing a smooth and kinetic flow with subtle vibrations for engagement."
+}

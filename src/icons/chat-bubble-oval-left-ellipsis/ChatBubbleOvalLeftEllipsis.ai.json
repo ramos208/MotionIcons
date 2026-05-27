@@ -1,0 +1,46 @@
+{
+  "motionType": "pendulum",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      -6,
+      6
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      -4,
+      0
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 1.2,
+    "mass": 1.2,
+    "tension": 10,
+    "friction": 28,
+    "damping": 25,
+    "stiffness": 495
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for chat-bubble-oval-left-ellipsis (heroicons). Selected semantic motion: pendulum with custom idle (subtle-drift) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

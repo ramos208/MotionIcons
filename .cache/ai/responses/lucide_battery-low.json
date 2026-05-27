@@ -1,0 +1,61 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "outCirc"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      45,
+      -45
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "skew": [
+      20,
+      -20
+    ],
+    "duration": 1500,
+    "easing": "outElastic",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 300,
+    "friction": 50,
+    "damping": 0.75,
+    "stiffness": 60
+  },
+  "motionPhilosophy": "The motion is designed to mimic the sensation of a low battery icon, with an elastic and pulsing effect that simulates a weak signal or impending failure."
+}

@@ -1,0 +1,60 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      -10
+    ],
+    "skew": [
+      0,
+      2
+    ],
+    "duration": 1,
+    "easing": "linear",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 30,
+    "friction": 2,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The icon's hover animation emphasizes the subtle drift, creating a smooth transition that feels natural and fluid. Upon clicking, it triggers a vibrant ripple effect with particles for added visual interest and engagement."
+}

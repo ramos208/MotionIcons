@@ -1,0 +1,57 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neutral-roll",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 5,
+    "easing": "outQuad"
+  },
+  "hoverAnimation": {
+    "name": "spin-wave",
+    "rotation": [
+      270,
+      90
+    ],
+    "scale": [
+      1.2,
+      0.8
+    ],
+    "translate": [
+      3,
+      -4
+    ],
+    "duration": 2,
+    "easing": "inSine",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "pop-up",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "ripple-effect"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.6,
+    "damping": 0.4,
+    "stiffness": 0.9
+  },
+  "motionPhilosophy": "This motion profile aims to create a lively and engaging experience for the arrow-down-right-from-square icon by blending subtle rotations with dynamic hover animations, ensuring a visually dynamic and interactive user interface element."
+}

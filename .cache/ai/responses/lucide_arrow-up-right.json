@@ -1,0 +1,61 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "dynamic-pop-hover",
+    "rotation": [
+      360,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": [
+      5,
+      5
+    ],
+    "skew": [
+      20,
+      -20
+    ],
+    "duration": 500,
+    "easing": "cubic-in",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "dynamic-pop-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "fireworks"
+  ],
+  "shader": "glow-sparks",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.95,
+    "mass": 2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.6,
+    "stiffness": 150
+  },
+  "motionPhilosophy": "The icon's arrow-up-right motion is designed to mimic a fast-moving object with an energetic and dynamic feel, emphasizing the directional aspect through subtle hover effects and a strong click animation. The particles and shader enhance this by adding visual flair and depth, while physics properties ensure realism and engagement."
+}

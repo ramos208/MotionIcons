@@ -1,0 +1,54 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "soft-float",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2.5,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "ripple-glitter",
+    "rotation": [
+      -5,
+      5
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "translate": null,
+    "skew": [
+      2,
+      -2
+    ],
+    "duration": 0.75,
+    "easing": "inCubic"
+  },
+  "clickAnimation": {
+    "name": "flash-nudge",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glitter-dust"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.75,
+    "mass": 2,
+    "tension": 150,
+    "friction": 40,
+    "damping": 0.3,
+    "stiffness": 80
+  },
+  "motionPhilosophy": "The motion is designed to mimic the elasticity and fluidity of a banknote moving through air, with subtle ripples indicating tactile feedback during hover."
+}

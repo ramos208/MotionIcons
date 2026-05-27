@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 1000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      -5,
+      5
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 700,
+    "easing": "quintic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 200
+  },
+  "motionPhilosophy": "This motion design emphasizes a dynamic and engaging pop effect, with subtle pulsing and scaling during idle to create depth. Hover adds an interactive spark effect for heightened user interaction while the click animation includes a gentle vibration and ripple simulation."
+}

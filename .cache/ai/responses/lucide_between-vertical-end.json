@@ -1,0 +1,61 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2.5,
+    "easing": "ease-in"
+  },
+  "hoverAnimation": {
+    "name": null,
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 0.5,
+    "easing": "ease-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": null,
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glow-ripple",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 0.1,
+    "damping": 0.8,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "The icon's kinetic experience is designed to mimic a physical spring mechanism, with an elastic-pop motion that suggests energy and flexibility upon hover and click interactions. The particles add a subtle visual feedback, enhancing the sense of movement and engagement."
+}

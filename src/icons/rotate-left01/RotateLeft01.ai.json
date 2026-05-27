@@ -1,0 +1,46 @@
+{
+  "motionType": "rotate",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 4,
+    "easing": "linear"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      -4,
+      0
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "light-trail"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.98,
+    "elasticity": 1.22,
+    "mass": 1.2,
+    "tension": 6,
+    "friction": 29.5,
+    "damping": 25.4,
+    "stiffness": 505
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for rotate-left01 (hugeicons). Selected semantic motion: rotate with custom idle (gear-sync) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

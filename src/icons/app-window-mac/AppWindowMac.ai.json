@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "outElastic"
+  },
+  "hoverAnimation": {
+    "name": "twinkle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 500,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "name": "pop",
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-fade"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.75,
+    "elasticity": 0.9,
+    "mass": 1.2,
+    "tension": 800,
+    "friction": 50,
+    "damping": 0.5,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This motion profile emphasizes a gentle yet dynamic appearance, ensuring the app window icon feels both fluid and responsive. The subtle drift in idle state maintains its natural resting position while the hover animation adds a spark of life with a twinkle effect. Upon click, there's a pop that creates an engaging interaction without overwhelming the user."
+}

@@ -1,0 +1,54 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "bar-chart-4-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "bar-chart-4-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 500,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "name": "bar-chart-4-click",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.8,
+    "elasticity": 0.7,
+    "mass": 10,
+    "tension": 50,
+    "friction": 20,
+    "damping": 0.9,
+    "stiffness": 30
+  },
+  "motionPhilosophy": "The motion is designed to mimic the smooth and dynamic nature of a bar chart icon, with subtle elastic movements that simulate data transitions and visual feedback upon interaction."
+}

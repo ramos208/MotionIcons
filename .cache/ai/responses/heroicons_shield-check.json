@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "shield-check-subtle-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "shield-check-grow",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.5,
+      1.5
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1000,
+    "easing": "ease-in-out"
+  },
+  "clickAnimation": {
+    "name": "shield-check-ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "sparkle"
+  ],
+  "shader": "glow-Specular",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 150,
+    "damping": 0.7,
+    "stiffness": 300
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic and energetic experience for the shield-check icon, emphasizing its protective nature through subtle pulsing during idle state and pronounced growth when hovered over. The click animation includes vibration and ripple effects to enhance interactivity."
+}

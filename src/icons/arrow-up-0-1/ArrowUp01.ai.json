@@ -1,0 +1,51 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      360,
+      360
+    ],
+    "scale": [
+      1.15,
+      1.15
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 1000,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.75,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "This motion profile designs a dynamic and energetic pop effect for the arrow-up-0-1 icon, using glow-sparks particles and neonPlasma shader to create a visually engaging interaction."
+}

@@ -1,0 +1,56 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 1000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      -2,
+      -2
+    ],
+    "skew": [
+      0.5,
+      0.5
+    ],
+    "duration": 1500,
+    "easing": "cubic-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.7,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The motion design emphasizes a dynamic and pop-like animation that simulates the kinetic energy of an arrow propelling forward, with subtle particle effects for added visual interest."
+}

@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "ripple-wave",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": null,
+    "translate": [
+      0,
+      -15
+    ],
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1.25,
+    "easing": "quintic-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "sparkle-pop",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks",
+    "mist"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.75,
+    "mass": 1.2,
+    "tension": 0.9,
+    "friction": 0.3,
+    "damping": 0.6,
+    "stiffness": 0.4
+  },
+  "motionPhilosophy": "The motion is designed to mimic the sound of a smoke alarm, starting with a subtle pulse and then amplifying into a vibrant ripple effect when hovered over, simulating the initial burst followed by spreading smoke. Upon clicking, it creates a sparkly pop effect that visually represents the sudden noise and movement."
+}

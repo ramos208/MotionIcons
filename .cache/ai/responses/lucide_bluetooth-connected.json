@@ -1,0 +1,53 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      2,
+      -2
+    ],
+    "scale": [
+      1.1,
+      1.1
+    ],
+    "translate": null,
+    "skew": [
+      -0.5,
+      0.5
+    ],
+    "duration": 400,
+    "easing": "cubic-out"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.85,
+    "elasticity": 0.65,
+    "mass": 10,
+    "tension": 200,
+    "friction": 30,
+    "damping": 0.9,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "The icon 'Bluetooth Connected' features a complex and symmetrical design, with no directional flow. The motion profile is designed to create an engaging and dynamic experience without any directional movement. The idle animation uses elasticity for subtle pulsing, while the hover animation adds more vibrancy with skewing and scaling. Clicking will trigger a slight vibration, enhancing interactivity."
+}

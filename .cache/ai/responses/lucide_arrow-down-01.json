@@ -1,0 +1,52 @@
+{
+  "motionType": "dynamic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 1000,
+    "easing": "outQuart"
+  },
+  "hoverAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.03,
+      1.03
+    ],
+    "translate": [
+      5,
+      5
+    ],
+    "duration": 100,
+    "easing": "inOutSine"
+  },
+  "clickAnimation": {
+    "vibration": true,
+    "ripple": false
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 0.4,
+    "friction": 0.6,
+    "damping": 0.3,
+    "stiffness": 0.7
+  },
+  "motionPhilosophy": "This motion design aims to create a dynamic and engaging pop effect for the arrow-down icon, with subtle hover interactions and vibrant visual feedback through particles and shaders."
+}

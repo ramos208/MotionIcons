@@ -1,0 +1,49 @@
+{
+  "motionType": "kinetic-trail",
+  "idleAnimation": {
+    "name": "ambient-floating",
+    "rotation": null,
+    "scale": [
+      0.98,
+      1.02
+    ],
+    "translate": [
+      0,
+      -1.5
+    ],
+    "duration": 3,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "kinetic-push",
+    "rotation": null,
+    "scale": null,
+    "translate": [
+      3,
+      0
+    ],
+    "skew": null,
+    "duration": 0.25,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "vibrate",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "light-trail"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 1.12,
+    "elasticity": 1.28,
+    "mass": 1.2,
+    "tension": -6,
+    "friction": 36.5,
+    "damping": 26.6,
+    "stiffness": 535
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for backspace (fontawesome). Selected semantic motion: kinetic-trail with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry."
+}

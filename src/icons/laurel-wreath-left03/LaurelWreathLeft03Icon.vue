@@ -1,0 +1,67 @@
+<template>
+  <div 
+    class="ai-motion-icon-wrapper"
+    :class="['motion-radar']"
+    :style="{ width: `${size}px`, height: `${size}px` }"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      :stroke-width="strokeWidth" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      class="icon-geometry anim-ambient-floating"
+    >
+      <path d="M10.9889 6.5C10.9889 6.5 12.821 6.4339 13.6618 4.9339C14.5025 3.4339 13.5111 2 13.5111 2C13.5111 2 11.6789 2.0661 10.8382 3.5661C9.9975 5.0661 10.9889 6.5 10.9889 6.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M11.1829 6.5C9.71953 8.59896 7.86589 13.475 12.1585 16.1875C17.5243 19.5781 18.0122 20.5469 18.5 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M16.0321 18.5C16.0321 18.5 12.4597 17.1364 14.5012 13.5C14.5012 13.5 18.5838 14.8636 16.0321 18.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M16 19.0001C16 19.0001 13.6326 15.9252 10.5 19.1051C10.5 19.1051 13.0077 22.6818 16 19.0001Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M9.49057 12.9391C9.49057 12.9391 9.88764 8.85377 5.52987 9.00405C5.52987 9.00405 4.89393 13.5764 9.49057 12.9391Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><path d="M9.50943 12.5001C9.50943 12.5001 9.11236 8.41482 13.4701 8.5651C13.4701 8.5651 14.1061 13.1374 9.50943 12.5001Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </svg>
+  </div>
+</template>
+
+<script setup lang="ts">
+// AI Generated Motion Component for: laurel-wreath-left03
+// Category: generic
+// Physics Presets: Dynamic kinetic adaptation for laurel-wreath-left03 (hugeicons). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+defineProps({
+  size: { type: Number, default: 24 },
+  strokeWidth: { type: Number, default: 2 }
+});
+</script>
+
+<style scoped>
+.ai-motion-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.anim-ambient-floating {
+  transform-origin: center;
+}
+
+.icon-geometry {
+  transform-origin: center;
+}
+
+@keyframes motion-ai-laurel-wreath-left03 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0) skew(0deg); }
+  50% { transform: scale(1.08) rotate(0deg) translate(-6px, 0px) skew(0deg); }
+  100% { transform: scale(1) rotate(0deg) translate(-4px, 0px) skew(0deg); }
+}
+
+@keyframes motion-ai-idle-laurel-wreath-left03 {
+  0% { transform: scale(1) rotate(0deg) translate(0, 0); }
+  50% { transform: scale(1.02) rotate(0deg) translate(0px, -1.5px); }
+  100% { transform: scale(1) rotate(0deg) translate(0, 0); }
+}
+
+.ai-motion-icon-wrapper:hover .icon-geometry {
+  animation: motion-ai-laurel-wreath-left03 0.25s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.anim-ambient-floating {
+  animation: motion-ai-idle-laurel-wreath-left03 3s ease-in-out infinite alternate;
+}
+</style>

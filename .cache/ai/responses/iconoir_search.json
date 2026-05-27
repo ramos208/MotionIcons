@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "subtle-drift",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2000,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      -3,
+      -5
+    ],
+    "skew": null,
+    "duration": 200,
+    "easing": "expo-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 2.5,
+    "tension": 4,
+    "friction": 1.5,
+    "damping": 0.7,
+    "stiffness": 3
+  },
+  "motionPhilosophy": "The motion design is inspired by the elastic-pop behavior, emphasizing a smooth and spring-like transition that feels dynamic yet controlled. The particles add depth to the hover effect, creating a lively glow around the icon. The shader provides a vibrant and futuristic look."
+}

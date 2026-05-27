@@ -1,0 +1,52 @@
+{
+  "motionType": "radar",
+  "idleAnimation": {
+    "name": "ambient-floating",
+    "rotation": null,
+    "scale": [
+      0.98,
+      1.02
+    ],
+    "translate": [
+      0,
+      -1.5
+    ],
+    "duration": 3,
+    "easing": "ease-in-out"
+  },
+  "hoverAnimation": {
+    "name": "elastic-scale",
+    "rotation": [
+      0,
+      5
+    ],
+    "scale": [
+      1.15,
+      1.15
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 0.35,
+    "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "ripple",
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "light-trail"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 1.08,
+    "elasticity": 1.03,
+    "mass": 1.2,
+    "tension": 44,
+    "friction": 34.5,
+    "damping": 21.6,
+    "stiffness": 410
+  },
+  "motionPhilosophy": "Dynamic kinetic adaptation for brand-filezilla (tabler). Selected semantic motion: radar with custom idle (ambient-floating) and interaction profile (elastic-scale) matched to SVG complexity (complex) and flow geometry."
+}

@@ -1,0 +1,55 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "neural-pulse",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": null,
+    "duration": 2,
+    "easing": "ease-out"
+  },
+  "hoverAnimation": {
+    "name": "glow-sparks",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.07,
+      1.07
+    ],
+    "translate": null,
+    "skew": [
+      0,
+      0
+    ],
+    "duration": 1.5,
+    "easing": "ease-in-out",
+    "spring": true
+  },
+  "clickAnimation": {
+    "vibration": false,
+    "ripple": true
+  },
+  "particles": [
+    "sound-wave",
+    "glow-sparks"
+  ],
+  "shader": "cyberGlitch",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.85,
+    "mass": 1.2,
+    "tension": 0.7,
+    "friction": 0.3,
+    "damping": 0.4,
+    "stiffness": 0.6
+  },
+  "motionPhilosophy": "This motion profile is designed to create a lively and energetic feeling for the align-justify icon, emphasizing its semantic meaning of centering text. The elastic-pop type ensures smooth transitions and vibrations upon hover, while particles add depth and movement. The shader enhances visual appeal with subtle glitch effects."
+}

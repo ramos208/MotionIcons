@@ -1,0 +1,61 @@
+{
+  "motionType": "elastic-pop",
+  "idleAnimation": {
+    "name": "battery-idle",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.05,
+      1.05
+    ],
+    "translate": [
+      0,
+      0
+    ],
+    "duration": 2,
+    "easing": "outCubic"
+  },
+  "hoverAnimation": {
+    "name": "battery-hover",
+    "rotation": [
+      0,
+      0
+    ],
+    "scale": [
+      1.08,
+      1.08
+    ],
+    "translate": [
+      0,
+      -5
+    ],
+    "skew": [
+      -10,
+      10
+    ],
+    "duration": 2,
+    "easing": "outQuart",
+    "spring": true
+  },
+  "clickAnimation": {
+    "name": "battery-click",
+    "vibration": false,
+    "ripple": false
+  },
+  "particles": [
+    "glow-ripple"
+  ],
+  "shader": "neonPlasma",
+  "physics": {
+    "inertia": 0.5,
+    "elasticity": 0.75,
+    "mass": 10,
+    "tension": 30,
+    "friction": 20,
+    "damping": 0.8,
+    "stiffness": 40
+  },
+  "motionPhilosophy": "This motion profile aims to create a dynamic yet calming effect for the battery icon, emphasizing its energy and life cycle through subtle rotational and scale animations during hover and click events. The elastic-pop animation type is used to simulate the charge level change visually."
+}

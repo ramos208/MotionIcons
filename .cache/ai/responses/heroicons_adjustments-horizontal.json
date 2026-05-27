@@ -1,0 +1,49 @@
+{
+  "motionType": "mechanical",
+  "idleAnimation": {
+    "name": "gear-sync",
+    "rotation": [
+      0,
+      360
+    ],
+    "scale": null,
+    "translate": null,
+    "duration": 2.5,
+    "easing": "cubic-out"
+  },
+  "hoverAnimation": {
+    "name": "spin-rotate",
+    "rotation": [
+      180,
+      540
+    ],
+    "scale": [
+      1,
+      1.1
+    ],
+    "translate": null,
+    "skew": null,
+    "duration": 2,
+    "easing": "back-in-out",
+    "spring": false
+  },
+  "clickAnimation": {
+    "name": "ripple-effect",
+    "vibration": true,
+    "ripple": true
+  },
+  "particles": [
+    "glow-sparks"
+  ],
+  "shader": "metallicGlow",
+  "physics": {
+    "inertia": 0.95,
+    "elasticity": 0.8,
+    "mass": 1.2,
+    "tension": 400,
+    "friction": 300,
+    "damping": 0.75,
+    "stiffness": 100
+  },
+  "motionPhilosophy": "The icon's mechanical nature is emphasized through a dynamic and smooth rotation while in motion. The hover effect adds a more interactive touch with a slight spin, while the click animation includes vibrations to enhance user interaction."
+}

@@ -1,0 +1,18 @@
+# MessageUp Icon
+
+Dynamic dynamic animated asset part of the Universal Motion Engine powered by Ollama AI.
+
+## AI Philosophy
+> Dynamic kinetic adaptation for message-up (tabler). Selected semantic motion: pendulum with custom idle (subtle-drift) and interaction profile (kinetic-push) matched to SVG complexity (complex) and flow geometry.
+
+## Semantic Details
+- **Library**: TABLER
+- **Category**: notification
+- **Complexity**: complex
+
+## Kinetic Profile
+- **Idle Motion**: `subtle-drift`
+- **Interaction Style**: `kinetic-push`
+- **Easing Model**: `cubic-bezier(0.25, 1, 0.5, 1)`
+- **Shader Effect**: `neonPlasma`
+- **Particles**: sound-wave
